@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Researcher Name
 image: researcher.png
-role: Lab Director
+role: Lab Director3232323232
 permalink: 'team/researcher-name'
 social:
     twitter: https://twitter.com/
