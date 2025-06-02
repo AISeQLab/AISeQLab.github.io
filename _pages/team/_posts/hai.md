@@ -1,10 +1,10 @@
 ---
 layout: member
 category: staff
-title: Researcher Name
+title: Vu Tuan Hai
 image: researcher.png
-role: Lab Director
-permalink: 'team/researcher-name'
+role: Staff
+permalink: 'team/hai'
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
