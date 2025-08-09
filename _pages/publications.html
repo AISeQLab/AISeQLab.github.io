@@ -10,6 +10,19 @@ permalink: /publications/
 
 <div class="panel-group" id="accordion">
     <div class="panel panel-default">
+
+    <h2>Selected publications [{{ site.data.selectedjournals | size }}]</h2>
+    {% for publi in site.data.selectedjournals %}
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse{{forloop.index}}"
+               style="color: inherit;">
+            <strong>[{{publi.order}}]</strong> {{publi.title}}
+            </a>
+        </div>
+    
+    {% endfor %}
+
     <h2>Journal [{{ site.data.journals | size }}]</h2>
     {% for publi in site.data.journals %}
         <div class="panel-heading">
