@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Exploring the limitations of kolmogorov-arnold networks in classification: Insights to software training and hardware implementation, 2024 Twelfth International Symposium on Computing and Networking Workshops (CANDARW), Van Duy Tran and Tran Xuan Hieu Le and Thi Diem Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 1
+    },
+    {
+        "title": "HyperNTT: A Fast and Accurate NTT/INTT Accelerator with Multi-Level Pipelining and an Improved K2-RED Module, 2024 International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC), Dinh Nhat Nguyen and Van Duy Tran and Hoai Luan Pham and Vu Trung Duong Le and Duc Khai Lam and Thi Hong Tran and Yasuhiko Nakashima, 2024",
+        "order": 2
+    },
+    {
+        "title": "High-Efficiency RISC-V-Based Cryptographic Coprocessor for Security Applications, 2024 21st International SoC Design Conference (ISOCC), Duc Hong An Le and Vu Trung Duong Le and Viet Anh Ho and Van Tinh Nguyen and Hoai Luan Pham and Van Duy Tran and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 3
+    },
+    {
+        "title": "UCP: A Unified Cryptographic Processor for High Performance and Low Power Security Applications, 2024 21st International SoC Design Conference (ISOCC), Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Van Duy Tran and Thi Diem Tran and Yasuhiko Nakashima, 2024",
+        "order": 4
+    },
+    {
+        "title": "UniCrypt: Universal Crypto Engine with Optimized Resource Sharing for Security Applications, 2025 IEEE Symposium on Low-Power and High-Speed Chips and Systems (COOL CHIPS), Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Van Duy Tran and Yasuhiko Nakashima, 2025",
+        "order": 5
+    },
+    {
+        "title": "QEA: An Accelerator for Quantum Circuit Simulation with Resources Efficiency and Flexibility, 2025 The 10th International Conference on ICs, Design and Verification (ICDV 2025), Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025",
+        "order": 6
+    },
+    {
+        "title": "CGLA: Coarse-Grained Linear Array for Multi-Hash Acceleration in Blockchain Mining, 2024 21st International SoC Design Conference (ISOCC), Pham Hoai Luan and Vu Trung Duong Le and Van Duy Tran and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 7
+    },
+    {
+        "title": "Kyberator: A High-Efficiency FPGA-Based Multi-Mode CRYSTALS-Kyber Accelerator for Quantum-Resistant Security Applications, 2024 21st International SoC Design Conference (ISOCC), Nhat Nguyen Dinh and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Duy Tran and Yasuhiko Nakashima, 2024",
+        "order": 8
+    }
+]

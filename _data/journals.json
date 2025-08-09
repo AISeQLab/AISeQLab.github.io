@@ -1,0 +1,34 @@
+[
+    {
+        "title": "LiCryptor: High-Speed and Compact Multi-Grained Reconfigurable Accelerator for Lightweight Cryptography, IEEE Transactions on Circuits and Systems I: Regular Papers, 2024, Hoai Luan Pham and Vu Trung Duong Le and Van Duy Tran and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 1
+    },
+    {
+        "title": "Hardware-Based Architecture for DNN Wireless Communication Models, Sensors 23 (3), 1302, 2023, Van Duy Tran and Duc Khai Lam and Thi Hong Tran, 2023",
+        "order": 2
+    },
+    {
+        "title": "ZeroSlide: Is Zero-Shot Classification Adequate for Lifelong Learning in Whole-Slide Image Analysis in the Era of Pathology Vision-Language Foundation Models?, arXiv preprint arXiv:2504.15627, 2025, Doanh C Bui and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Duy Tran and Yasuhiko Nakashima, 2025",
+        "order": 3
+    },
+    {
+        "title": "Lifelong Whole Slide Image Analysis: Online Vision-Language Adaptation and Past-to-Present Gradient Distillation, arXiv preprint arXiv:2505.01984, 2025, Doanh C Bui and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Duy Tran and Khang Nguyen and Yasuhiko Nakashima, 2025",
+        "order": 4
+    },
+    {
+        "title": "Hator: A High-Efficiency CGRA-Based 32/64-Bit Hashing Accelerator with Real-Time Performance Analysis, 2024 IEEE 17th International Symposium on Embedded Multicore/Many-core …, 2024, Hai Hau Nguyen and Pham Hoai Luan and Tuan Hai Vu and Van Duy Tran and Vu Trung Duong Le and Duc Khai Lam and Thi Diem Tran and Yasuhiko Nakashima, 2024",
+        "order": 5
+    },
+    {
+        "title": "MRCA 2.0: Area-Optimized Multi-grained Reconfigurable Cryptographic Accelerator for Securing Blockchain-based IoT Systems, IEEE Micro, 2024, Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Duy Tran and Van Tinh Nguyen and Thi Diem Tran and Yasuhiko Nakashima, 2024",
+        "order": 6
+    },
+    {
+        "title": "CTFE: A High-Efficient Heterogeneous Cryptographic CGRA for Diverse Security Applications, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2024, Vu Trung Duong Le and Hoai Luan Pham and Thi Hong Tran and Van Duy Tran and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 7
+    },
+    {
+        "title": "Theoretical Analysis of the Efficient-Memory Matrix Storage Method for Quantum Emulation Accelerators with Gate Fusion on FPGAs, arXiv preprint arXiv:2410.11146, 2024, Tran Xuan Hieu Le and Hoai Luan Pham and Tuan Hai Vu and Vu Trung Duong Le and Nakashima Yasuhiko, 2024",
+        "order": 8
+    }
+]
