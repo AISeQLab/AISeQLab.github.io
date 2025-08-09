@@ -4,6 +4,8 @@ category: staff
 title: Le Vu Trung Duong
 image: duonglvt.jpg
 role: Supervisor
+degree: PhD
+field: Semiconductor
 permalink: 'team/duonglvt'
 social:
     google-scholar: https://scholar.google.com/citations?user=rH5LqWoAAAAJ&hl=en

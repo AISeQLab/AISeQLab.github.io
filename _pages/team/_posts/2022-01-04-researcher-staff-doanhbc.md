@@ -4,6 +4,8 @@ category: staff
 title: Bui Cao Doanh
 image: doanhbc.png
 role: Supervisor
+degree: MS
+field: AI
 permalink: 'team/doanhbc'
 social:
     google-scholar: https://scholar.google.com/citations?user=WHviN4AAAAAJ&hl=en
