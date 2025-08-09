@@ -2,7 +2,7 @@
 layout: member
 category: staff
 title: Tran Van Duy
-image: duytv.jpg
+image: duytv.png
 role: Supervisor
 permalink: 'team/duytv'
 social:

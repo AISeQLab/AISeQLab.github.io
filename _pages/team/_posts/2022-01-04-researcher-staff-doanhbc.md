@@ -2,7 +2,7 @@
 layout: member
 category: staff
 title: Bui Cao Doanh
-image: doanhbc.jpg
+image: doanhbc.png
 role: Supervisor
 permalink: 'team/doanhbc'
 social:
