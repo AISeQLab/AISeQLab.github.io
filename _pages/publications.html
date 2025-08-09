@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 layout: default
-excerpt: "RT2 Lab -- Publications."
+excerpt: "Publications."
 sitemap: false
 permalink: /publications/
 ---
@@ -16,18 +16,18 @@ permalink: /publications/
             <a data-toggle="collapse" data-parent="#accordion"
                href="#collapse{{forloop.index}}"
                style="color: inherit;">
-            "{{ publi.title }}",
+            "{{ publi.title }}"
             </a>
         </div>
     
     {% endfor %}
     <h2>Conference</h2>
-    {% for publi in site.data.publicationss %}
+    {% for publi in site.data.publications %}
         <div class="panel-heading">
             <a data-toggle="collapse" data-parent="#accordion"
                href="#collapse{{forloop.index}}"
                style="color: inherit;">
-            "{{ publi.title }}",
+            "{{ publi.title }}"
             </a>
         </div>
     
