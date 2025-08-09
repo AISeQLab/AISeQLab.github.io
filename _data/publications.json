@@ -1,40 +1,23 @@
 [
-	{
-		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
-		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
-		"author": [
-			{
-				"family": "Naylor",
-				"given": "P."
-			},
-			{
-				"family": "Laé",
-				"given": "M."
-			},
-			{
-				"family": "Reyal",
-				"given": "F."
-			},
-			{
-				"family": "Walter",
-				"given": "T."
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019",
-					2
-				]
-			]
-		}
-	}
+    {
+        "title": "LiCryptor: High-Speed and Compact Multi-Grained Reconfigurable Accelerator for Lightweight Cryptography, , Van Duy Tran and Tran Xuan Hieu Le and Thi Diem Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima, 2024"
+    },
+    {
+        "title": "Hardware-Based Architecture for DNN Wireless Communication Models, , Dinh Nhat Nguyen and Van Duy Tran and Hoai Luan Pham and Vu Trung Duong Le and Duc Khai Lam and Thi Hong Tran and Yasuhiko Nakashima, 2024"
+    },
+    {
+        "title": "ZeroSlide: Is Zero-Shot Classification Adequate for Lifelong Learning in Whole-Slide Image Analysis in the Era of Pathology Vision-Language Foundation Models?, , Duc Hong An Le and Vu Trung Duong Le and Viet Anh Ho and Van Tinh Nguyen and Hoai Luan Pham and Van Duy Tran and Tuan Hai Vu and Yasuhiko Nakashima, 2024"
+    },
+    {
+        "title": "Lifelong Whole Slide Image Analysis: Online Vision-Language Adaptation and Past-to-Present Gradient Distillation, , Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Van Duy Tran and Thi Diem Tran and Yasuhiko Nakashima, 2024"
+    },
+    {
+        "title": "Hator: A High-Efficiency CGRA-Based 32/64-Bit Hashing Accelerator with Real-Time Performance Analysis, , Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025"
+    },
+    {
+        "title": "MRCA 2.0: Area-Optimized Multi-grained Reconfigurable Cryptographic Accelerator for Securing Blockchain-based IoT Systems, , Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025"
+    },
+    {
+        "title": "CTFE: A High-Efficient Heterogeneous Cryptographic CGRA for Diverse Security Applications, , Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025"
+    }
 ]

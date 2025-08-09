@@ -1,0 +1,88 @@
+[
+{'container_type': 'Publication', 
+'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 'AUTHOR_PUBLICATION_ENTRY'>, 
+'bib': {
+    'title': 'Efficient Random Quantum Circuit Generator: 
+    A Benchmarking Approach for Quantum Simulators', 
+    'pub_year': 2024, 
+    'citation': '2024 RIVF International Conference on Computing and Communication …, 2024', 
+    'author': 'Vu Tuan Hai and Pham Hoai Luan and Yasuhiko Nakashima', 
+    'conference': '2024 RIVF International Conference on Computing and Communication Technologies (RIVF)', 'pages': '419-423', 
+    'publisher': 'IEEE', 
+    'abstract': 'Recently, many proposed simulators have been proposed. 
+    However, they lack a standard evaluation, including a benchmarking 
+    dataset and metrics set, leading to low confidence. To solve this 
+    problem, in this research, we propose a general random quantum circuit
+     (RQC) generator. The proposed generator consumes fewer resources than
+      the Haar random generator. When increasing the number of qubits,
+       the resources used by the RQC generator remain constant, while 
+       the resources for Haar increase exponentially. To demonstrate the
+        applicability of RQC, we evaluated on 14GB dataset of 15,000 
+        generated quantum circuits through four simulators and three 
+        hardware-based simulators. Moreover, the evaluation metrics have been 
+        clarified for the benchmarking process of quantum simulators. The experiment
+         results based on these metrics demonstrate that the RQC generator i
+         s a practical component for random …'}, 
+         'filled': True, 
+         'author_pub_id': 'H4gjHdYAAAAJ:u_35RYKgDlwC', 
+         'num_citations': 1, 
+         'citedby_url': '/scholar?hl=en&cites=17102379631409189686', 
+         'cites_id': ['17102379631409189686'], 
+         'pub_url': [],
+        'url_related_articles': '/scholar?oi=bibs&hl=en&q=related:NlMFmKnbV-0J:scholar.google.com/', 
+        'cites_per_year': {2025: 1}}
+
+
+
+{'container_type': 'Publication', 
+'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 
+'AUTHOR_PUBLICATION_ENTRY'>, 
+'bib': {
+    'title': 'QuantLaneNet: A 640-FPS and 34-GOPS/W FPGA-based CNN accelerator for lane detection', 
+    'pub_year': 2023, 
+    'citation': 'Sensors 23 (15), 6661, 2023', 
+    'author': 'Duc Khai Lam and Cam Vinh Du and Hoai Luan Pham', 
+    'journal': 'Sensors', 
+    'volume': '23', 
+    'number': '15', 
+    'pages': '6661', 
+    'publisher': 'MDPI', 
+    'abstract': 'Lane detection is one of the 
+    most fundamental problems in the rapidly develop
+    ing field of autonomous vehicles. With the dramati
+    c growth of deep learning in recent years, many mo
+    dels have achieved a high accuracy for this task. 
+    However, most existing deep-learning methods for l
+    ane detection face two main problems. First, most 
+    early studies usually follow a segmentation approa
+    ch, which requires much post-processing to extract
+     the necessary geometric information about the lan
+     e lines. Second, many models fail to reach real-t
+     ime speed due to the high complexity of model arc
+     hitecture. To offer a solution to these problems,
+      this paper proposes a lightweight convolutional 
+      neural network that requires only two small arra
+      ys for minimum post-processing, instead of segme
+      ntation maps for the task of lane detection. Thi
+      s proposed network utilizes a simple lane repres
+      entation format for its output. The proposed mod
+      el can achieve 93.53% accuracy on the TuSimple d
+      ataset. A hardware accelerator is proposed and i
+      mplemented on the Virtex-7 VC707 FPGA platform t
+      o optimize processing time and power consumption
+      . Several techniques, including data quantizatio
+      n to reduce data width down to 8-bit, exploring 
+      various loop-unrolling strategies for different 
+      convolution layers, and pipelined computation ac
+      ross layers, are optimized in the proposed hardw
+      are accelerator architecture. This implementatio
+      n can process at 640 FPS while consuming only 10
+      .309 W, equating to a computation throughput of 
+      345.6 GOPS and energy efficiency of 33.52 GOPS/W
+      .'}, 'filled': True, 'author_pub_id': 'H4gjHdYAA
+      AAJ:g5m5HwL7SMYC', 'num_citations': 6, 'citedby_url': '/scholar?hl=en&cites=8739848761255044713', 'cites_id': ['8739848761255044713'], 'pub_url': 'https://www.mdpi.com/1424-8220/23/15/6661', 'url_related_articles': '/scholar?oi=bibs&hl=en&q=related:aaY-hSQuSnkJ:scholar.google.com/', 'cites_per_year': {2023: 1, 2024: 3, 2025: 2}}
+
+
+
+
+]
