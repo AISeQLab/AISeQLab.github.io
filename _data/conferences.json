@@ -1,34 +1,266 @@
 [
     {
-        "title": "Exploring the limitations of kolmogorov-arnold networks in classification: Insights to software training and hardware implementation, 2024 Twelfth International Symposium on Computing and Networking Workshops (CANDARW), Van Duy Tran and Tran Xuan Hieu Le and Thi Diem Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "title": "A secure remote healthcare system for hospital using blockchain smart contract, 2018 IEEE globecom workshops (GC Wkshps), Hoai Luan Pham and Thi Hong Tran and Yasuhiko Nakashima, 2018",
         "order": 1
     },
     {
-        "title": "HyperNTT: A Fast and Accurate NTT/INTT Accelerator with Multi-Level Pipelining and an Improved K2-RED Module, 2024 International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC), Dinh Nhat Nguyen and Van Duy Tran and Hoai Luan Pham and Vu Trung Duong Le and Duc Khai Lam and Thi Hong Tran and Yasuhiko Nakashima, 2024",
+        "title": "Practical anti-counterfeit medicine management system based on blockchain technology, 2019 4TH technology innovation management and engineering science international conference (TIMES-ICON), Hoai Luan Pham and Thi Hong Tran and Yasuhiko Nakashima, 2019",
         "order": 2
     },
     {
-        "title": "High-Efficiency RISC-V-Based Cryptographic Coprocessor for Security Applications, 2024 21st International SoC Design Conference (ISOCC), Duc Hong An Le and Vu Trung Duong Le and Viet Anh Ho and Van Tinh Nguyen and Hoai Luan Pham and Van Duy Tran and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "title": "Digitizing invoice and managing vat payment using blockchain smart contract, 2019 IEEE International Conference on Blockchain and Cryptocurrency (ICBC), Van-Cam Nguyen and PHAM Hoai-Luan and TRAN Thi-Hong and Huu-Thuan Huynh and Yasuhiko Nakashima, 2019",
         "order": 3
     },
     {
-        "title": "UCP: A Unified Cryptographic Processor for High Performance and Low Power Security Applications, 2024 21st International SoC Design Conference (ISOCC), Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Van Duy Tran and Thi Diem Tran and Yasuhiko Nakashima, 2024",
+        "title": "High performance multicore SHA-256 accelerator using fully parallel computation and local memory, 2021 IEEE symposium in low-power and high-speed chips (COOL CHIPS), Hoai Luan Pham and Thi Hong Tran and Yasuhiko Nakashima, 2021",
         "order": 4
     },
     {
-        "title": "UniCrypt: Universal Crypto Engine with Optimized Resource Sharing for Security Applications, 2025 IEEE Symposium on Low-Power and High-Speed Chips and Systems (COOL CHIPS), Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Van Duy Tran and Yasuhiko Nakashima, 2025",
+        "title": "A coarse grained reconfigurable architecture for sha-2 acceleration, 2022 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW), Hoai Luan Pham and Thi Hong Tranl and Vu Trung Duong Le and Yasuhiko Nakashima, 2022",
         "order": 5
     },
     {
-        "title": "QEA: An Accelerator for Quantum Circuit Simulation with Resources Efficiency and Flexibility, 2025 The 10th International Conference on ICs, Design and Verification (ICDV 2025), Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025",
+        "title": "Hardware implementation for fast block generator of Litecoin blockchain system, 2021 International Symposium on Electrical and Electronics Engineering (ISEE), Doan Van Hieu and Pham Hoai Luan and Tran Thi Hong and Lam Duc Khai, 2021",
         "order": 6
     },
     {
-        "title": "CGLA: Coarse-Grained Linear Array for Multi-Hash Acceleration in Blockchain Mining, 2024 21st International SoC Design Conference (ISOCC), Pham Hoai Luan and Vu Trung Duong Le and Van Duy Tran and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "title": "Efficient and High-Speed CGRA Accelerator for Cryptographic Applications, IEEE Eleventh International Symposium on Computing and Networking (CANDAR23), Vu Trung Duong Le and Hoai Luan Pham and Thi Hong Tran and Thi Sang Duong and Yasuhiko Nakashima, 2023",
         "order": 7
     },
     {
-        "title": "Kyberator: A High-Efficiency FPGA-Based Multi-Mode CRYSTALS-Kyber Accelerator for Quantum-Resistant Security Applications, 2024 21st International SoC Design Conference (ISOCC), Nhat Nguyen Dinh and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Duy Tran and Yasuhiko Nakashima, 2024",
+        "title": "A flexible and energy-efficient blake-256/2s co-processor for blockchain-based iot applications, 2022 35th SBC/SBMicro/IEEE/ACM Symposium on Integrated Circuits and Systems Design (SBCCI), Pham Hoai Luan and Thi Hong Tran and Vu Trung Duong Le and Yasuhiko Nakashima, 2022",
         "order": 8
+    },
+    {
+        "title": "HyperNTT: A Fast and Accurate NTT/INTT Accelerator with Multi-Level Pipelining and an Improved K2-RED Module, The 39th International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC 2024), Dinh Nhat Nguyen and Van Duy Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Duc Khai Lam and Thi Hong Tran and Nakashima Yasuhiko, 2024",
+        "order": 9
+    },
+    {
+        "title": "Efficient ECG Classification with Light Weight Shuffle GhostNet Architecture, 2023 International Conference on Advanced Technologies for Communications (ATC), Thi Diem Tran and Ngoc Quoc Tran and Vu Trung Duong Le and Hoai Luan Pham, 2023",
+        "order": 10
+    },
+    {
+        "title": "RHCP: A Reconfigurable High-efficient Cryptographic Processor for Decentralized IoT Platforms, The 15th IEEE International Conference on KNOWLEDGE AND SYSTEMS ENGINEERING (KSE 2023), Vu Trung Duong Le and Hoai Luan Pham and Thi Sang Duong and Thi Hong Tran and Quoc Duy Nam Nguyen and Yasuhiko Nakashima, 2023",
+        "order": 11
+    },
+    {
+        "title": "Power-Efficient and Programmable Hashing Accelerator for Massive Message Processing, 36th IEEE International System-on-Chip Conference, Thi Sang Duong and Hoai Luan Pham and Vu Trung Duong Le and Thi Hong Tran and Yasuhiko Nakashima, 2023",
+        "order": 12
+    },
+    {
+        "title": "CSIP: A Compact Scrypt IP design with single PBKDF2 core for Blockchain mining, 2022 35th SBC/SBMicro/IEEE/ACM Symposium on Integrated Circuits and Systems Design (SBCCI), Vu Trung Duong Le and Pham Hoai Luan and Thi Hong Tran and Yasuhiko Nakashima, 2022",
+        "order": 13
+    },
+    {
+        "title": "High-efficiency Reconfigurable Crypto Accelerator Utilizing Innovative Resource Sharing and Parallel Processing, The 16th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC-2023), Vu Trung Duong Le and Hoai Luan Pham and Thi Hong Tran and Thi Sang Duong and Yasuhiko Nakashima, 2023",
+        "order": 14
+    },
+    {
+        "title": "Universal 32/64-bit CGRA for Lightweight Cryptography in Securing IoT Data Transmission, The 16th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC-2023, Sang Duong Thi and Hoai Luan Pham and Vu Trung Duong Le and Thi Diem Tran and Ren Imamura and Quoc Duy Nam Nguyen and Thi Hong Tran and Yasuhiko Nakashima, 2023",
+        "order": 15
+    },
+    {
+        "title": "Versatile Resource-shared Cryptographic Accelerator for Multi-Domain Applications, IEEE 20th International Conference on IC Design and Technology (ICICDT2023), Vu Trung Duong Le and Hoai Luan Pham and Sang Duong Thi and Thi Hong Tran and Quoc Duy Nam Nguyen and Yasuhiko Nakashima, 2023",
+        "order": 16
+    },
+    {
+        "title": "A High-Efficiency FPGA-based BLAKE-256 Accelerator for Securing Blockchain Networks, 2022 IEEE 65th International Midwest Symposium on Circuits and Systems (MWSCAS), Pham Hoai Luana and Thi Hong Trana and Vu Trung Duong Lea and Yasuhiko Nakashimaa, 2022",
+        "order": 17
+    },
+    {
+        "title": "High-Efficiency RISC-V-Based Cryptographic Coprocessor for Security Applications, 2024 21st International SoC Design Conference (ISOCC), Duc Hong An Le and Vu Trung Duong Le and Viet Anh Ho and Hoai Luan Pham and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 18
+    },
+    {
+        "title": "Small-footprint Reconfigurable Heterogeneous Cryptographic Accelerator for Fog Computing, 2023 RIVF International Conference on Computing and Communication Technologies, Sang Duong Thi and Hoai Luan Pham and Vu Trung Duong Le and Ren Imamura and Thi Hong Tran and Yasuhiko Nakashima, 2023",
+        "order": 19
+    },
+    {
+        "title": "Energy-efficient Unified Multi-hash Coprocessor for Securing IoT Systems Integrating Blockchain, 2023 IEEE 66th International Midwest Symposium on Circuits and Systems (MWSCAS), Pham Hoai Luan and Thi Sang Duong and Vu Trung Duong Le and Thi Hong Tran and Yasuhiko Nakashima, 2023",
+        "order": 20
+    },
+    {
+        "title": "MAC SoC hardware implementation for fast industrial WLAN communication systems, 2018 2nd International Conference on Recent Advances in Signal Processing, Telecommunications & Computing (SigTelCom), Pham Hoai Luan and Bui Trung Thien and Lam Duc Khai, 2018",
+        "order": 21
+    },
+    {
+        "title": "Efficient Random Quantum Circuit Generator: A Benchmarking Approach for Quantum Simulators, 2024 RIVF International Conference on Computing and Communication Technologies (RIVF), Vu Tuan Hai and Pham Hoai Luan and Yasuhiko Nakashima, 2024",
+        "order": 22
+    },
+    {
+        "title": "Theoretical Analysis of the Memory-Efficient Matrix Storage Method for Quantum Emulation Accelerators with Gate Fusion on FPGAs, 2024 IEEE 17th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC), Pham Hoai Luan and Vu Tuan Hai and Yasuhiko Nakashima, 2024",
+        "order": 23
+    },
+    {
+        "title": "Benchmarking Classical and Quantum Optimizers for Quantum Simulator, 2024 Twelfth International Symposium on Computing and Networking (CANDAR), Vu Tuan Hai and Pham Hoai Luan and Yasuhiko Nakashima, 2024",
+        "order": 24
+    },
+    {
+        "title": "RVCP: High-Efficiency RISC-V Co-Processor for Security Applications in IoT and Server Systems, 2024 International Conference on Advanced Technologies for Communications (ATC), Le Vu Trung Duong and Tran Thi Hong Yen and Le Duc Hong An and Vu Tuan Hai and Pham Hoai Luan, 2024",
+        "order": 25
+    },
+    {
+        "title": "Efficient Parameter-Shift Rule Implementation for Computing Gradient on Quantum Simulators, 2024 International Conference on Advanced Technologies for Communications (ATC), Vu Tuan Hai and Le Vu Trung Duong and Pham Hoai Luan and Nakashima Yasuhiko, 2024",
+        "order": 26
+    },
+    {
+        "title": "UCP: A Unified Cryptographic Processor for High Performance and Low Power Security Applications, 2024 21st International SoC Design Conference (ISOCC), Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Thi Diem Tran and Yasuhiko Nakashima, 2024",
+        "order": 27
+    },
+    {
+        "title": "LI-RV: A Fast and Efficient RISC-V based Coprocessor for Lightweight Cryptography, 2024 21st International SoC Design Conference (ISOCC), Ngoc Hung Nguyen and Duc Hong An Le and Vu Trung Duong Le and Tuan Hai Vu and Hoai Luan Pham and Yasuhiko Nakashima, 2024",
+        "order": 28
+    },
+    {
+        "title": "A High-Performance FPGA Based on Convolutional Neural Network for QRS Complex Detection, THE 15th INTERNATIONAL IEEE CONFERENCE ON COMPUTING, COMMUNICATION AND NETWORKING TECHNOLOGIES (ICCCNT), Binh Tan Ngo and Nghi Hoang Huu Thai and Hoai Luan Pham and Thi Diem Tran, 2024",
+        "order": 29
+    },
+    {
+        "title": "MRCA: Multi-grained Reconfigurable Cryptographic Accelerator for Diverse Security Requirements, 2024 IEEE Symposium in Low-Power and High-Speed Chips (COOL CHIPS), Pham Hoai Luan and Hai Hau Nguyen and Vu Trung Duong Le and Thi Diem Tran and Tuan Hai Vu and Thi Hong Tran and Yasuhiko Nakashima, 2024",
+        "order": 30
+    },
+    {
+        "title": "Using hypergraph ansatz on the hybrid quantum-classical image compression scheme, 4th International Conference on Intelligent Systems & Networks, Tran Khanh Nguyen and Nguyen Trinh Dong and Vu Tuan Hai and Pham Hoai Luan, 2024",
+        "order": 31
+    },
+    {
+        "title": "Design and Hardware Implementation of Improved Precision Time Protocol for High Speed Automotive Wireless Transmission System, 2018 International Symposium on Intelligent Signal Processing and Communication Systems (ISPACS), Pham Hoai Luan and Nguyen Xuan Duc and Lam Duc Khai and Yuhei Nagao and Hiroshi Ochi, 2018",
+        "order": 32
+    },
+    {
+        "title": "UniCrypt: Universal Crypto Engine with Optimized Resource Sharing for Security Applications, 2025 IEEE Symposium on Low-Power and High-Speed Chips and Systems (COOL CHIPS), Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Van Duy Tran and Yasuhiko Nakashima, 2025",
+        "order": 33
+    },
+    {
+        "title": "OSA: FPGA-Based Octa-Core SPHINCS+ Accelerator for IoT Security Applications, International Symposium on Information and Communication Technology, Vu Trung Duong Le and Anh Kiet Pham and Hoai Luan Pham and Tuan Hai Vu and Yasuhiko Nakashima, 2025",
+        "order": 34
+    },
+    {
+        "title": "Hator: A High-Efficiency CGRA-Based 32/64-Bit Hashing Accelerator with Real-Time Performance Analysis, The 17th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC-2024), Hai Hau Nguyen and Hoai Luan Pham and Vu Trung Duong Le and Van Duy Tran and Tuan Hai Vu and Duc Khai Lam and Thi Diem Tran and Nakashima Yasuhiko, 2024",
+        "order": 35
+    },
+    {
+        "title": "A real-time JPEG image compression hardware design architecture, 2024 18th International Conference on Advanced Computing and Analytics (ACOMPA), Lam Duc Khai and Tran Van Quang and Pham Hoai Luan, 2024",
+        "order": 36
+    },
+    {
+        "title": "PESA: Power-Efficient SPHINCS+ Accelerator for Multi-Domain Security Applications on FPGA SoC, 2024 Twelfth International Symposium on Computing and Networking (CANDAR), Vu Trung Duong Le and Anh Kiet Pham and Hoai Luan Pham and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 37
+    },
+    {
+        "title": "Hardware/Software Co-Design of a Multi-Mode CRYSTALS-Kyber Accelerator for Quantum-Secure Internet-Of-Things Systems, 2024 International Conference on Advanced Technologies for Communications (ATC), Nguyen Dinh Nhat and Nguyen Tan Toan and Vu Tuan Hai and Pham Hoai Luan and Le Vu Trung Duong, 2024",
+        "order": 38
+    },
+    {
+        "title": "Quantum Battery Optimization through Quantum Machine Learning Techniques, 2024 21st International SoC Design Conference (ISOCC), Vu Tuan Hai and Vo Minh Kiet and Pham Hoai Luan and Yasuhiko Nakashima, 2024",
+        "order": 39
+    },
+    {
+        "title": "CGLA: Coarse-Grained Linear Array for Multi-Hash Acceleration in Blockchain Mining, 2024 21st International SoC Design Conference (ISOCC), Pham Hoai Luan and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 40
+    },
+    {
+        "title": "Kyberator: A High-Efficiency FPGA-Based Multi-Mode CRYSTALS-Kyber Accelerator for Quantum-Resistant Security Applications, 2024 21st International SoC Design Conference (ISOCC), Nhat Nguyen Dinh and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 41
+    },
+    {
+        "title": "A Quantum Circuit Design for Quantum Portfolio Optimization Problem, The 39th International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC 2024), Truc Quynh Vu and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Nakashima Yasuhiko, 2024",
+        "order": 42
+    },
+    {
+        "title": "CSS-EM: A Comprehensive, Secured and Sharable Education Management System for Schools, The 2nd International Conference on Intelligence of Things ( ICIT 2023 ), Van Duy Tran and Thi Hong Tran and Shingo Ata and Duc Khai Lam and Hoai Luan Pham, 2023",
+        "order": 43
+    },
+    {
+        "title": "A Coarse Grained Reconfigurable Architecture for SHA-2 Acceleration, 2022 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW), Hoai Luan Pham and Thi Hong Tran and Vu Trung Duong Le and Yasuhiko Nakashima, 2022",
+        "order": 44
+    },
+    {
+        "title": "A Flexible and Energy-Efficient BLAKE-256/2s Co-Processor for Blockchain-based IoT Applications, 2022 35th SBC/SBMicro/IEEE/ACM Symposium on Integrated Circuits and Systems Design (SBCCI), Pham Hoai Luan and Thi Hong Tran and Vu Trung Duong Le and Yasuhiko Nakashima, 2022",
+        "order": 45
+    },
+    {
+        "title": "Small-Footprint Reconfigurable Heterogeneous Cryptographic Accelerator for Fog Computing, 2023 RIVF International Conference on Computing and Communication Technologies (RIVF), Sang Duong Thi and Hoai Luan Pham and Vu Trung Duong Le and Ren Imamura and Thi Hong Tran and Yasuhiko Nakashima, 2023",
+        "order": 46
+    },
+    {
+        "title": "Energy-Efficient Unified Multi-Hash Coprocessor for Securing IoT Systems Integrating Blockchain, 2023 IEEE 66th International Midwest Symposium on Circuits and Systems (MWSCAS), Hoai Luan Pham and Thi Sang Duong and Vu Trung Duong Le and Thi Hong Tran and Yasuhiko Nakashima, 2023",
+        "order": 47
+    },
+    {
+        "title": "Energy-Efficient SpMM Kernels for GATs and GCNs on a CGLA, ICMLAS 2025, Koki Asahina and Dohyun Kim and Tomoya Akabe and Vu Trung Duong Le and Yasuhiko Nakashima, 2025",
+        "order": 48
+    },
+    {
+        "title": "OSA: FPGA-based Octa-core SPHINCS+ Accelerator for IoT Security Applications, SOICT 2024, Vu Trung Duong Le and Anh Kiet Pham and Hoai Luan Pham and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 49
+    },
+    {
+        "title": "Exploring the Limitations of Kolmogorov-Arnold Networks in Classification: Insights to Software Training and Hardware Implementation, CANDAR'24, Van Duy Tran and Tran Xuan Hieu Le and Thi Diem Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Tinh Nguyen and Yasuhiko Nakashima, 2024",
+        "order": 50
+    },
+    {
+        "title": "Exploring the limitations of kolmogorov-arnold networks in classification: Insights to software training and hardware implementation, 2024 Twelfth International Symposium on Computing and Networking Workshops (CANDARW), Van Duy Tran and Tran Xuan Hieu Le and Thi Diem Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Tinh Nguyen and Yasuhiko Nakashima, 2024",
+        "order": 51
+    },
+    {
+        "title": "MRCA: Multi-grained reconfigurable cryptographic accelerator for diverse security requirements, 2024 IEEE Symposium in Low-Power and High-Speed Chips (COOL CHIPS), Pham Hoai Luan and Hai Hau Nguyen and Vu Trung Duong Le and Thi Diem Tran and Tuan Hai Vu and Thi Hong Tran and Yasuhiko Nakashima, 2024",
+        "order": 52
+    },
+    {
+        "title": "AKQ: A Hybrid Quantum-Classical Image Encryption System, 2023 RIVF International Conference on Computing and Communication Technologies (RIVF), Tran Khanh Nguyen and Nguyen Thi Thanh Truc and Huynh Ho Thi Mong Trinh and Vu Tuan Hai, 2023",
+        "order": 53
+    },
+    {
+        "title": "Hardware/Software Co-Design of a Multi-Mode CRYSTALS-Kyber Accelerator for Quantum-Secure Internet-of-Things Systems, 2024 International Conference on Advanced Technologies for Communications (ATC), Nhat Nguyen Dinh and Tan Toan Nguyen and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham, 2024",
+        "order": 54
+    },
+    {
+        "title": "Mc-ocr challenge 2021: Deep learning approach for vietnamese receipts ocr, 2021 RIVF International Conference on Computing and Communication Technologies (RIVF), Doanh C Bui and Dung Truong and Nguyen D Vo and Khang Nguyen, 2021",
+        "order": 55
+    },
+    {
+        "title": "C2t-net: Channel-aware cross-fused transformer-style networks for pedestrian attribute recognition, Proceedings of the IEEE/CVF winter conference on applications of computer vision, Doanh C Bui and Thinh V Le and Ba Hung Ngo, 2024",
+        "order": 56
+    },
+    {
+        "title": "Empirical Study of RepPoints Representation for Object Detection in Aerial Images, 2022 IEEE Ninth International Conference on Communications and Electronics (ICCE), V. Thinh Le and N. Ngoc Huyen Van and C. Doanh Bui and Phuong Vo and D. Nguyen Vo and Khang Nguyen, 2022",
+        "order": 57
+    },
+    {
+        "title": "Performance evaluation of optimizers for deformable-DETR in natural disaster damage assessment, 2022 International Conference on Multimedia Analysis and Pattern Recognition (MAPR), Minh Dinh and Vu L Bui and Doanh C Bui and Duong Phi Long and Nguyen D Vo and Khang Nguyen, 2022",
+        "order": 58
+    },
+    {
+        "title": "Efficient semantic segmentation for computational pathology, Medical Imaging 2024: Digital and Computational Pathology, Doanh C Bui and Changsu Kim and Jin Tae Kwak, 2024",
+        "order": 59
+    },
+    {
+        "title": "MECFormer: Multi-task Whole Slide Image Classification with Expert Consultation Network, Proceedings of the Asian Conference on Computer Vision, Doanh C Bui and Jin Tae Kwak, 2024",
+        "order": 60
+    },
+    {
+        "title": "A multi-scale approach for vietnamese image captioning in healthcare domain, 2022 9th NAFOSTED Conference on Information and Computer Science (NICS), Bao G Do and Doanh C Bui and Nguyen D Vo and Khang Nguyen, 2022",
+        "order": 61
+    },
+    {
+        "title": "Vi-drsnet: A novel hybrid model for vietnamese image captioning in healthcare domain, 2022 International Conference on Multimedia Analysis and Pattern Recognition (MAPR), Doanh C Bui and Nghia Hieu Nguyen and Nguyen D Vo and Uyen Han Thuy Thai and Khang Nguyen, 2022",
+        "order": 62
+    },
+    {
+        "title": "Improving Human-Object Interaction Detection via Streamlining Matching Procedure and Enhancing Interaction Query, 2024 Tenth International Conference on Communications and Electronics (ICCE), Tai T Pham and Vu L Bui and Thinh V Le and Doanh C Bui and Khang Nguyen, 2024",
+        "order": 63
+    },
+    {
+        "title": "Performance Analysis and Comparison of Knowledge Distillation Among Diverse Teacher and Student Models, 2023 IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia), Jaeung Lee and Trinh Thi Le Vuong and Jiamu Wang and Jiang Kan and Keunho Byeon and Ju Cheon Lee and Sumin Jung and Doanh Cao Bui and Anh Tien Nguyen and Hyun Yang and Jin Tae Kwak, 2023",
+        "order": 64
+    },
+    {
+        "title": "An Augmented Embedding Spaces approach for Text-based Image Captioning, 2021 8th NAFOSTED Conference on Information and Computer Science (NICS), Doanh C Bui and Truc Trinh and Nguyen D Vo and Khang Nguyen, 2021",
+        "order": 65
+    },
+    {
+        "title": "QEA: An Accelerator for Quantum Circuit Simulation with Resources Efficiency and Flexibility, 2025 The 10th International Conference on ICs, Design and Verification (ICDV 2025), Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025",
+        "order": 66
     }
 ]

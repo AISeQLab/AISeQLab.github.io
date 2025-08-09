@@ -16,7 +16,7 @@ permalink: /publications/
             <a data-toggle="collapse" data-parent="#accordion"
                href="#collapse{{forloop.index}}"
                style="color: inherit;">
-            [{% if publi.order %}{{ publi.order }} {% endif %}]{{ publi.title }}
+            [{{publi.order}}] {{publi.title}}
             </a>
         </div>
     
@@ -27,9 +27,9 @@ permalink: /publications/
             <a data-toggle="collapse" data-parent="#accordion"
                href="#collapse{{forloop.index}}"
                style="color: inherit;">
-            [{% if publi.order %}{{ publi.order }} {% endif %}]{{ publi.title }}
+            [{{publi.order}}] {{publi.title}}
+            </a>
         </div>
-    
     {% endfor %}
     </div>
 </div>
