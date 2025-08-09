@@ -4,7 +4,7 @@ category: staff
 title: Bui Cao Doanh
 image: doanhbc.png
 role: Supervisor
-degree: PhD (expected at 2026), Lecturer at SE-UIT-VNUHCM
+degree: PhD (expected in 2026), Lecturer at SE-UIT-VNUHCM
 field: AI
 permalink: 'team/doanhbc'
 social:
