@@ -2,7 +2,7 @@
 layout: member
 category: collaborator
 title: Nguyen Van Tinh
-image: student.jpg
+image: researcher.png
 role: Collaborator
 degree: PhD
 field: Semiconductor

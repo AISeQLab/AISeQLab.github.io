@@ -2,7 +2,7 @@
 layout: member
 category: collaborator
 title: Luu Van Tuan
-image: student.jpg
+image: researcher.png
 role: Collaborator
 degree: PhD
 field: Semiconductor

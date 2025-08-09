@@ -2,7 +2,7 @@
 layout: member
 category: collaborator
 title: Tran Thi Diem
-image: student.jpg
+image: researcher.png
 role: Collaborator
 degree: PhD
 field: AI
