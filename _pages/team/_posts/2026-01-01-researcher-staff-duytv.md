@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Tran Van Duy
 image: duytv.jpg
-role: Staff
+role: Supervisor
 permalink: 'team/duytv'
 social:
     google-scholar: https://scholar.google.com/citations?user=WpXJ758AAAAJ&hl=en

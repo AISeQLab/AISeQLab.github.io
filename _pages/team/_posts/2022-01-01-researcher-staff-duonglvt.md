@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Le Vu Trung Duong
 image: duonglvt.jpg
-role: Staff
+role: Supervisor
 permalink: 'team/duonglvt'
 social:
     google-scholar: https://scholar.google.com/citations?user=rH5LqWoAAAAJ&hl=en

@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Bui Cao Doanh
 image: doanhbc.jpg
-role: Staff
+role: Supervisor
 permalink: 'team/doanhbc'
 social:
     google-scholar: https://scholar.google.com/citations?user=WHviN4AAAAAJ&hl=en
