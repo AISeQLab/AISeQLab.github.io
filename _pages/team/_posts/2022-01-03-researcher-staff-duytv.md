@@ -2,7 +2,7 @@
 layout: member
 category: staff
 title: Tran Van Duy
-image: duytv.png
+image: duytv.jpg
 role: Supervisor
 degree: MS
 field: Semiconductor
