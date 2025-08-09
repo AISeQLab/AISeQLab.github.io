@@ -2,8 +2,8 @@
 layout: member
 category: staff
 title: Nguyen Van Tinh
-image: researcher.png
-role: Supervisor, Lecturer at LQD University
+image: tinhnv.jpeg
+role: Supervisor, Lecturer at Military Technical Academies
 degree: PhD
 field: Semiconductor
 permalink: 'team/tinhnv'

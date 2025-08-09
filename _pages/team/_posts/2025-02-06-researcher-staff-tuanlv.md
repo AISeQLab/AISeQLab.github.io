@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Luu Van Tuan
 image: researcher.png
-role: Supervisor
+role: Supervisor, Lecturer at Military Technical Academies
 degree: PhD
 field: Semiconductor
 permalink: 'team/tuanlv'
