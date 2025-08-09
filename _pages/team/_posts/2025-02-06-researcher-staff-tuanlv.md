@@ -1,9 +1,9 @@
 ---
 layout: member
-category: collaborator
+category: staff
 title: Luu Van Tuan
 image: researcher.png
-role: Collaborator
+role: Supervisor
 degree: PhD
 field: Semiconductor
 permalink: 'team/tuanlv'

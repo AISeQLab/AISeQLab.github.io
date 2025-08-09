@@ -1,9 +1,9 @@
 ---
 layout: member
-category: collaborator
+category: staff
 title: Vu Hoang Gia
 image: researcher.png
-role: Collaborator
+role: Supervisor, Lecturer at VJU
 degree: PhD
 field: Semiconductor
 permalink: 'team/giavh'

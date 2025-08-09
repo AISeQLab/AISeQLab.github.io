@@ -1,14 +1,14 @@
 ---
 layout: member
 category: collaborator
-title: Tran Thi Diem
+title: xxx
 image: researcher.png
 role: Collaborator
 degree: PhD
-field: AI
-permalink: 'team/diemtt'
+field: Semiconductor
+permalink: 'team/tuanlv'
 social:
-    google-scholar: https://scholar.google.com/citations?user=BVoZ-5sAAAAJ&hl=vi
+    google-scholar: https://www.researchgate.net/profile/Luu-Tuan
     github: https://github.com/
     website: 
 education:

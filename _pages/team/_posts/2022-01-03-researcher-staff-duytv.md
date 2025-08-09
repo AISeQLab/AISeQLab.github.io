@@ -4,7 +4,7 @@ category: staff
 title: Tran Van Duy
 image: duytv.jpg
 role: Supervisor
-degree: MS
+degree: MS (expected at 2026)
 field: Semiconductor
 permalink: 'team/duytv'
 social:

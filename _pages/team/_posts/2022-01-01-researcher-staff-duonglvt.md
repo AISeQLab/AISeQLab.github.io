@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Le Vu Trung Duong
 image: duonglvt.jpg
-role: Supervisor
+role: Supervisor, Assistant Professor at NAIST, Lecturer at CE-UIT-VNUHCM
 degree: PhD
 field: Semiconductor
 permalink: 'team/duonglvt'

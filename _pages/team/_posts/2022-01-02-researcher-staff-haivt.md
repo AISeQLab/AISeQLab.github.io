@@ -3,8 +3,8 @@ layout: member
 category: staff
 title: Vu Tuan Hai
 image: haivt.jpg
-role: Supervisor
-degree: MS
+role: Supervisor, Lecturer at SE-UIT-VNUHCM
+degree: PhD
 field: Quantum computing
 permalink: 'team/haivt'
 social:

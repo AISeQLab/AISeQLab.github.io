@@ -1,9 +1,9 @@
 ---
 layout: member
-category: collaborator
+category: staff
 title: Nguyen Van Tinh
 image: researcher.png
-role: Collaborator
+role: Supervisor, Lecturer at LQD University
 degree: PhD
 field: Semiconductor
 permalink: 'team/tinhnv'
