@@ -1,23 +1,30 @@
 [
     {
-        "title": "LiCryptor: High-Speed and Compact Multi-Grained Reconfigurable Accelerator for Lightweight Cryptography, , Van Duy Tran and Tran Xuan Hieu Le and Thi Diem Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima, 2024"
+        "title": "LiCryptor: High-Speed and Compact Multi-Grained Reconfigurable Accelerator for Lightweight Cryptography, Van Duy Tran and Tran Xuan Hieu Le and Thi Diem Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 1
     },
     {
-        "title": "Hardware-Based Architecture for DNN Wireless Communication Models, , Dinh Nhat Nguyen and Van Duy Tran and Hoai Luan Pham and Vu Trung Duong Le and Duc Khai Lam and Thi Hong Tran and Yasuhiko Nakashima, 2024"
+        "title": "Hardware-Based Architecture for DNN Wireless Communication Models, Dinh Nhat Nguyen and Van Duy Tran and Hoai Luan Pham and Vu Trung Duong Le and Duc Khai Lam and Thi Hong Tran and Yasuhiko Nakashima, 2024",
+        "order": 2
     },
     {
-        "title": "ZeroSlide: Is Zero-Shot Classification Adequate for Lifelong Learning in Whole-Slide Image Analysis in the Era of Pathology Vision-Language Foundation Models?, , Duc Hong An Le and Vu Trung Duong Le and Viet Anh Ho and Van Tinh Nguyen and Hoai Luan Pham and Van Duy Tran and Tuan Hai Vu and Yasuhiko Nakashima, 2024"
+        "title": "ZeroSlide: Is Zero-Shot Classification Adequate for Lifelong Learning in Whole-Slide Image Analysis in the Era of Pathology Vision-Language Foundation Models?, Duc Hong An Le and Vu Trung Duong Le and Viet Anh Ho and Van Tinh Nguyen and Hoai Luan Pham and Van Duy Tran and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "order": 3
     },
     {
-        "title": "Lifelong Whole Slide Image Analysis: Online Vision-Language Adaptation and Past-to-Present Gradient Distillation, , Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Van Duy Tran and Thi Diem Tran and Yasuhiko Nakashima, 2024"
+        "title": "Lifelong Whole Slide Image Analysis: Online Vision-Language Adaptation and Past-to-Present Gradient Distillation, Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Van Duy Tran and Thi Diem Tran and Yasuhiko Nakashima, 2024",
+        "order": 4
     },
     {
-        "title": "Hator: A High-Efficiency CGRA-Based 32/64-Bit Hashing Accelerator with Real-Time Performance Analysis, , Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025"
+        "title": "Hator: A High-Efficiency CGRA-Based 32/64-Bit Hashing Accelerator with Real-Time Performance Analysis, Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025",
+        "order": 5
     },
     {
-        "title": "MRCA 2.0: Area-Optimized Multi-grained Reconfigurable Cryptographic Accelerator for Securing Blockchain-based IoT Systems, , Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025"
+        "title": "MRCA 2.0: Area-Optimized Multi-grained Reconfigurable Cryptographic Accelerator for Securing Blockchain-based IoT Systems, Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025",
+        "order": 6
     },
     {
-        "title": "CTFE: A High-Efficient Heterogeneous Cryptographic CGRA for Diverse Security Applications, , Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025"
+        "title": "CTFE: A High-Efficient Heterogeneous Cryptographic CGRA for Diverse Security Applications, Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025",
+        "order": 7
     }
 ]

@@ -10,25 +10,24 @@ permalink: /publications/
 
 <div class="panel-group" id="accordion">
     <div class="panel panel-default">
-    <h2>Journal</h2>
+    <h2>Journal [{{ site.data.publications | size }}]</h2>
     {% for publi in site.data.publications %}
         <div class="panel-heading">
             <a data-toggle="collapse" data-parent="#accordion"
                href="#collapse{{forloop.index}}"
                style="color: inherit;">
-            "{{ publi.title }}"
+            [{% if publi.order %}{{ publi.order }}. {% endif %}] {{ publi.title }}
             </a>
         </div>
     
     {% endfor %}
-    <h2>Conference</h2>
-    {% for publi in site.data.publications %}
+    <h2>Conference [{{ site.data.publicationss | size }}]</h2>
+    {% for publi in site.data.publicationss %}
         <div class="panel-heading">
             <a data-toggle="collapse" data-parent="#accordion"
                href="#collapse{{forloop.index}}"
                style="color: inherit;">
-            "{{ publi.title }}"
-            </a>
+            [{% if publi.order %}{{ publi.order }}. {% endif %}] {{ publi.title }}
         </div>
     
     {% endfor %}
