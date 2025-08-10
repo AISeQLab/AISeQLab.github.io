@@ -18,25 +18,17 @@ permalink: /publications/
         </div>
     {% endfor %}
 
-    <h2>Journal [{{ site.data.journals | size }}]</h2>
+    <h2>Journal and pre-print [{{ site.data.journals | size }}]</h2>
     {% for publi in site.data.journals %}
-        <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion"
-               href="#collapse{{forloop.index}}"
-               style="color: inherit;">
+        <div>
             <strong>[{{publi.order}}]</strong> {{publi.title}}
-            </a>
         </div>
     
     {% endfor %}
     <h2>Conference [{{ site.data.conferences | size }}]</h2>
     {% for publi in site.data.conferences %}
-        <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion"
-               href="#collapse{{forloop.index}}"
-               style="color: inherit;">
+        <div>
             <strong>[{{publi.order}}]</strong> {{publi.title}}
-            </a>
         </div>
     {% endfor %}
     </div>
