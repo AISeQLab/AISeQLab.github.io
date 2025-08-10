@@ -1,9 +1,5 @@
 ---
-title: "Post"
 layout: default
-excerpt: "Post"
-sitemap: false
-permalink: /post/
 ---
 
 <div class="home">
@@ -13,7 +9,13 @@ permalink: /post/
 
   {{ content }}
 
-  {%- assign posts = site.posts -%}
+
+  {% if site.paginate %}
+    {% assign posts = paginator.blogs %}
+  {% else %}
+    {% assign posts = site.blogs %}
+  {% endif %}
+
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
