@@ -11,11 +11,10 @@ layout: default
     {{ content }}
   </div>
   {% for post in site.posts %}
-  {% if post.categories contains {{category}} %}
-  <a href={{ post.link }}>{{ post.title }}</a>
-  <hr/>
-  {% endif %}
+    {% if post.categories contains {{category}} %}
+    <a href={{ post.link }}>{{ post.title }}</a>
+    <hr/>
+    {% endif %}
   {% endfor %}
-
 
 </article>
