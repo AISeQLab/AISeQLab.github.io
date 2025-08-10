@@ -10,7 +10,7 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
-  {% for post in site.posts %}
+  {% for post in site.blogs %}
     {% if post.categories contains {{category}} %}
     <a href={{ post.link }}>{{ post.title }}</a>
     <hr/>
