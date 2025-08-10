@@ -13,17 +13,31 @@ permalink: /publications/
 
     <h2>Selected publications [{{ site.data.selectedjournals | size }}]</h2>
     {% for publi in site.data.selectedjournals %}
-        <strong>[{{publi.order}}]</strong> {{publi.title}}
-        
+        <div>
+            <strong>[{{publi.order}}]</strong> {{publi.title}}
+        </div>
     {% endfor %}
 
     <h2>Journal [{{ site.data.journals | size }}]</h2>
     {% for publi in site.data.journals %}
-        <strong>[{{publi.order}}]</strong> {{publi.title}}
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse{{forloop.index}}"
+               style="color: inherit;">
+            <strong>[{{publi.order}}]</strong> {{publi.title}}
+            </a>
+        </div>
+    
     {% endfor %}
     <h2>Conference [{{ site.data.conferences | size }}]</h2>
     {% for publi in site.data.conferences %}
-        <strong>[{{publi.order}}]</strong> {{publi.title}}
+        <div class="panel-heading">
+            <a data-toggle="collapse" data-parent="#accordion"
+               href="#collapse{{forloop.index}}"
+               style="color: inherit;">
+            <strong>[{{publi.order}}]</strong> {{publi.title}}
+            </a>
+        </div>
     {% endfor %}
     </div>
 </div>
