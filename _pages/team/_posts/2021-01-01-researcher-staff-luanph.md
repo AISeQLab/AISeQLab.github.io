@@ -4,7 +4,7 @@ category: staff
 title: Pham Hoai Luan
 image: luanph.jpg
 role: Principle supervisor, Assistant Professor at NAIST, Lecturer at CE-UIT-VNUHCM, SoC Engineer at LENZO
-degree: PhD
+degree: PhD, NAIST
 field: Semiconductor
 permalink: 'team/luanph'
 social:

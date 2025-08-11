@@ -4,7 +4,7 @@ category: staff
 title: Bui Ngoc Thanh Binh
 image: binhbnt.jpg
 role: Supervisor
-degree: MS (expected in 2027)
+degree: MS (expected in 2027), NAIST
 field: Semiconductor
 permalink: 'team/binhbnt'
 social:
