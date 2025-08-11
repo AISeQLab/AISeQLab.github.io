@@ -76,15 +76,10 @@ permalink: /team/
 {% assign students = site.data.students %}
 <ul>
 {% for student in students %}
-    <li>
+    <div>
         <strong>{{ student.name }}</strong>
-        {% if student.role %} - {{ student.role }}{% endif %}
-        {% if student.degree or student.field %}
-            <br>
-            {% if student.degree %}{{ student.degree }}{% endif %}
-            {% if student.field %}, {{ student.field }}{% endif %}
-        {% endif %}
-    </li>
+        {{ student.role }}, {{ student.field }}
+    </div>
 {% endfor %}
 </ul>
 
