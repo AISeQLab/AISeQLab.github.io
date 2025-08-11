@@ -4,7 +4,7 @@ category: staff
 title: Pham Anh Kiet
 image: kietpa.jpg
 role: Supervisor
-degree: MS (expected in 2027)
+degree: MS (expected in 2027), NAIST
 field: Semiconductor
 permalink: 'team/kietpa'
 social:

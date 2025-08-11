@@ -4,7 +4,7 @@ category: staff
 title: Tran Le Xuan Hieu
 image: hieutlx.jpg
 role: Supervisor
-degree: MS (expected in 2027)
+degree: MS (expected in 2027), NAIST
 field: Semiconductor
 permalink: 'team/hieutlx'
 social:
