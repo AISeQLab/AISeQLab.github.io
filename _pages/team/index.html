@@ -77,7 +77,7 @@ permalink: /team/
 <ul>
 {% for student in students %}
     <div>
-        <strong>{{ student.name }}</strong>
+        [{{ forloop.index }}] <strong>{{ student.name }}</strong>
         {{ student.role }}, {{ student.field }}
     </div>
 {% endfor %}
