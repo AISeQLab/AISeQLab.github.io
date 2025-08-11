@@ -2,7 +2,7 @@
 layout: member
 category: staff
 title: Tran Thi Diem
-image: researcher.png
+image: diemtt.jpeg
 role: Supervisor, Lecturer at CE-UIT-VNUHCM
 degree: PhD
 field: AI

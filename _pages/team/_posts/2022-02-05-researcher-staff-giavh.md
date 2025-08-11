@@ -2,7 +2,7 @@
 layout: member
 category: staff
 title: Vu Hoang Gia
-image: researcher.png
+image: giavh.jpeg
 role: Supervisor, Lecturer at Military Technical Academies
 degree: PhD
 field: Semiconductor
