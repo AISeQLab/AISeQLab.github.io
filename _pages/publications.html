@@ -14,7 +14,7 @@ permalink: /publications/
     <h2>Selected publications [{{ site.data.selectedjournals | size }}]</h2>
     {% for publi in site.data.selectedjournals %}
         <div>
-            <strong>[{{publi.order}}]</strong> {{publi.title}}
+            <strong>[{{ forloop.index }}]</strong> {{publi.title}}
         </div>
     {% endfor %}
 
