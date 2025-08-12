@@ -6,6 +6,7 @@ image: duonglvt.jpg
 role: Supervisor, Assistant Professor at NAIST, Lecturer at CE-UIT-VNUHCM
 degree: PhD, NAIST
 field: Semiconductor
+email: duonglvt [at] uit.edu.vn
 permalink: 'team/duonglvt'
 social:
     google-scholar: https://scholar.google.com/citations?user=rH5LqWoAAAAJ&hl=en

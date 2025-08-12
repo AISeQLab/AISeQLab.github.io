@@ -7,6 +7,7 @@ role: Supervisor, Lecturer at Military Technical Academies
 degree: PhD
 field: Semiconductor
 permalink: 'team/tuanlv'
+email: empty
 social:
     google-scholar: https://www.researchgate.net/profile/Luu-Tuan
     github: https://github.com/

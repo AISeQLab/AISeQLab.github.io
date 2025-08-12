@@ -7,6 +7,7 @@ role: Supervisor
 degree: MS (expected in 2027), NAIST
 field: Semiconductor
 permalink: 'team/binhbnt'
+email: bui.nguyen_thanh_binh.xxx [at] naist.ac.jp
 social:
     google-scholar: https://scholar.google.com/citations?user=twX9kiYAAAAJ&hl=vi
     github: https://github.com/

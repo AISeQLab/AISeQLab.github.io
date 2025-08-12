@@ -6,11 +6,13 @@ image: tinhnv.jpeg
 role: Supervisor, Lecturer at Military Technical Academies
 degree: PhD, NAIST
 field: Semiconductor
+email: empty
 permalink: 'team/tinhnv'
 social:
     google-scholar: https://scholar.google.com/citations?user=zGzRcG4AAAAJ&hl=vi
     github: https://github.com/
     website: 
 education:
- - Education
+ - He received the B.S. degree in Radio electronics engineering from the Belarusian State University of Informatics and Radioelectronics, in 2012 and the Ph.D. degree in computer science from Division of Information Science, Nara Institute of Science and Technology, Nara, Japan, in 2022. 
 ---
+Since 2023, he has been a lecturer in the Electrical Engineering Department of Le Quy Don Technical University, Ha Noi, Viet Nam. His research interests include machine learning, bigdata, blockchain, and hardware security.

@@ -6,6 +6,7 @@ image: diemtt.jpeg
 role: Supervisor, Lecturer at CE-UIT-VNUHCM
 degree: PhD, NAIST
 field: AI
+email: diemtt [at] uit.edu.vn
 permalink: 'team/diemtt'
 social:
     google-scholar: https://scholar.google.com/citations?user=BVoZ-5sAAAAJ&hl=vi

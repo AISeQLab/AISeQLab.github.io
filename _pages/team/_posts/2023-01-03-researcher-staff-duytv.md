@@ -7,6 +7,7 @@ role: Supervisor
 degree: MS (expected in 2026), NAIST
 field: Semiconductor
 permalink: 'team/duytv'
+email: tran.van_duy.tu0 [at] naist.ac.jp
 social:
     google-scholar: https://scholar.google.com/citations?user=WpXJ758AAAAJ&hl=en
     github: https://github.com/
