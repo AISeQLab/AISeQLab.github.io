@@ -6,9 +6,120 @@ sitemap: false
 permalink: /course/
 ---
 
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
 
-Unlock advanced knowledge with our exclusive paid courses! Dive deeper into specialized topics, guided by expert instructors, and gain hands-on experience to accelerate your learning journey.
+  .course-card {
+    max-width: 600px;
+    border: 1px solid #eee;
+    margin: auto;
+  }
 
-![Paid Course](https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=800&q=80)
+  .course-description {
+    background-color: #f6f6f6;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
 
-Explore our offerings and take the next step in your research and professional development.
+  .course-icon {
+    font-size: 28px;
+    color: #f7941d;
+    flex-shrink: 0;
+  }
+
+  .course-text h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .course-text p {
+    margin: 0;
+    line-height: 1.5;
+    color: #555;
+  }
+
+  .course-footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    flex-wrap: wrap; /* Cho phép xuống dòng */
+  }
+
+  .course-price {
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .course-price del {
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .course-duration {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .course-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  /* Responsive cho màn hình nhỏ hơn 480px */
+  @media (max-width: 480px) {
+    .course-description {
+      flex-direction: column;
+    }
+
+    .course-footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .course-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+</style>
+
+
+# Courses [{{ site.data.course | size }}]
+
+{% for course in site.data.course %}
+<div class="course-card">
+    <div class="course-description">
+        <div class="course-icon"></div>
+        <div class="course-text">
+            <h3>{{ course.title }}</h3>
+            <p>
+                {{ course.content }}
+            </p>
+        </div>
+    </div>
+
+    <div class="course-footer">
+        <a href="course.link" class="course-btn">Start</a>
+        <div>
+            <span class="course-price">
+                {{ course.price }}
+            </span>
+            <span class="course-duration">{{ course.duration }}</span>
+        </div>
+    </div>
+</div>
+{% endfor %}

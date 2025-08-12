@@ -24,6 +24,6 @@ permalink: /research/
     {% endfor %}
 </ul>
 
-# Research
+# Projects
 
 Will be update soon ...
