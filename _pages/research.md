@@ -6,9 +6,9 @@ sitemap: false
 permalink: /research/
 ---
 
-# 
 
-**Grants** {{ site.data.grants | size }}
+
+# Grants [{{ site.data.grants | size }}]
 <ul class="list-unstyled">
     {% for grant in site.data.grants %}
         <li class="media">
@@ -16,10 +16,14 @@ permalink: /research/
             <h4 class="mt-0 mb-1">
                 [{{ grant.duration }}]
                 <a href="{{ grant.link }}">{{ grant.title }}</a>
-            </h4>     <p>{{ grant.amount }}</p>
+            </h4>
+            <p>Amount: {{ grant.amount }}</p>
             {{ grant.content }}
             </div>
         </li>
     {% endfor %}
 </ul>
+
 # Research
+
+Will be update soon ...
