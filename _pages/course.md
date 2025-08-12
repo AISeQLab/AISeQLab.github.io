@@ -7,14 +7,10 @@ permalink: /course/
 ---
 
 <style>
-  body {
-    font-family: Arial, sans-serif;
-  }
-
   .course-card {
     max-width: 600px;
     border: 1px solid #eee;
-    margin: auto;
+    margin: 20px auto;
   }
 
   .course-description {
@@ -49,7 +45,7 @@ permalink: /course/
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    flex-wrap: wrap; /* Cho phép xuống dòng */
+    flex-wrap: wrap;
   }
 
   .course-price {
@@ -79,7 +75,6 @@ permalink: /course/
     margin-top: 10px;
   }
 
-  /* Responsive cho màn hình nhỏ hơn 480px */
   @media (max-width: 480px) {
     .course-description {
       flex-direction: column;
@@ -97,29 +92,23 @@ permalink: /course/
   }
 </style>
 
-
-# Courses [{{ site.data.courses | size }}]
+<h1>Courses [{{ site.data.courses | size }}]</h1>
 
 {% for course in site.data.courses %}
 <div class="course-card">
-    <div class="course-description">
-        <div class="course-icon"></div>
-        <div class="course-text">
-            <h3>{{ course.title }}</h3>
-            <p>
-                {{ course.content }}
-            </p>
-        </div>
+  <div class="course-description">
+    <div class="course-icon"></div>
+    <div class="course-text">
+      <h3>{{ course.title }}</h3>
+      <p>{{ course.content }}</p>
     </div>
-
-    <div class="course-footer">
-        <a href="course.link" class="course-btn">Start</a>
-        <div>
-            <span class="course-price">
-                {{ course.price }}
-            </span>
-            <span class="course-duration">{{ course.duration }}</span>
-        </div>
+  </div>
+  <div class="course-footer">
+    <a href="{{ course.link }}" class="course-btn">Start</a>
+    <div>
+      <span class="course-price">{{ course.price }}</span>
+      <span class="course-duration">{{ course.duration }}</span>
     </div>
+  </div>
 </div>
 {% endfor %}

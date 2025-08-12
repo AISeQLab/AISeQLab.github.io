@@ -14,8 +14,7 @@ permalink: /research/
         <li class="media">
             <div class="media-body">
             <h4 class="mt-0 mb-1">
-                [{{ grant.duration }}]
-                <a href="{{ grant.link }}">{{ grant.title }}</a>
+                <a href="{{ grant.link }}">{{ grant.title }}</a> [{{ grant.duration }}]
             </h4>
             <p>Amount: {{ grant.amount }}</p>
             {{ grant.content }}
