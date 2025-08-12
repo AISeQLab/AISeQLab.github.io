@@ -48,7 +48,7 @@ permalink: /course/
 }
 
 .course-price {
-  color: orange;
+  color: white;
   font-weight: bold;
   font-size: 18px;
 }
