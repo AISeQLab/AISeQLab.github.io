@@ -98,9 +98,9 @@ permalink: /course/
 </style>
 
 
-# Courses [{{ site.data.course | size }}]
+# Courses [{{ site.data.courses | size }}]
 
-{% for course in site.data.course %}
+{% for course in site.data.courses %}
 <div class="course-card">
     <div class="course-description">
         <div class="course-icon"></div>
