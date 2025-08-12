@@ -9,7 +9,7 @@ permalink: /publications/
 <h1>{{page.title}}</h1>
 
 <div class="panel-group" id="accordion">
-    <div class="panel panel-default">
+    <div>
 
     <h2>Selected publications [{{ site.data.selectedjournals | size }}]</h2>
     {% for publi in site.data.selectedjournals %}
@@ -21,14 +21,14 @@ permalink: /publications/
     <h2>Journal and pre-print [{{ site.data.journals | size }}]</h2>
     {% for publi in site.data.journals %}
         <div>
-            <strong>[{{publi.order}}]</strong> {{publi.title}}
+            <strong>[{{ forloop.index }}]</strong> {{publi.title}}
         </div>
     
     {% endfor %}
     <h2>Conference [{{ site.data.conferences | size }}]</h2>
     {% for publi in site.data.conferences %}
         <div>
-            <strong>[{{publi.order}}]</strong> {{publi.title}}
+            <strong>[{{ forloop.index }}]</strong> {{publi.title}}
         </div>
     {% endfor %}
     </div>

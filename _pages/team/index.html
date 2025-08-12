@@ -27,7 +27,7 @@ permalink: /team/
             <div class="card-body">
             <h4 class="card-title">{{ member.title }}</h4>
             <p class="card-text">{{ member.role }}</p>
-            <p class="card-text">{{ member.degree }}, {{ member.field }}</p>
+            <p class="card-text">{{ member.degree }} [{{ member.field }}]</p>
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@ permalink: /team/
             <div class="card-body">
             <h4 class="card-title">{{ member.title }}</h4>
             <p class="card-text">{{ member.role }}</p>
-            <p class="card-text">{{ member.degree }}, {{ member.field }}</p>
+            <p class="card-text">{{ member.degree }} [{{ member.field }}]</p>
             </div>
         </div>
     </div>
@@ -74,12 +74,10 @@ permalink: /team/
 
 <h2><a id="student"></a>Students</h2>
 {% assign students = site.data.students %}
-<ul>
 {% for student in students %}
     <div>
         [{{ forloop.index }}] <strong>{{ student.name }}</strong>
         {{ student.role }}, {{ student.field }}
     </div>
 {% endfor %}
-</ul>
 
