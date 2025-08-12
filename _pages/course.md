@@ -91,7 +91,7 @@ permalink: /course/
 }
 </style>
 # Courses [{{ site.data.courses | size }}]
-<ul class="list-unstyled" style="margin-left: 0; padding-left: 0;">
+<ul style="margin-left: 0; padding-left: 0;">
     {% for course in site.data.courses %}
     <div class="course-card">
         <div class="course-description">
