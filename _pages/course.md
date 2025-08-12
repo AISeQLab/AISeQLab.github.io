@@ -7,7 +7,6 @@ permalink: /course/
 ---
 <style>
 .course-card {
-  max-width: 600px;
   border: 1px solid #eee;
   margin: 20px auto;
 }
