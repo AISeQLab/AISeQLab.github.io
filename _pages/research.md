@@ -8,7 +8,7 @@ permalink: /research/
 
 
 
-# Grants [{{ site.data.grants | size }}]
+# Grant [{{ site.data.grants | size }}]
 <ul class="list-unstyled">
     {% for grant in site.data.grants %}
         <li class="media">
@@ -23,6 +23,6 @@ permalink: /research/
     {% endfor %}
 </ul>
 
-# Projects
+# Project
 
 Will be update soon ...

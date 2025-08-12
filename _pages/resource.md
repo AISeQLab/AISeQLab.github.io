@@ -6,5 +6,7 @@ sitemap: false
 permalink: /resource/
 ---
 
+# Resource
 
+Will be update soon ...
 
