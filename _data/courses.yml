@@ -1,11 +1,11 @@
 - duration: "1 unit - 1 day"
-  title: "Basic FPGA: Level 0 &#128435"
+  title: "[Basic FPGA] Level 0 🖥️"
   price: "Free"
   content: "This project relates to implementing a simple hardware module and integrating it into an SoC system on the Xilinx Kria KV260 board."
   link: https://github.com/AISeQLab/Level_0_KV260_FPGA
 
 - duration: "1 unit - 1 day"
-  title: "Basic FPGA: Level 1 &#128435"
+  title: "[Basic FPGA] Level 1 🖥️"
   price: "Free"
-  content: "implementing matrix-vector multiplication on the Xilinx Kria KV260 board using Vivado"
+  content: "Implementing matrix-vector multiplication on the Xilinx Kria KV260 board using Vivado"
   link: https://github.com/AISeQLab/Level_1_KV260_FPGA
