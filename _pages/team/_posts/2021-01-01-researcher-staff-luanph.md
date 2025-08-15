@@ -19,7 +19,8 @@ education:
 His research interests encompass **blockchain technology**, **cryptography**, **computer architecture**, **circuit design**, and **hardware accelerators**.  
 He has published extensively in prestigious IEEE Transactions journals (such as *TCAS-I* and *TCAD*) and presented at leading hardware design conferences, including *COOLCHIPS*, *SOCC*, *ISOCC*, and *CANDAR*.  
 
-### Academic Background
+Academic Background:
+
 - **Assistant Professor**, NAIST, *2022 – Present*  
 - **Ph.D. Student**, NAIST, *2020 – 2022*  
 - **M.S. Student**, NAIST, *2018 – 2020*  
