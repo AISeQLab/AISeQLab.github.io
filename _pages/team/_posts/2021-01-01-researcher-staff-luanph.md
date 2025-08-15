@@ -15,16 +15,15 @@ social:
 education:
  - Education
 ---
-**Dr. Pham Hoai Luan** is currently an Assistant Professor at NAIST, a Visiting Lecturer at UIT, and a SOC Engineer at LENZO.  
-His research interests encompass **blockchain technology**, **cryptography**, **computer architecture**, **circuit design**, and **hardware accelerators**.  
-He has published extensively in prestigious IEEE Transactions journals (such as *TCAS-I* and *TCAD*) and presented at leading hardware design conferences, including *COOLCHIPS*, *SOCC*, *ISOCC*, and *CANDAR*.  
+Dr. Pham Hoai Luan is currently an Assistant Professor at NAIST, a Visiting Lecturer at UIT, and a SOC Engineer at LENZO.  
+His research interests encompass blockchain technology, cryptography, computer architecture, circuit design, and hardware accelerators. He has published extensively in prestigious IEEE Transactions journals (such as TCAS-I and TCAD) and presented at leading hardware design conferences, including COOLCHIPS, SOCC, ISOCC, and CANDAR.  
 
-Academic Background:
+Background:
 
-- **Assistant Professor**, NAIST, *2022 – Present*  
-- **Ph.D. Student**, NAIST, *2020 – 2022*  
-- **M.S. Student**, NAIST, *2018 – 2020*  
-- **Undergraduate Student**, Computer Engineering, UIT – VNUHCM, *2013 – 2018*  
+- Assistant Professor, NAIST, 2022 – Present  
+- PhD, NAIST, 2020 – 2022  
+- MS, NAIST, 2018 – 2020  
+- BE, CE-UIT–VNUHCM, 2013 – 2018  
 
 ---
 
