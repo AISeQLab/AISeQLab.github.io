@@ -24,6 +24,7 @@ Background:
 - BE, Computer Engineering, CE-UIT-VNUHCM, Sept. 2015 – Jun. 2020  
 
 --- 
+
 Tiến sĩ Lê Vũ Trùng Dương nhận bằng Tiến sĩ vào năm 2024 và là Trợ lý Giáo sư tại tại Viện Khoa học và Công nghệ Nara (NAIST). Lĩnh vực nghiên cứu bao gồm kiến trúc tính toán, bộ xử lý khả tái cấu hình, và thiết kế bộ gia tốc cho bộ tăng tốc các hàm trong mật mã học. Anh đã công bố nhiều công trình trên các tạp chí IEEE/IEICE Transactions (TCAS, TCAD) và tham gia báo cáo tại nhiều hội nghị như COOLCHIPS, CANDAR, SOICT, ATC, …
 
 Quá trình học tập & công tác:

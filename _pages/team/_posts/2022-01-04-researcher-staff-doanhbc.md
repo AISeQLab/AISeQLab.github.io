@@ -25,7 +25,9 @@ Background:
 - PhD, NAIST, Apr. 2025 – Present  
 - MS, Korea University, Seoul, South Korea, Apr. 2023 – Mar. 2025  
 - BS, Computer Science, CS-UIT-VNUHCM, Sept. 2019 – Jun. 2022  
+
 ---
+
 Bùi Cao Doanh đang là nghiên cứu sinh tại NAIST, Nhật Bản. Hướng nghiên cứu của Doanh tập trung vào học sâu (deep learning) và thị giác máy tính, đặc biệt là các bài toán kết hợp thị giác - ngôn ngữ ứng dụng trong bệnh lý số và bệnh lý tính toán. Các công trình nghiên cứu của Doanh đã được công bố trên nhiều tạp chí quốc tế như IEEE Transactions on Medical Imaging (TMI), Computer Methods and Programs in Biomedicine (CMPB), IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), cũng như tại các hội nghị đặc thù như MICCAI, WACV, AAAI và ACCV. Ngoài ra, Doanh còn tham gia phản biện khoa học cho các tạp chí/hội nghị như TMI, TCSVT, CMPB, IEEE Transactions on Network Science and Engineering, AAAI.
 
 Quá trình học tập & công tác:
