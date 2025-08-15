@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Nguyen Van Tinh
 image: tinhnv.jpeg
-role: Supervisor, Lecturer at Military Technical Academies
+role: Co-Investigator, Lecturer at Military Technical Academies
 degree: PhD, NAIST
 field: Semiconductor
 email: empty

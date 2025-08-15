@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Bui Ngoc Thanh Binh
 image: binhbnt.jpg
-role: Supervisor
+role: Co-Investigator
 degree: MS (expected in 2027), NAIST
 field: Semiconductor
 permalink: 'team/binhbnt'

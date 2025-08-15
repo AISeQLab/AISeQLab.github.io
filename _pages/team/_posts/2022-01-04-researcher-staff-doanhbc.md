@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Bui Cao Doanh
 image: doanhbc.png
-role: Supervisor, Lecturer at SE-UIT-VNUHCM
+role: Co-Investigator, Lecturer at SE-UIT-VNUHCM
 degree: PhD (expected in 2026), NAIST
 field: AI
 email: bui.cao_doanh.bd2 [at] naist.ac.jp

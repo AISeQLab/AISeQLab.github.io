@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Vu Hoang Gia
 image: giavh.jpeg
-role: Supervisor, Lecturer at Military Technical Academies
+role: Co-Investigator, Lecturer at Military Technical Academies
 degree: PhD
 field: Semiconductor
 permalink: 'team/giavh'

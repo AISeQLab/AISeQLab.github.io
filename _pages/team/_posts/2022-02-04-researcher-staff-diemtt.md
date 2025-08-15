@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Tran Thi Diem
 image: diemtt.jpeg
-role: Supervisor, Lecturer at CE-UIT-VNUHCM
+role: Co-Investigator, Lecturer at CE-UIT-VNUHCM
 degree: PhD, NAIST
 field: AI
 email: diemtt [at] uit.edu.vn

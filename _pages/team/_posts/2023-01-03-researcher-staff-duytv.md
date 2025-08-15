@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Tran Van Duy
 image: duytv.jpg
-role: Supervisor
+role: Co-Investigator
 degree: MS (expected in 2026), NAIST
 field: Semiconductor
 permalink: 'team/duytv'
