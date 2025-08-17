@@ -23,6 +23,10 @@ permalink: /research/
     {% endfor %}
 </ul>
 
-# Project
+# Project (Gen 1)
 
-Will be update soon ...
+Check the [link](https://docs.google.com/spreadsheets/d/1gswsvpBxHxGYJV5gXpZ4qD-7IA735JHvY7n1P2ABLPI/edit?usp=sharing) for list of existing projects:
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQDKL9WtVNjzYffCQQe9037VuR2ILXGXg9HRn5lT6ad0Ng3IiEyUpfOEoA42eFnTE7K9HduPG6oD66q/pubhtml?widget=true&amp;headers=false"></iframe>
+
+Check the [link](https://docs.google.com/spreadsheets/d/1vrbcvRWvCJI2dvyBgF6bYcGPCktQ7GpC1CKx0sXq1OQ/edit?usp=sharing) for list of members.

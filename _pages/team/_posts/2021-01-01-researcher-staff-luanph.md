@@ -27,7 +27,7 @@ Background:
 
 ---
 
-Tiến sĩ Phạm Hoài Luân (PI) hiện là Trợ lý Giáo sư (Assistant Professor) tại NAIST, Nhật bản, Giảng viên tại UIT, đồng thời là kỹ sư SOC tại LENZO. Lĩnh vực nghiên cứu của ông bao gồm công nghệ blockchain, kiến trúc máy tính, thiết kế mạch và các bộ gia tốc phần cứng. 
+Tiến sĩ Phạm Hoài Luân (PI) hiện là Trợ lý Giáo sư (Assistant Professor) tại NAIST, Nhật bản, Giảng viên tại UIT, đồng thời là kỹ sư SOC tại LENZO. Lĩnh vực nghiên cứu của anh bao gồm công nghệ blockchain, kiến trúc máy tính, thiết kế mạch và các bộ gia tốc phần cứng. 
 
 Anh đã công bố nhiều công trình trên các tạp chí IEEE Transactions uy tín (như TCAS-I, TCAD) và tham gia báo cáo tại nhiều hội nghị thiết kế phần cứng, bao gồm COOLCHIPS, SOCC, ISOCC và CANDAR.
 
