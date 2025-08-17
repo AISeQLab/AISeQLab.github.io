@@ -27,8 +27,6 @@ permalink: /research/
 
 Check the [link](https://docs.google.com/spreadsheets/d/1gswsvpBxHxGYJV5gXpZ4qD-7IA735JHvY7n1P2ABLPI/edit?usp=sharing) for list of existing projects:
 
-<div style="width:100%;overflow-x:auto;">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQDKL9WtVNjzYffCQQe9037VuR2ILXGXg9HRn5lT6ad0Ng3IiEyUpfOEoA42eFnTE7K9HduPG6oD66q/pubhtml?widget=true&amp;headers=false" width="100%" height="600" frameborder="0"></iframe>
-</div>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQDKL9WtVNjzYffCQQe9037VuR2ILXGXg9HRn5lT6ad0Ng3IiEyUpfOEoA42eFnTE7K9HduPG6oD66q/pubhtml?widget=true&amp;headers=false"></iframe>
 
 Check the [link](https://docs.google.com/spreadsheets/d/1vrbcvRWvCJI2dvyBgF6bYcGPCktQ7GpC1CKx0sXq1OQ/edit?usp=sharing) for list of members.
