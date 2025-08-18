@@ -28,8 +28,23 @@ permalink: /team/
                 <h4 class="card-title">
                     <a href="{{ member.url }}">{{ member.title }}</a>
                 </h4>
-                <p class="card-text">{{ member.role }} [{{ member.email }}]</p>
-                <p class="card-text">{{ member.degree }} [{{ member.field }}]</p>
+                {% if member.role %}
+                    <p class="card-text">
+                        {{ member.role }}
+                        {% if member.email %}
+                            [{{ member.email }}]
+                        {% endif %}
+                    </p>
+                {% endif %}
+
+                {% if member.degree %}
+                    <p class="card-text">
+                        {{ member.degree }}
+                        {% if member.field %}
+                            [{{ member.field }}]
+                        {% endif %}
+                    </p>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -57,9 +72,26 @@ permalink: /team/
 
         <div class="col-md-10">
             <div class="card-body">
-            <h4 class="card-title">{{ member.title }} </h4>
-            <p class="card-text">{{ member.role }} [{{ member.email }}] </p>
-            <p class="card-text">{{ member.degree }} [{{ member.field }}]</p>
+                <h4 class="card-title">
+                    <a href="{{ member.url }}">{{ member.title }}</a>
+                </h4>
+                {% if member.role %}
+                    <p class="card-text">
+                        {{ member.role }}
+                        {% if member.email %}
+                            [{{ member.email }}]
+                        {% endif %}
+                    </p>
+                {% endif %}
+
+                {% if member.degree %}
+                    <p class="card-text">
+                        {{ member.degree }}
+                        {% if member.field %}
+                            [{{ member.field }}]
+                        {% endif %}
+                    </p>
+                {% endif %}
             </div>
         </div>
     </div>
