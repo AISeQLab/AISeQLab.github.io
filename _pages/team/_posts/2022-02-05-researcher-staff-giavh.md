@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Vu Hoang Gia
 image: giavh.jpeg
-role: Co-Investigator, Lecturer at Military Technical Academies
+role: Co-Investigator, Lecturer at Le Quy Don technical Uinversity
 degree: PhD
 field: Semiconductor
 permalink: 'team/giavh'

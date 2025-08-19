@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Nguyen Van Tinh
 image: tinhnv.jpeg
-role: Co-Investigator, Lecturer at Military Technical Academies
+role: Co-Investigator, Lecturer at Le Quy Don technical Uinversity
 degree: PhD, NAIST
 field: Semiconductor
 email: empty
