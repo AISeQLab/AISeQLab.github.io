@@ -8,21 +8,23 @@ permalink: /demo/
 
 # Demo
 
-### ECG processing for medical application
+### [1] ECG processing for medical application
 
-We propose a 1D-CNN accelerate (MINA) for processing ECG signal series for detecting heart disease. Scientific paper (TCAS-I): [[link]](https://ieeexplore.ieee.org/abstract/document/10948469/) [[pdf]](../_data/paper/ecg_demo.pdf) [[code]](https://github.com/AISeQLab)
+We propose a 1D-CNN accelerate (MINA) for processing ECG signal series for detecting heart disease. 
 
-<p align="left">
-    <img src="../images/paper/ecg_mina.png" alt="ECG Demo" style="max-width:80%; width:80%;">
-</p>
-
-*MINA overview architecture*
+Scientific paper (TCAS-I): [[link]](https://ieeexplore.ieee.org/abstract/document/10948469/) [[pdf]](../_data/paper/ecg_demo.pdf) [[code]](https://github.com/AISeQLab)
 
 <p align="left">
-    <img src="../images/paper/ecg_compare.png" alt="ECG Demo" style="max-width:80%; width:80%;">
+    <img src="../images/paper/ecg_mina.png" alt="ECG Demo" style="max-width:60%; width:60%;">
 </p>
 
-*Comparison with fpga-based 2-d cnn hardware architectures for ecg classification.*
+*Figure 1.1. MINA overview architecture*
+
+<p align="left">
+    <img src="../images/paper/ecg_compare.png" alt="ECG Demo" style="max-width:100%; width:100%;">
+</p>
+
+*Figure 1.2. Comparison with fpga-based 2-d cnn hardware architectures for ecg classification.*
 
 Check the [video demo](https://youtu.be/RAKSJXHCnf8?si=DLvXDAGBIEGdkT-t) for more information:
 
