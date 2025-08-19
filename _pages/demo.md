@@ -12,12 +12,15 @@ permalink: /demo/
 
 We propose a 1D-CNN accelerate (MINA) for processing ECG signal series for detecting heart disease. Scientific paper (TCAS-I): [[link]](https://ieeexplore.ieee.org/abstract/document/10948469/) [[pdf]](../_data/paper/ecg_demo.pdf) [[code]](https://github.com/AISeQLab)
 
-
-<img src="../images/paper/ecg_mina.png" alt="ECG Demo" max-width="80%">
+<p align="left">
+    <img src="../images/paper/ecg_mina.png" alt="ECG Demo" style="max-width:80%; width:80%;">
+</p>
 
 *MINA overview architecture*
 
-<img src="../images/paper/ecg_compare.png" alt="ECG Demo" max-width="100%">
+<p align="left">
+    <img src="../images/paper/ecg_compare.png" alt="ECG Demo" style="max-width:80%; width:80%;">
+</p>
 
 *Comparison with fpga-based 2-d cnn hardware architectures for ecg classification.*
 
