@@ -12,7 +12,7 @@ permalink: /demo/
 
 We propose a 1D-CNN accelerate (MINA) for processing ECG signal series for detecting heart disease. 
 
-Scientific paper (TCAS-I): [[link]](https://ieeexplore.ieee.org/abstract/document/10948469/) [[pdf]](https://drive.google.com/file/d/1bXJ22whhtUEaHsR4Y5SIYyDlCiS9yMy4/view?usp=sharing) [[code]](https://github.com/AISeQLab)
+Scientific paper (TCAS-I): [[link]](https://ieeexplore.ieee.org/abstract/document/10948469/) [[pdf]](https://drive.google.com/file/d/1bXJ22whhtUEaHsR4Y5SIYyDlCiS9yMy4/view?usp=sharing) [[code]](https://github.com/AISeQLab/DEMO_MINA)
 
 <p align="left">
     <img src="../images/paper/ecg_mina.png" alt="ECG Demo" style="max-width:60%; width:60%;">
