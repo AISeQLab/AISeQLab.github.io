@@ -28,4 +28,4 @@ Scientific paper (TCAS-I): [[link]](https://ieeexplore.ieee.org/abstract/documen
 
 Check the [video demo](https://youtu.be/RAKSJXHCnf8?si=DLvXDAGBIEGdkT-t) for more information:
 
-<iframe width="100%" src="https://www.youtube.com/embed/RAKSJXHCnf8?si=eaEJf4_6Dp-5yv0A" title="ECG demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height = "400px" src="https://www.youtube.com/embed/RAKSJXHCnf8?si=eaEJf4_6Dp-5yv0A" title="ECG demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
