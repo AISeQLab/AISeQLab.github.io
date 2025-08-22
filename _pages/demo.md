@@ -13,7 +13,7 @@ permalink: /demo/
 
 We use FPGA ZCU102 to emulate a (up to 30 qubits) quantum system, based on state-vector (wave-function variant).
 
-Scientific paper (ACCESS): [[link]](https://ieeexplore.ieee.org/document/11015479/) [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11015479) [[code]](https://github.com/NAIST-Archlab/FQsun)
+Scientific paper (ACCESS): [[link]](https://ieeexplore.ieee.org/document/11015479/) [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11015479) [[code]](https://github.com/AISeQLab/FQsun)
 
 
 <p align="left">
