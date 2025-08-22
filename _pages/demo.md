@@ -28,9 +28,9 @@ Scientific paper (ACCESS): [[link]](https://ieeexplore.ieee.org/document/1101547
 
 *Figure 2.2. The execution time comparison*
 
-<!-- Check the [video demo](https://youtu.be/RAKSJXHCnf8?si=DLvXDAGBIEGdkT-t) for more information:
+Check the [video demo](https://youtu.be/J6nvTbfzo-0?si=gydMvRN0VzG5fv8w) for more information:
 
-<iframe width="100%" height = "400px" src="https://www.youtube.com/embed/RAKSJXHCnf8?si=eaEJf4_6Dp-5yv0A" title="ECG demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+<iframe width="100%" height = "400px" src="https://www.youtube.com/embed/J6nvTbfzo-0?si=9ALTj_U7gvBkTmq5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
