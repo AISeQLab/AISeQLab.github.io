@@ -9,6 +9,28 @@ permalink: /demo/
 # Demo
 
 
+### [3] Qimax: A parallel stabilizer formalism package
+
+Qimax is a parallel stabilizer pakcage which is used for simulating both Clifford and non-Clifford circuit.
+
+
+Scientific paper (pre-print): [[link]](https://arxiv.org/abs/2505.03307) [[pdf]](https://arxiv.org/pdf/2505.03307) [[code]](https://github.com/AISeQLab/qimax-soft)
+
+
+<p align="left">
+    <img src="../images/paper/qimax_arch.png" alt="FQsun Demo" style="max-width:60%; width:60%;">
+</p>
+
+*Figure 3.1. Qimax v3. For v2, the indices tensor I is ignored.*
+
+<p align="left">
+    <img src="../images/paper/qimax_compare.png" alt="ECG Demo" style="max-width:100%; width:100%;">
+</p>
+
+*Figure 3.2. Execution time from different versions of Pennylane, Qiskit, and Qimax. The y-axis is plotted on logarithmic scale. The range of #Qubits is 2 to 15.*
+
+
+
 ### [2] FQsun: A wave-function based emulator
 
 We use FPGA ZCU102 to emulate a (up to 30 qubits) quantum system, based on state-vector (wave-function variant).
