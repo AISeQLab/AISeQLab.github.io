@@ -9,6 +9,31 @@ permalink: /demo/
 # Demo
 
 
+### [4] CRGA for cryptography
+
+We apply CRGA architecture for various popular cryptography
+
+
+Scientific paper (pre-print): [[link1]](https://ieeexplore.ieee.org/abstract/document/10758927) [[pdf1]](https://drive.google.com/file/d/1QgYaYuwlEJFQ9OAL-s9kYXVQ69jqBn3e/view?usp=sharing) [[link2]](https://ieeexplore.ieee.org/document/10742119) [[pdf2]](https://drive.google.com/file/d/1_TnI1uSGR5uAWWQ7JYtlh1DvaKyNzCGj/view?usp=sharing) 
+[[link3]](https://ieeexplore.ieee.org/document/10620019) [[pdf3]](https://drive.google.com/file/d/1RZxsol6_UdISXvSo_zSzZkHJnmeZlenl/view?usp=sharing) [[code]](https://github.com/AISeQLab/Demo_CGRA)
+
+
+<p align="left">
+    <img src="../images/paper/licrypto_arch.png" alt="FQsun Demo" style="max-width:80%; width:80%;">
+</p>
+
+*Figure 4.1. LiCryptor overview architecture at the SoC level.*
+
+<p align="left">
+    <img src="../images/paper/licrypto_compare.png" alt="ECG Demo" style="max-width:100%; width:100%;">
+</p>
+
+*Figure 4.2. Execution times of our LiCryptor and two powerful CPUs for 64-bit, 32-bit, and 8-bit LWC algorithms..*
+
+Check the [video demo](https://youtu.be/4vqoZCGZGPE?si=4NCV5FmQ0AnW1kYp) for more information:
+
+<iframe width="100%" height = "400px"  src="https://www.youtube.com/embed/4vqoZCGZGPE?si=v7RVCqP3Mxv-Vof8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### [3] Qimax: A parallel stabilizer formalism package
 
 Qimax is a parallel stabilizer pakcage which is used for simulating both Clifford and non-Clifford circuit.
@@ -18,7 +43,7 @@ Scientific paper (pre-print): [[link]](https://arxiv.org/abs/2505.03307) [[pdf]]
 
 
 <p align="left">
-    <img src="../images/paper/qimax_arch.png" alt="FQsun Demo" style="max-width:60%; width:60%;">
+    <img src="../images/paper/qimax_arch.png" alt="FQsun Demo" style="max-width:80%; width:80%;">
 </p>
 
 *Figure 3.1. Qimax v3. For v2, the indices tensor I is ignored.*
