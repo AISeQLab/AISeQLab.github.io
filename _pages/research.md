@@ -23,8 +23,12 @@ permalink: /research/
     {% endfor %}
 </ul>
 
+# Tutorials
+
+[High-bandwidth memory usage](https://github.com/AISeQLab/HBM_Tutorial/blob/main/HBM_Tutorial_Markdown/HIGH%20BANDWIDTH%20MEMORY%20(HBM)%202548ba96de7f8077bdb9ccb8f0f1ab4f.md)
+
 # Project (Gen 1)
 
-Check the [link](https://docs.google.com/spreadsheets/d/1gswsvpBxHxGYJV5gXpZ4qD-7IA735JHvY7n1P2ABLPI/edit?usp=sharing) for list of existing projects:
+[List of existing projects](https://docs.google.com/spreadsheets/d/1gswsvpBxHxGYJV5gXpZ4qD-7IA735JHvY7n1P2ABLPI/edit?usp=sharing)
 
-Check the [link](https://docs.google.com/spreadsheets/d/1vrbcvRWvCJI2dvyBgF6bYcGPCktQ7GpC1CKx0sXq1OQ/edit?usp=sharing) for list of members.
+[List of members](https://docs.google.com/spreadsheets/d/1vrbcvRWvCJI2dvyBgF6bYcGPCktQ7GpC1CKx0sXq1OQ/edit?usp=sharing)
