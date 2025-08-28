@@ -8,6 +8,26 @@ permalink: /demo/
 
 # Demo
 
+### [5] Lane detection accelerator for auto-car
+
+This accelerator can achieved up to 640 FPS [[code]](https://github.com/AISeQLab/DEMO_Lane_detection).
+
+<p align="left">
+    <img src="../images/paper/ld_arch.png" alt="FQsun Demo" style="max-width:80%; width:80%;">
+</p>
+
+*Figure 5.1.  Full system operation, including results captured on monitor, and Floorplan of the FPGA chip.*
+
+<p align="left">
+    <img src="../images/paper/ld_compare.png" alt="ECG Demo" style="max-width:100%; width:100%;">
+</p>
+
+*Figure 5.2. Hardware implementation evaluation and comparisons.*
+
+Check the [video demo](https://youtu.be/4vqoZCGZGPE?si=4NCV5FmQ0AnW1kYp) for more information:
+
+
+<iframe width="100%" height = "400px" src="https://www.youtube.com/embed/s4mEMaoAnUQ?si=5zOeOAqy11-_Iy2u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### [4] CRGA for cryptography
 
@@ -28,7 +48,7 @@ Scientific paper (pre-print): [[link1]](https://ieeexplore.ieee.org/abstract/doc
     <img src="../images/paper/licrypto_compare.png" alt="ECG Demo" style="max-width:100%; width:100%;">
 </p>
 
-*Figure 4.2. Execution times of our LiCryptor and two powerful CPUs for 64-bit, 32-bit, and 8-bit LWC algorithms..*
+*Figure 4.2. Execution times of our LiCryptor and two powerful CPUs for 64-bit, 32-bit, and 8-bit LWC algorithms.*
 
 Check the [video demo](https://youtu.be/4vqoZCGZGPE?si=4NCV5FmQ0AnW1kYp) for more information:
 
