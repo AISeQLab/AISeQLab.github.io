@@ -8,6 +8,40 @@ permalink: /demo/
 
 # Demo
 
+### [6] Post-quantum cryptography accelerator
+
+We accelerated Kyber, SPHINCS+ (FALCON in progress) [[link1]](https://ieeexplore.ieee.org/abstract/document/10762592/) [[link2]](https://ieeexplore.ieee.org/abstract/document/10818323).
+
+<p align="left">
+    <img src="../images/paper/pqc_arch1.png" alt="FQsun Demo" style="max-width:80%; width:80%;">
+</p>
+
+*Figure 6.1.  Kyber accelerator archtecture.*
+
+<p align="left">
+    <img src="../images/paper/pqc_compare1.png" alt="ECG Demo" style="max-width:100%; width:100%;">
+</p>
+
+*Figure 6.2. Hardware implementation evaluation and comparisons.*
+
+<p align="left">
+    <img src="../images/paper/pqc_arch2.png" alt="FQsun Demo" style="max-width:80%; width:80%;">
+</p>
+
+*Figure 6.3.  SPHINCS+ accelerator archtecture.*
+
+<p align="left">
+    <img src="../images/paper/pqc_compare2.png" alt="ECG Demo" style="max-width:100%; width:100%;">
+</p>
+
+*Figure 6.4. Hardware implementation evaluation and comparisons.*
+
+
+Check the [video demo](https://youtu.be/fhlUopZPaIo) for more information:
+
+
+<iframe width="100%" height = "400px" src="https://youtu.be/fhlUopZPaIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### [5] Lane detection accelerator for auto-car
 
 This accelerator can achieved up to 640 FPS [[code]](https://github.com/AISeQLab/DEMO_Lane_detection).
