@@ -8,6 +8,17 @@ permalink: /demo/
 
 # Demo
 
+
+### [7] Median filter accelerator
+
+
+We accelerate the median filter, because of demos & study purpose, the hardware design is not effective.
+[[source code]](https://github.com/AISeQLab/MedianFilter).
+
+Check the [video demo](https://youtu.be/4i-4zi9zhfI?si=fLLOQyPTci3mpsng) for more information:
+
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/4i-4zi9zhfI?si=AexzW2_ifdswndYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### [6] Post-quantum cryptography accelerator
 
 We accelerated Kyber, SPHINCS+ (FALCON in progress) [[link1]](https://ieeexplore.ieee.org/abstract/document/10762592/) [[link2]](https://ieeexplore.ieee.org/abstract/document/10818323).
