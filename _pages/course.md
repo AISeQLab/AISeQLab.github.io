@@ -233,8 +233,9 @@ permalink: /course/
       <h2 class="course-title">[{{forloop.index}}] {{course.title}}</h2>
       {% if course.comment %}
       <p style="margin-bottom: 20px">{{course.comment}}</p>
-      <div style="margin-bottom: 20px; width: 100%;">
-        <a href="/register/" class="button-register" style="display: block; text-align: center; width: 100%;">Đăng kí</a>
+      {% endif %}
+      <div style="margin-bottom: 20px;">
+        <a href="/register/" class="button-register">Đăng kí</a>
       </div>
     </div>
     {% for section in course.detail.section %}
