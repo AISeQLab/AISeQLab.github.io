@@ -1,11 +1,12 @@
 [
   {
-    "title": "Các thành phần SoC cơ bản (6 buổi)",
+    "title": "Thiết kế SoC trên FPGA căn bản",
+    "comment": "Thiết kế SoC theo hướng dùng lại Processor cứng có sẵn trên FPGA",
     "image": "../images/slider/banner1.png",
     "detail": {
       "section": [
         {
-          "title": "Phần A: Các thành phần SoC cơ bản (Buổi 1-6)",
+          "title": "Phần A: Các thành phần SoC cơ bản",
           "module": [
             {
               "title": "Buổi 1: Giới thiệu SoC & Vi xử lý trên Xilinx/AMD FPGA",
@@ -76,7 +77,7 @@
           ]
         },
         {
-          "title": "Phần B:Linux setup (Buổi 7–8)",
+          "title": "Phần B: Linux setup",
           "module": [
             {
               "title": "Buổi 7: Cài đặt PetaLinux",
@@ -97,6 +98,88 @@
                 "Source: File system-user.dtsi, multiplier_driver.c.",
                 "Document: Tutorial tự biên soạn Custom Device Tree & Kernel Driver.",
                 "Bài tập: Thêm node cho divider IP và build kernel với driver tương ứng."
+              ],
+              "image": "../images/python_course.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Phần C: Project thực tế căn bản",
+          "comment": "Ứng dụng 1: Digital Filter (FIR/IIR)",
+          "module": [
+            {
+              "title": "Buổi 9: Thiết kế IP Digital Filter",
+              "moduledetail": [
+                "Nội dung: FIR filter (convolution), cấu trúc nhân–cộng.",
+                "Demo: Tạo IP FIR với N tap = 8, test với data mẫu.",
+                "Source: fir_ip.v, testbench FIR.",
+                "Document: Tutorial tự biên soạn FIR Filter IP Design on FPGA.",
+                "Bài tập: Mở rộng FIR N=16, so sánh resource FPGA."
+              ],
+              "image": "../images/python_course.jpg"
+            },
+            {
+              "title": "Buổi 10: Hiện thực & đánh giá SoC tích hợp Digital Filter IP",
+              "moduledetail": [
+                "Nội dung: Tích hợp IP FIR vào SoC, điều khiển bằng PIO; lấy input từ ngoại vi (sensor giả lập hoặc file ADC), so sánh kết quả CPU vs FPGA.",
+                "Demo: SoC chạy Linux, user app gửi data qua PIO, nhận kết quả filter.",
+                "Source: fir_driver.c, app benchmark.",
+                "Document: Tutorial tự biên soạn SoC with FIR Filter – PIO Control.",
+                "Bài tập: Báo cáo latency & throughput cho 1000 mẫu tín hiệu."
+              ],
+              "image": "../images/python_course.jpg"
+            },
+            {
+              "title": "Buổi 11: Thiết kế IP AES-128",
+              "moduledetail": [
+                "Nội dung: Cấu trúc AES-128 (ECB mode), tạo IP encrypt 128-bit block.",
+                "Demo: IP AES-128 xử lý block dữ liệu test.",
+                "Source: aes_ip.v, testbench AES.",
+                "Document: Tutorial tự biên soạn AES-128 Hardware Design on FPGA.",
+                "Bài tập: Thêm decrypt mode vào IP."
+              ],
+              "image": "../images/python_course.jpg"
+            },
+            {
+              "title": "Buổi 12: Hiện thực & đánh giá SoC tích hợp AES-128 IP",
+              "moduledetail": [
+                "Nội dung: Tích hợp IP AES vào SoC, điều khiển bằng PIO; lấy input từ camera/video stream giả lập, mã hóa dữ liệu frame, benchmark CPU vs FPGA.",
+                "Demo: SoC nhận frame ảnh/video, AES-128 encrypt, hiển thị kết quả mã hóa.",
+                "Source: aes_driver.c, app benchmark.",
+                "Document: Tutorial tự biên soạn SoC with AES-128 – Video Encryption via PIO.",
+                "Bài tập: Báo cáo throughput (MB/s) khi mã hóa 1 video clip ngắn."
+              ],
+              "image": "../images/python_course.jpg"
+            },
+            {
+              "title": "Buổi 13: Thiết kế IP nhân ma trận",
+              "moduledetail": [
+                "Nội dung: Nhân ma trận NxN, systolic array cơ bản.",
+                "Demo: Tạo IP nhân ma trận 8×8, test dữ liệu bằng testbench.",
+                "Source: matmul_ip.v, testbench matrix.",
+                "Document: Tutorial tự biên soạn Matrix Multiplication IP Design.",
+                "Bài tập: Thử mở rộng N=16."
+              ],
+              "image": "../images/python_course.jpg"
+            },
+            {
+              "title": "Buổi 14: Hiện thực & đánh giá SoC tích hợp nhiều IP nhân ma trận",
+              "moduledetail": [
+                "Nội dung: Tích hợp nhiều IP vào SoC, điều khiển và truyền dữ liệu bằng PIO & DMA; so sánh CPU vs FPGA khi nhân ma trận.",
+                "Demo: SoC thực hiện nhân ma trận với 4 IP nhân ma trận.",
+                "Source: matmul_pio.c, benchmark script.",
+                "Document: Tutorial tự biên soạn SoC with Multiple Matrix Multiplication IP.",
+                "Bài tập: Báo cáo latency CPU vs FPGA cho N=8, 16."
+              ],
+              "image": "../images/python_course.jpg"
+            },
+            {
+              "title": "Buổi 15&16: Báo cáo & Demo Final Project",
+              "moduledetail": [
+                "Nội dung: Sinh viên thuyết trình, demo project (FIR / AES / Matmul).",
+                "Demo: FPGA chạy 1 trong 3 ứng dụng, benchmark trực tiếp.",
+                "Source: Slide/report template.",
+                "Bài tập: Nộp báo cáo + thuyết trình + kết quả benchmark CPU vs FPGA."
               ],
               "image": "../images/python_course.jpg"
             }
