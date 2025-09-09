@@ -155,6 +155,7 @@ permalink: /course/
             text-decoration: none; 
             font-weight: 600; 
             font-size: 1em;
+            border: none;
         }
 
         html {
@@ -210,7 +211,9 @@ permalink: /course/
             </div>
         </div>
         <div class="course-footer">
-            <a href="#course{{ forloop.index }}" class="course-btn">Start</a>
+            <button class="button-register" onclick="document.getElementById('#course{{ forloop.index }}').scrollIntoView({ behavior: 'smooth' })">
+            Bắt đầu
+          </button>
             <div>
                 <span class="course-price">{{ course.price }}</span>
                 <span class="course-duration">{{ course.duration }}</span>
@@ -220,15 +223,13 @@ permalink: /course/
     {% endfor %}
 </ul>
 
-<button onclick="document.getElementById('#course2').scrollIntoView({ behavior: 'smooth' })">
-    Go to Target via Button
-  </button>
+
 
 <ul style="margin-left: 0; padding-left: 0;">
   {% for course in site.data.courses %}
   <div class="container" id = "#course{{ forloop.index }}">
     <div>
-      <h1 class="course-title">{{course.title}}</h1>
+      <h1 class="course-title">[{{forloop.index}}] {{course.title}}</h1>
       {% if course.comment %}
       <p style="margin-bottom: 20px">{{course.comment}}</p>
       {% endif %}
