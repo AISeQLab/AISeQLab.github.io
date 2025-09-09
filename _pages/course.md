@@ -210,7 +210,7 @@ permalink: /course/
                 <p>{{ course.content }}</p>
             </div>
         </div>
-        <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block;">
+        <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block; margin-bottom: 20px">
         <div class="course-footer">
             <button class="button-register" onclick="document.getElementById('#course{{ forloop.index }}').scrollIntoView({ behavior: 'smooth' })">
             Bắt đầu
@@ -230,13 +230,11 @@ permalink: /course/
   {% for course in site.data.courses %}
   <div class="container" id = "#course{{ forloop.index }}">
     <div>
-      <p class="course-title">[{{forloop.index}}] {{course.title}}</p>
+      <h2 class="course-title" style="display: inline-block; margin-right: 10px;">[{{forloop.index}}] {{course.title}}</h2>
+      <a href="/register/" style="display: inline-block;">[ Đăng kí ]</a>
       {% if course.comment %}
       <p style="margin-bottom: 20px">{{course.comment}}</p>
       {% endif %}
-      <div style="margin-bottom: 20px;">
-        <a href="/register/" class="button-register">Đăng kí</a>
-      </div>
     </div>
     {% for section in course.detail.section %}
     <h3 class="course-title">{{section.title}}</h3>
