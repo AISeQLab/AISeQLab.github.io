@@ -148,15 +148,38 @@ permalink: /course/
         }
 
         .button-register {
-            background: green; 
-            color: #fff; 
-            padding: 10px 24px; 
-            border-radius: 6px; 
-            text-decoration: none; 
-            font-weight: 600; 
-            font-size: 1em;
-            border: none;
-        }
+              font-size: 18px;
+              background: none;
+              border: none;
+              color: #000;
+              position: relative;
+              cursor: pointer;
+              padding: 10px 20px;
+            }
+
+
+        .button-register::after {
+              content: "";
+              position: absolute;
+              left: 50%;
+              bottom: 0;
+              transform: translateX(-50%);
+              width: 0%;
+              height: 3px;
+              background: black; /* green */
+              transition: width 0.3s ease-in-out;
+              border-radius: 2px;
+            }
+
+            /* animate underline on hover */
+            .button-register:hover::after {
+              width: 80%; /* underline length when hovered */
+            }
+
+            /* optional: change text color on hover */
+            .button-register:hover {
+              color: green;
+            }
 
         html {
             scroll-behavior: smooth;
@@ -211,16 +234,16 @@ permalink: /course/
         </div>
         <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block; margin-bottom: 20px">
         <div class="course-footer">
+            <div>
+                <span class="course-price">{{ course.comment }}</span>
+                <span class="course-duration">{{ course.duration }}</span>
+            </div>
             <button class="button-register" onclick="document.getElementById('#course{{ forloop.index }}').scrollIntoView({ behavior: 'smooth' })">
             Chi tiết
           </button>
           <a class="button-register" href="/register">
             Đăng ký
           </a>
-            <div>
-                <span class="course-price">{{ course.comment }}</span>
-                <span class="course-duration">{{ course.duration }}</span>
-            </div>
         </div>
     </div>
     {% endfor %}
