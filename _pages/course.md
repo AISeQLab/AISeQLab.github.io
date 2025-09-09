@@ -248,7 +248,7 @@ body {
     {% endfor %}
 </ul> -->
 
-
+<ul style="margin-left: 0; padding-left: 0;">
 <div class="container">
     <h1 class="course-title">Nội dung khóa học</h1>
     <div class="module" id="module-1">
@@ -285,3 +285,4 @@ body {
         </div>
     </div>
 </div>
+</ul>
