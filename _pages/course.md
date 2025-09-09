@@ -253,7 +253,7 @@ permalink: /course/
               <div class="module-list-container">
                 <ul class="module-list">
                   {% for title in module.moduledetail %}
-                  <li style="list-style-type: none; counter-increment: none;"><strong>{{ title | split: ':' | first }}</strong>: {{ title | split: ':' | last }}</li>
+                  <p><strong>{{ title | split: ':' | first }}</strong>: {{ title | split: ':' | last }}</p>
                   {% endfor %}    
                 </ul>
               </div>
