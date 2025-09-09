@@ -199,7 +199,7 @@ permalink: /course/
         }
     });
 </script>
-# Khoá học [{{ site.data.courses | size }}]
+# Khoá học
 <ul style="margin-left: 0; padding-left: 0;">
     {% for course in site.data.courses %}
     <div class="course-card">
@@ -210,6 +210,7 @@ permalink: /course/
                 <p>{{ course.content }}</p>
             </div>
         </div>
+        <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block;">
         <div class="course-footer">
             <button class="button-register" onclick="document.getElementById('#course{{ forloop.index }}').scrollIntoView({ behavior: 'smooth' })">
             Bắt đầu
@@ -222,18 +223,17 @@ permalink: /course/
     </div>
     {% endfor %}
 </ul>
-
+<hr/>
 
 
 <ul style="margin-left: 0; padding-left: 0;">
   {% for course in site.data.courses %}
   <div class="container" id = "#course{{ forloop.index }}">
     <div>
-      <h1 class="course-title">[{{forloop.index}}] {{course.title}}</h1>
+      <p class="course-title">[{{forloop.index}}] {{course.title}}</p>
       {% if course.comment %}
       <p style="margin-bottom: 20px">{{course.comment}}</p>
       {% endif %}
-      <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block;">
       <div style="margin-bottom: 20px;">
         <a href="/register/" class="button-register">Đăng kí</a>
       </div>
