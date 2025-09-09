@@ -6,14 +6,6 @@ sitemap: false
 permalink: /course/
 ---
 <style>
-body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #f7f9fc;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-        }
-
         .container {
             max-width: 100%;
         }
