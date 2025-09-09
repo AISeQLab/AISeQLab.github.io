@@ -207,19 +207,18 @@ permalink: /course/
             <div class="course-icon"></div>
             <div class="course-text">
                 <h3>{{ course.title }}</h3>
-                <p>{{ course.content }}</p>
             </div>
         </div>
         <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block; margin-bottom: 20px">
         <div class="course-footer">
             <button class="button-register" onclick="document.getElementById('#course{{ forloop.index }}').scrollIntoView({ behavior: 'smooth' })">
-            Bắt đầu
+            Chi tiết
           </button>
-          <button class="button-register" href="/register">
+          <a class="button-register" href="/register">
             Đăng ký
-          </button>
+          </a>
             <div>
-                <span class="course-price">{{ course.price }}</span>
+                <span class="course-price">{{ course.comment }}</span>
                 <span class="course-duration">{{ course.duration }}</span>
             </div>
         </div>
