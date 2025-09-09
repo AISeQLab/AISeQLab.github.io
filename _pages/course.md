@@ -156,6 +156,10 @@ permalink: /course/
             font-weight: 600; 
             font-size: 1em;
         }
+
+        html {
+            scroll-behavior: smooth;
+      }
 </style>
 
 <script>
@@ -215,6 +219,10 @@ permalink: /course/
     </div>
     {% endfor %}
 </ul>
+
+<button onclick="document.getElementById('#course2').scrollIntoView({ behavior: 'smooth' })">
+    Go to Target via Button
+  </button>
 
 <ul style="margin-left: 0; padding-left: 0;">
   {% for course in site.data.courses %}
