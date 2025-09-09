@@ -15,9 +15,7 @@ body {
         }
 
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
+            max-width: 100%;
         }
 
         .course-title {
@@ -50,21 +48,9 @@ body {
         }
 
         .module.expanded {
-            background-color: #f0fff0;
+            background-color: white;
         }
 
-        .module-number {
-            color: #fff;
-            background-color: black;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-shrink: 0;
-            margin-right: 20px;
-        }
 
         .module-content {
             flex-grow: 1;
@@ -119,11 +105,7 @@ body {
         
         .module-image-container {
             flex: 1 1 300px;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
             overflow: hidden;
-            padding: 10px;
-            background-color: #f9f9f9;
         }
 
         .module-image {
@@ -161,7 +143,7 @@ body {
             content: counter(item, decimal-leading-zero) ". ";
             counter-increment: item;
             font-weight: bold;
-            color: #4caf50;
+            color: #9c9c9cff;
             margin-right: 8px;
             flex-shrink: 0;
         }
