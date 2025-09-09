@@ -136,8 +136,6 @@ permalink: /course/
         }
 
         .module-list li::before {
-            content: counter(item, decimal-leading-zero) ". ";
-            counter-increment: item;
             font-weight: bold;
             margin-right: 8px;
             flex-shrink: 0;
@@ -229,28 +227,33 @@ permalink: /course/
         <a href="/register/" class="button-register">Đăng kí</a>
       </div>
     </div>
-    {% for module in course.detail.module %}
-    <div class="module" id="module-1">
-      <div class="module-content">
-        <div class="module-header">
-          <h2 class="module-title">{{module.title}}</h2>
-          <span class="module-toggle">+</span>
-        </div>
-        <div class="module-body">
-          <div class="module-details">
-            <div class="module-image-container">
-              <img src="{{ module.image }}" alt="Python concepts" class="module-image">
-            </div>
-            <div class="module-list-container">
-              <ul class="module-list">
-                {% for title in module.moduledetail %}
-                  <li style="list-style-type: none; counter-increment: none;">{{title}}</li>    
-                {% endfor %}
-              </ul>
+    {% for section in course.detail.section %}
+    <h2 class="course-title">{{section.title}}</h2>
+    <div>
+      {% for module in section.module %}
+      <div class="module" id="module-1">
+        <div class="module-content">
+          <div class="module-header">
+            <h2 class="module-title">{{module.title}}</h2>
+            <span class="module-toggle">+</span>
+          </div>
+          <div class="module-body">
+            <div class="module-details">
+              <div class="module-image-container">
+                <img src="{{ module.image }}" alt="Python concepts" class="module-image">
+              </div>
+              <div class="module-list-container">
+                <ul class="module-list">
+                  {% for title in module.moduledetail %}
+                    <li style="list-style-type: none; counter-increment: none;">{{title}}</li>    
+                  {% endfor %}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      {% endfor %}
     </div>
     {% endfor %}
     <hr/>

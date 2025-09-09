@@ -3,72 +3,104 @@
     "title": "Các thành phần SoC cơ bản (6 buổi)",
     "image": "../images/slider/banner1.png",
     "detail": {
-      "module": [
+      "section": [
         {
-          "title": "Buổi 1: Giới thiệu SoC & Vi xử lý trên Xilinx/AMD FPGA",
-          "moduledetail": [
-            "Nội dung: Khái niệm SoC, kiến trúc PS-PL, vi xử lý ARM Cortex-A9/A53 trong Zynq",
-            "Demo: Chơi game chạy trên Vi xử lý",
-            "Source Code: Các code C/C++/Python/Javascript/… cơ bản chạy trên vi xử lý",
-            "Document: Tài liệu tự biên soạn cho các loại vi xử lý trên FPGA",
-            "Bài tập: Tìm hiểu kiến thức cơ bản về vi xử lý trên Xilinx/AMD FPGA"
-          ],
-          "image": "../images/slider/banner1.png"
+          "title": "Phần A: Các thành phần SoC cơ bản (Buổi 1-6)",
+          "module": [
+            {
+              "title": "Buổi 1: Giới thiệu SoC & Vi xử lý trên Xilinx/AMD FPGA",
+              "moduledetail": [
+                "Nội dung: Khái niệm SoC, kiến trúc PS-PL, vi xử lý ARM Cortex-A9/A53 trong Zynq",
+                "Demo: Chơi game chạy trên Vi xử lý",
+                "Source Code: Các code C/C++/Python/Javascript/… cơ bản chạy trên vi xử lý",
+                "Document: Tài liệu tự biên soạn cho các loại vi xử lý trên FPGA",
+                "Bài tập: Tìm hiểu kiến thức cơ bản về vi xử lý trên Xilinx/AMD FPGA"
+              ],
+              "image": "../images/slider/banner1.png"
+            },
+            {
+              "title": "Buổi 2: Các ngoại vi trên PS và PL",
+              "moduledetail": [
+                "Nội dung: Ngoại vi PS và PL (UART, SPI, I2C, GPIO).",
+                "Demo: Thực hành với các ngoại vi",
+                "Source: Các code C điều khiện và Verilog cho ngoại vi",
+                "Document: Tài liệu tự biên soạn cho các loại ngoại vi trên FPGA",
+                "Bài tập: Viết các code Verilog cho ngoại vi chạy trên PS và PL"
+              ],
+              "image": "../images/python_course.jpg"
+            },
+            {
+              "title": "Buổi 3: Thiết kế AXI Bus",
+              "moduledetail": [
+                "Nội dung: Tổng quan AXI4, AXI-Full, AXI-lite, AXI-stream; master–slave transaction.",
+                "Demo: Vivado block design với AXI Interconnect.",
+                "Source: Các code Verilog mẫu cho các loại AXI4 bus.",
+                "Document: Tài liệu tự biên soạn cho các loại AXI4 bus.",
+                "Bài tập: Viết các code Verilog xử lý giao diện AXI-Full, AXI-lite, và AXI-stream bus."
+              ],
+              "image": "../images/python_course.jpg"
+            },
+            {
+              "title": "Buổi 4: Thiết kế Memory subsystem",
+              "moduledetail": [
+                "Nội dung: DDR controller trong PS, BRAM, FIFO, LUTRAM trong PL, kết nối memory qua AXI.",
+                "Demo: Đọc ghi dữ liệu từ memory ở DDR, BRAM, FIFO, LUTRAM.",
+                "Source: Các code Verilog và code C điều khiển memory ở PS và PL.",
+                "Document: Tài liệu tự biên soạn cho các loại memory trên PS và PL.",
+                "Bài tập: Viết chương trình copy dữ liệu từ DDR sang BRAM."
+              ],
+              "image": "../images/python_course.jpg"
+            },
+            {
+              "title": "Buổi 5: Thiết kế Custom IP cơ bản & tích hợp vào hệ thống SoC",
+              "moduledetail": [
+                "Nội dung: Viết Verilog cho multiplier_ip.v (thực hiện Y=A*X + B), đóng gói thành AXI4-Full, AXI4-Lite, và AXI-Stream IP.",
+                "Demo: Block design (PS + multiplier IP).",
+                "Source: Các code C điều khiển và Verilog cho ngoại vi.",
+                "Document: Tài liệu tự biên soạn cho thiết kế custom IP cơ bản trên FPGA.",
+                "Bài tập: Viết divider IP và đóng gói thành AXI4-Full, AXI4-Lite, và AXI-Stream IP."
+              ],
+              "image": "../images/python_course.jpg"
+            },
+            {
+              "title": "Buổi 6: Tích hợp ILA để debug",
+              "moduledetail": [
+                "Nội dung: Giới thiệu Integrated Logic Analyzer (ILA), cách chèn ILA vào thiết kế để quan sát tín hiệu trong PL; so sánh debug bằng UART vs debug bằng ILA.",
+                "Demo: Thêm ILA vào multiplier/divider IP, quan sát tín hiệu AXI handshake (AWVALID, AWREADY, WVALID, WREADY, RVALID, RREADY).",
+                "Source: Code Verilog IP + file Vivado ILA configuration.",
+                "Document: Tutorial tự biên soạn Debugging SoC Design with Vivado ILA (AISeQ Lab).",
+                "Bài tập: Thêm ILA vào một module RAM hoặc counter, phân tích waveform của tín hiệu đọc/ghi."
+              ],
+              "image": "../images/python_course.jpg"
+            }
+          ]
         },
         {
-          "title": "Buổi 2: Các ngoại vi trên PS và PL",
-          "moduledetail": [
-            "Nội dung: Ngoại vi PS và PL (UART, SPI, I2C, GPIO).",
-            "Demo: Thực hành với các ngoại vi",
-            "Source: Các code C điều khiện và Verilog cho ngoại vi",
-            "Document: Tài liệu tự biên soạn cho các loại ngoại vi trên FPGA",
-            "Bài tập: Viết các code Verilog cho ngoại vi chạy trên PS và PL"
-          ],
-          "image": "../images/python_course.jpg"
-        },
-        {
-          "title": "Buổi 3: Thiết kế AXI Bus",
-          "moduledetail": [
-            "Nội dung: Tổng quan AXI4, AXI-Full, AXI-lite, AXI-stream; master–slave transaction.",
-            "Demo: Vivado block design với AXI Interconnect.",
-            "Source: Các code Verilog mẫu cho các loại AXI4 bus.",
-            "Document: Tài liệu tự biên soạn cho các loại AXI4 bus.",
-            "Bài tập: Viết các code Verilog xử lý giao diện AXI-Full, AXI-lite, và AXI-stream bus."
-          ],
-          "image": "../images/python_course.jpg"
-        },
-        {
-          "title": "Buổi 4: Thiết kế Memory subsystem",
-          "moduledetail": [
-            "Nội dung: DDR controller trong PS, BRAM, FIFO, LUTRAM trong PL, kết nối memory qua AXI.",
-            "Demo: Đọc ghi dữ liệu từ memory ở DDR, BRAM, FIFO, LUTRAM.",
-            "Source: Các code Verilog và code C điều khiển memory ở PS và PL.",
-            "Document: Tài liệu tự biên soạn cho các loại memory trên PS và PL.",
-            "Bài tập: Viết chương trình copy dữ liệu từ DDR sang BRAM."
-          ],
-          "image": "../images/python_course.jpg"
-        },
-        {
-          "title": "Buổi 5: Thiết kế Custom IP cơ bản & tích hợp vào hệ thống SoC",
-          "moduledetail": [
-            "Nội dung: Viết Verilog cho multiplier_ip.v (thực hiện Y=A*X + B), đóng gói thành AXI4-Full, AXI4-Lite, và AXI-Stream IP.",
-            "Demo: Block design (PS + multiplier IP).",
-            "Source: Các code C điều khiển và Verilog cho ngoại vi.",
-            "Document: Tài liệu tự biên soạn cho thiết kế custom IP cơ bản trên FPGA.",
-            "Bài tập: Viết divider IP và đóng gói thành AXI4-Full, AXI4-Lite, và AXI-Stream IP."
-          ],
-          "image": "../images/python_course.jpg"
-        },
-        {
-          "title": "Buổi 6: Tích hợp ILA để debug",
-          "moduledetail": [
-            "Nội dung: Giới thiệu Integrated Logic Analyzer (ILA), cách chèn ILA vào thiết kế để quan sát tín hiệu trong PL; so sánh debug bằng UART vs debug bằng ILA.",
-            "Demo: Thêm ILA vào multiplier/divider IP, quan sát tín hiệu AXI handshake (AWVALID, AWREADY, WVALID, WREADY, RVALID, RREADY).",
-            "Source: Code Verilog IP + file Vivado ILA configuration.",
-            "Document: Tutorial tự biên soạn Debugging SoC Design with Vivado ILA (AISeQ Lab).",
-            "Bài tập: Thêm ILA vào một module RAM hoặc counter, phân tích waveform của tín hiệu đọc/ghi."
-          ],
-          "image": "../images/python_course.jpg"
+          "title": "Phần B:Linux setup (Buổi 7–8)",
+          "module": [
+            {
+              "title": "Buổi 7: Cài đặt PetaLinux",
+              "moduledetail": [
+                "Nội dung: PetaLinux flow, kernel, rootfs, device tree.",
+                "Demo: Build PetaLinux, boot Linux trên board.",
+                "Source: Cấu hình PetaLinux cơ bản, script build.",
+                "Document: Tutorial tự biên soạn cho cài đặt petalinux.",
+                "Bài tập: Tự cài lại petalinux cho FPGA."
+              ],
+              "image": "../images/python_course.jpg"
+            },
+            {
+              "title": "Buổi 8: Custom Device Tree và thêm Driver cho Kernel",
+              "moduledetail": [
+                "Nội dung: Cấu trúc Device Tree, binding custom IP; viết và thêm kernel driver cơ bản vào build PetaLinux.",
+                "Demo: Thêm multiplier IP vào device tree, build kernel với driver mới.",
+                "Source: File system-user.dtsi, multiplier_driver.c.",
+                "Document: Tutorial tự biên soạn Custom Device Tree & Kernel Driver.",
+                "Bài tập: Thêm node cho divider IP và build kernel với driver tương ứng."
+              ],
+              "image": "../images/python_course.jpg"
+            }
+          ]
         }
       ]
     }
