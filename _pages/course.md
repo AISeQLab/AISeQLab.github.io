@@ -148,6 +148,16 @@ permalink: /course/
             color: #333;
             margin: 0 0 5px 0;
         }
+
+        .button-register {
+            background: green; 
+            color: #fff; 
+            padding: 10px 24px; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            font-weight: 600; 
+            font-size: 1em;
+        }
 </style>
 
 <script>
@@ -211,8 +221,8 @@ permalink: /course/
 <ul style="margin-left: 0; padding-left: 0;">
    <div class="container">
       <div style="display: flex; justify-content: space-between; align-items: center;">
-        <h1 class="course-title" style="margin-bottom: 0;">Khoá học Thiết kế vi mạch căn bản</h1>
-        <a href="/register/" style="background: #007bff; color: #fff; padding: 10px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 1em; transition: background 0.2s;">Đăng kí</a>
+        <h1 class="course-title">Khoá học Thiết kế vi mạch căn bản</h1>
+        <a href="/register/" class="button-register">Đăng kí</a>
       </div>    
       <div class="module" id="module-1">
          <div class="module-content">
