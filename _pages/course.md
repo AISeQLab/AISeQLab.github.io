@@ -18,30 +18,19 @@ body {
             max-width: 800px;
             margin: 0 auto;
             background-color: #fff;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
         }
 
         .course-title {
-            text-align: center;
-            font-size: 2.5em;
+            text-align: left;
             font-weight: 600;
-            color: #1a237e;
-            margin-bottom: 30px;
-            position: relative;
         }
 
         .course-title::after {
-            content: '';
             width: 80px;
             height: 4px;
-            background-color: #4caf50;
             position: absolute;
-            bottom: -10px;
             left: 50%;
             transform: translateX(-50%);
-            border-radius: 2px;
         }
 
         .module {
@@ -58,7 +47,6 @@ body {
         .module:hover {
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
             transform: translateY(-2px);
-            border-color: #4caf50;
         }
 
         .module.expanded {
@@ -66,10 +54,8 @@ body {
         }
 
         .module-number {
-            font-size: 1.5em;
-            font-weight: 700;
             color: #fff;
-            background-color: #4caf50;
+            background-color: black;
             border-radius: 50%;
             width: 40px;
             height: 40px;
@@ -78,7 +64,6 @@ body {
             align-items: center;
             flex-shrink: 0;
             margin-right: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .module-content {
@@ -98,13 +83,12 @@ body {
         .module-title {
             font-size: 1.2em;
             font-weight: 600;
-            color: #1a237e;
+            color: black;
             line-height: 1.4;
         }
 
         .module-toggle {
             font-size: 1.5em;
-            color: #4caf50;
             transition: transform 0.3s ease;
             font-weight: bold;
         }
@@ -250,14 +234,12 @@ body {
 
 <ul style="margin-left: 0; padding-left: 0;">
 <div class="container">
-    <h1 class="course-title">Nội dung khóa học</h1>
+    <h1 class="course-title">Khoá học Thiết kế vi mạch căn bản</h1>
     <div class="module" id="module-1">
-        <div class="module-number">1</div>
         <div class="module-content">
             <div class="module-header">
-                <h2 class="module-title">(Module 1) Toán cơ bản và lập trình Python</h2>
-                <span class="module-toggle">&lt;</span>
-            </div>
+                <h2 class="module-title">1. Thiết kế cơ bản</h2>
+                <span class="module-toggle">+</span>    </div>
             <div class="module-body">
                 <div class="module-details">
                     <div class="module-image-container">
@@ -274,11 +256,10 @@ body {
         </div>
     </div>
     <div class="module" id="module-2">
-        <div class="module-number">2</div>
         <div class="module-content">
             <div class="module-header">
-                <h2 class="module-title">(Module 2) Lập trình nâng cao và ứng dụng trong AI</h2>
-                <span class="module-toggle">&lt;</span>
+                <h2 class="module-title">2. Quartus</h2>
+                <span class="module-toggle">+</span>
             </div>
             <div class="module-body">
                 </div>
