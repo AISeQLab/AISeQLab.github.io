@@ -235,8 +235,9 @@ permalink: /course/
                 <h3>{{ course.title }} [{{ course.duration }}]</h3>
             </div>
         </div>
+        {% if course.image != "none" %}
         <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block; margin-bottom: 20px">
-        <div class="course-footer">
+        {% endif %}    <div class="course-footer">
             <div>
                 <span class="course-price">{{ course.comment }}</span>
             </div>
@@ -280,8 +281,8 @@ permalink: /course/
           <div class="module-body">
             <div class="module-details">
               <div class="module-image-container">
-                {% if module.image %}
-                <img src="{{ module.image }}" alt="Python concepts" class="module-image">
+                {% if module.image != "none" %}
+                <img src="{{ module.image }}" alt="" class="module-image">
                 {% endif %}    
               </div>
               <div class="module-list-container">

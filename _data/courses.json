@@ -29,18 +29,18 @@
                 "Document: Tài liệu tự biên soạn cho các loại ngoại vi trên FPGA",
                 "Bài tập: Viết các code Verilog cho ngoại vi chạy trên PS và PL"
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             },
             {
               "title": "Buổi 3: Thiết kế AXI Bus",
               "moduledetail": [
-                "Nội dung: Tổng quan AXI4, AXI-Full, AXI-lite, AXI-stream; master–slave transaction.",
+                "Nội dung: Tổng quan AXI4, AXI-Full, AXI-lite, AXI-stream; master-slave transaction.",
                 "Demo: Vivado block design với AXI Interconnect.",
                 "Source: Các code Verilog mẫu cho các loại AXI4 bus.",
                 "Document: Tài liệu tự biên soạn cho các loại AXI4 bus.",
                 "Bài tập: Viết các code Verilog xử lý giao diện AXI-Full, AXI-lite, và AXI-stream bus."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             },
             {
               "title": "Buổi 4: Thiết kế Memory subsystem",
@@ -51,7 +51,7 @@
                 "Document: Tài liệu tự biên soạn cho các loại memory trên PS và PL.",
                 "Bài tập: Viết chương trình copy dữ liệu từ DDR sang BRAM."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             },
             {
               "title": "Buổi 5: Thiết kế Custom IP cơ bản & tích hợp vào hệ thống SoC",
@@ -62,7 +62,7 @@
                 "Document: Tài liệu tự biên soạn cho thiết kế custom IP cơ bản trên FPGA.",
                 "Bài tập: Viết divider IP và đóng gói thành AXI4-Full, AXI4-Lite, và AXI-Stream IP."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             },
             {
               "title": "Buổi 6: Tích hợp ILA để debug",
@@ -73,7 +73,7 @@
                 "Document: Tutorial tự biên soạn Debugging SoC Design with Vivado ILA (AISeQ Lab).",
                 "Bài tập: Thêm ILA vào một module RAM hoặc counter, phân tích waveform của tín hiệu đọc/ghi."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             }
           ]
         },
@@ -89,7 +89,7 @@
                 "Document: Tutorial tự biên soạn cho cài đặt petalinux.",
                 "Bài tập: Tự cài lại petalinux cho FPGA."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             },
             {
               "title": "Buổi 8: Custom Device Tree và thêm Driver cho Kernel",
@@ -100,7 +100,7 @@
                 "Document: Tutorial tự biên soạn Custom Device Tree & Kernel Driver.",
                 "Bài tập: Thêm node cho divider IP và build kernel với driver tương ứng."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             }
           ]
         },
@@ -111,13 +111,13 @@
             {
               "title": "Buổi 9: Thiết kế IP Digital Filter",
               "moduledetail": [
-                "Nội dung: FIR filter (convolution), cấu trúc nhân–cộng.",
+                "Nội dung: FIR filter (convolution), cấu trúc nhân-cộng.",
                 "Demo: Tạo IP FIR với N tap = 8, test với data mẫu.",
                 "Source: fir_ip.v, testbench FIR.",
                 "Document: Tutorial tự biên soạn FIR Filter IP Design on FPGA.",
                 "Bài tập: Mở rộng FIR N=16, so sánh resource FPGA."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             },
             {
               "title": "Buổi 10: Hiện thực & đánh giá SoC tích hợp Digital Filter IP",
@@ -125,10 +125,10 @@
                 "Nội dung: Tích hợp IP FIR vào SoC, điều khiển bằng PIO; lấy input từ ngoại vi (sensor giả lập hoặc file ADC), so sánh kết quả CPU vs FPGA.",
                 "Demo: SoC chạy Linux, user app gửi data qua PIO, nhận kết quả filter.",
                 "Source: fir_driver.c, app benchmark.",
-                "Document: Tutorial tự biên soạn SoC with FIR Filter – PIO Control.",
+                "Document: Tutorial tự biên soạn SoC with FIR Filter - PIO Control.",
                 "Bài tập: Báo cáo latency & throughput cho 1000 mẫu tín hiệu."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             },
             {
               "title": "Buổi 11: Thiết kế IP AES-128",
@@ -139,7 +139,7 @@
                 "Document: Tutorial tự biên soạn AES-128 Hardware Design on FPGA.",
                 "Bài tập: Thêm decrypt mode vào IP."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             },
             {
               "title": "Buổi 12: Hiện thực & đánh giá SoC tích hợp AES-128 IP",
@@ -147,21 +147,21 @@
                 "Nội dung: Tích hợp IP AES vào SoC, điều khiển bằng PIO; lấy input từ camera/video stream giả lập, mã hóa dữ liệu frame, benchmark CPU vs FPGA.",
                 "Demo: SoC nhận frame ảnh/video, AES-128 encrypt, hiển thị kết quả mã hóa.",
                 "Source: aes_driver.c, app benchmark.",
-                "Document: Tutorial tự biên soạn SoC with AES-128 – Video Encryption via PIO.",
+                "Document: Tutorial tự biên soạn SoC with AES-128 - Video Encryption via PIO.",
                 "Bài tập: Báo cáo throughput (MB/s) khi mã hóa 1 video clip ngắn."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             },
             {
               "title": "Buổi 13: Thiết kế IP nhân ma trận",
               "moduledetail": [
                 "Nội dung: Nhân ma trận NxN, systolic array cơ bản.",
-                "Demo: Tạo IP nhân ma trận 8×8, test dữ liệu bằng testbench.",
+                "Demo: Tạo IP nhân ma trận 8x8, test dữ liệu bằng testbench.",
                 "Source: matmul_ip.v, testbench matrix.",
                 "Document: Tutorial tự biên soạn Matrix Multiplication IP Design.",
                 "Bài tập: Thử mở rộng N=16."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             },
             {
               "title": "Buổi 14: Hiện thực & đánh giá SoC tích hợp nhiều IP nhân ma trận",
@@ -172,7 +172,7 @@
                 "Document: Tutorial tự biên soạn SoC with Multiple Matrix Multiplication IP.",
                 "Bài tập: Báo cáo latency CPU vs FPGA cho N=8, 16."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             },
             {
               "title": "Buổi 15 & 16: Báo cáo & Demo Final Project",
@@ -182,7 +182,7 @@
                 "Source: Slide/report template.",
                 "Bài tập: Nộp báo cáo + thuyết trình + kết quả benchmark CPU vs FPGA."
               ],
-              "image": "../images/python_course.jpg"
+              "image": "none"
             }
           ]
         }
@@ -208,7 +208,7 @@
                 "Document: Tutorial Training LeNet-5 with TensorFlow.",
                 "Bài tập: Train model và export weight/bias ra file .bin."
               ],
-              "image": "session1.png"
+              "image": "none"
             },
             {
               "title": "Buổi 2: Baseline Inference (FP32 vs Fixed-point)",
@@ -219,7 +219,7 @@
                 "Document: Tutorial Floating vs Fixed-point Inference.",
                 "Bài tập: Báo cáo latency & accuracy FP32 vs INT8."
               ],
-              "image": "session2.png"
+              "image": "none"
             }
           ]
         },
@@ -230,23 +230,23 @@
               "title": "Buổi 3: Thiết kế IP Convolution + Memory subsystem",
               "moduledetail": [
                 "Nội dung: Conv2D accelerator fixed-point (systolic array, sliding window) + BRAM buffer + DDR interface.",
-                "Demo: Conv IP 3×3 fixed-point với buffer BRAM, test ảnh MNIST.",
+                "Demo: Conv IP 3x3 fixed-point với buffer BRAM, test ảnh MNIST.",
                 "Source: conv_ip.v, buffer Verilog, testbench conv.",
                 "Document: Tutorial Fixed-point Conv Accelerator with Memory Optimization.",
-                "Bài tập: Mở rộng kernel 5×5, so sánh latency."
+                "Bài tập: Mở rộng kernel 5x5, so sánh latency."
               ],
-              "image": "session3.png"
+              "image": "none"
             },
             {
               "title": "Buổi 4: Thiết kế IP Fully Connected + Memory subsystem",
               "moduledetail": [
                 "Nội dung: Matrix-vector multiply accelerator (fixed-point) + DDR input/output + BRAM buffer.",
-                "Demo: FC IP 128×128, test dữ liệu từ LeNet-5.",
+                "Demo: FC IP 128x128, test dữ liệu từ LeNet-5.",
                 "Source: fc_ip.v, DDR/BRAM interface code.",
                 "Document: Tutorial Fixed-point FC Accelerator with Memory Optimization.",
-                "Bài tập: Benchmark latency cho 256×256."
+                "Bài tập: Benchmark latency cho 256x256."
               ],
-              "image": "session4.png"
+              "image": "none"
             },
             {
               "title": "Buổi 5: Tích hợp Accelerator vào SoC & Debug bằng ILA",
@@ -257,7 +257,7 @@
                 "Document: Tutorial Integrating Accelerator into SoC with ILA Debugging.",
                 "Bài tập: Gắn ILA cho Conv IP, phân tích tín hiệu AXI handshake."
               ],
-              "image": "session5.png"
+              "image": "none"
             }
           ]
         },
@@ -273,7 +273,7 @@
                 "Document: Tutorial Linux Driver for AI Accelerators.",
                 "Bài tập: Thêm node cho FC IP, xác minh bằng dmesg."
               ],
-              "image": "session6.png"
+              "image": "none"
             }
           ]
         },
@@ -289,12 +289,12 @@
                 "Document: Tutorial Real-time Inference on FPGA SoC.",
                 "Bài tập: Báo cáo latency & throughput cho stream 30 fps."
               ],
-              "image": "session7.png"
+              "image": "none"
             }
           ]
         },
         {
-          "title": "Phần E – Cải tiến Accelerator (Quantization & Pruning)",
+          "title": "Phần E - Cải tiến Accelerator (Quantization & Pruning)",
           "module": [
             {
               "title": "Buổi 8: Quantization với TFLite",
@@ -305,7 +305,7 @@
                 "Document: Tutorial Quantization for FPGA Deployment.",
                 "Bài tập: Báo cáo accuracy drop FP32 vs INT8."
               ],
-              "image": "session8.png"
+              "image": "none"
             },
             {
               "title": "Buổi 9: Benchmark Accelerator với Quantized Model",
@@ -316,7 +316,7 @@
                 "Document: Tutorial Quantized CNN Accelerator.",
                 "Bài tập: Báo cáo accuracy vs latency."
               ],
-              "image": "session9.png"
+              "image": "none"
             },
             {
               "title": "Buổi 10: Pruning Model bằng TensorFlow MOT",
@@ -327,7 +327,7 @@
                 "Document: Tutorial Model Pruning for Efficient FPGA Deployment.",
                 "Bài tập: Báo cáo accuracy drop sau pruning."
               ],
-              "image": "session10.png"
+              "image": "none"
             },
             {
               "title": "Buổi 11: Benchmark Accelerator với Pruned Model",
@@ -338,12 +338,12 @@
                 "Document: Tutorial Pruned CNN Accelerator.",
                 "Bài tập: Báo cáo latency, throughput, accuracy."
               ],
-              "image": "session11.png"
+              "image": "none"
             }
           ]
         },
         {
-          "title": "Phần F – Ứng dụng mở rộng & Final Project",
+          "title": "Phần F: Ứng dụng mở rộng & Final Project",
           "module": [
             {
               "title": "Buổi 12: Thiết kế & triển khai CNN cho CIFAR-10",
@@ -354,7 +354,7 @@
                 "Document: Tutorial Deploying CIFAR-10 CNN on FPGA.",
                 "Bài tập: Benchmark latency batch 100 ảnh."
               ],
-              "image": "session12.png"
+              "image": "none"
             },
             {
               "title": "Buổi 13: Benchmark CNN cho CIFAR-10",
@@ -365,7 +365,7 @@
                 "Document: Tutorial Benchmarking CIFAR-10 on FPGA.",
                 "Bài tập: Báo cáo CPU vs FPGA cho CIFAR-10."
               ],
-              "image": "session13.png"
+              "image": "none"
             },
             {
               "title": "Buổi 14: Thiết kế & triển khai CNN cho Cat vs Dog dataset",
@@ -376,7 +376,7 @@
                 "Document: Tutorial Deploying Cat vs Dog CNN on FPGA.",
                 "Bài tập: Train Cat vs Dog CNN trên PC, export weights cho FPGA."
               ],
-              "image": "session14.png"
+              "image": "none"
             },
             {
               "title": "Buổi 15: Benchmark CNN cho Cat vs Dog",
@@ -387,7 +387,7 @@
                 "Document: Tutorial Benchmarking Cat vs Dog CNN on FPGA.",
                 "Bài tập: Báo cáo CPU vs FPGA cho Cat vs Dog dataset."
               ],
-              "image": "session15.png"
+              "image": "none"
             },
             {
               "title": "Buổi 16: Báo cáo & Demo Final Project",
@@ -398,7 +398,7 @@
                 "Document: Guideline Final Project Report & Demo.",
                 "Bài tập: Nộp báo cáo + demo kết quả + benchmark CPU vs FPGA."
               ],
-              "image": "session16.png"
+              "image": "none"
             }
           ]
         }
