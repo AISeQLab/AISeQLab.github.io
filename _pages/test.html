@@ -1,12 +1,11 @@
----
-title: "Course"
-layout: default
-excerpt: "Course"
-sitemap: false
-permalink: /course/
----
-<style>
-body {
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nội dung khóa học</title>
+    <style>
+        body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             background-color: #f7f9fc;
             margin: 0;
@@ -188,100 +187,88 @@ body {
             color: #333;
             margin: 0 0 5px 0;
         }
-</style>
+    </style>
+</head>
+<body>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const modules = document.querySelectorAll('.module');
-        modules.forEach(module => {
-            const header = module.querySelector('.module-header');
-            const body = module.querySelector('.module-body');
-            const toggle = module.querySelector('.module-toggle');
+    <div class="container">
+        <h1 class="course-title">Nội dung khóa học</h1>
 
-            header.addEventListener('click', () => {
-                const isExpanded = module.classList.contains('expanded');
+        <div class="module" id="module-1">
+            <div class="module-number">1</div>
+            <div class="module-content">
+                <div class="module-header">
+                    <h2 class="module-title">(Module 1) Toán cơ bản và lập trình Python</h2>
+                    <span class="module-toggle">&lt;</span>
+                </div>
+                <div class="module-body">
+                    <div class="module-details">
+                        <div class="module-image-container">
+                            <img src="https://i.ibb.co/L95jYwW/Screenshot-2025-09-09-at-15-27-23.png" alt="Python concepts" class="module-image">
+                        </div>
+                        <div class="module-list-container">
+                            <ul class="module-list">
+                                <li style="counter-reset: item 0;">Lập trình python cơ bản</li>
+                                <li style="counter-reset: item 1;">Data Structure (list-loU, Top-K Searching)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                // Close any other open modules
-                document.querySelectorAll('.module.expanded').forEach(openModule => {
-                    if (openModule !== module) {
-                        openModule.classList.remove('expanded');
-                        openModule.querySelector('.module-body').classList.remove('expanded');
-                        openModule.querySelector('.module-toggle').classList.remove('expanded');
-                    }
+        <div class="module" id="module-2">
+            <div class="module-number">2</div>
+            <div class="module-content">
+                <div class="module-header">
+                    <h2 class="module-title">(Module 2) Lập trình nâng cao và ứng dụng trong AI</h2>
+                    <span class="module-toggle">&lt;</span>
+                </div>
+                <div class="module-body">
+                    </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const modules = document.querySelectorAll('.module');
+            modules.forEach(module => {
+                const header = module.querySelector('.module-header');
+                const body = module.querySelector('.module-body');
+                const toggle = module.querySelector('.module-toggle');
+
+                header.addEventListener('click', () => {
+                    const isExpanded = module.classList.contains('expanded');
+
+                    // Close any other open modules
+                    document.querySelectorAll('.module.expanded').forEach(openModule => {
+                        if (openModule !== module) {
+                            openModule.classList.remove('expanded');
+                            openModule.querySelector('.module-body').classList.remove('expanded');
+                            openModule.querySelector('.module-toggle').classList.remove('expanded');
+                        }
+                    });
+
+                    // Toggle the clicked module
+                    module.classList.toggle('expanded');
+                    body.classList.toggle('expanded');
+                    toggle.classList.toggle('expanded');
                 });
-
-                // Toggle the clicked module
-                module.classList.toggle('expanded');
-                body.classList.toggle('expanded');
-                toggle.classList.toggle('expanded');
             });
+
+            // Auto-expand Module 1 on page load
+            const module1 = document.getElementById('module-1');
+            if (module1) {
+                module1.classList.add('expanded');
+                module1.querySelector('.module-body').classList.add('expanded');
+                module1.querySelector('.module-toggle').classList.add('expanded');
+            }
         });
+    </script>
 
-        // Auto-expand Module 1 on page load
-        const module1 = document.getElementById('module-1');
-        if (module1) {
-            module1.classList.add('expanded');
-            module1.querySelector('.module-body').classList.add('expanded');
-            module1.querySelector('.module-toggle').classList.add('expanded');
-        }
-    });
-</script>
-# Courses [{{ site.data.courses | size }}]
-<!-- <ul style="margin-left: 0; padding-left: 0;">
-    {% for course in site.data.courses %}
-    <div class="course-card">
-        <div class="course-description">
-            <div class="course-icon"></div>
-            <div class="course-text">
-                <h3>{{ course.title }}</h3>
-                <p>{{ course.content }}</p>
-            </div>
-        </div>
-        <div class="course-footer">
-            <a href="{{ course.link }}" class="course-btn">Start</a>
-            <div>
-                <span class="course-price">{{ course.price }}</span>
-                <span class="course-duration">{{ course.duration }}</span>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
-</ul> -->
-
-
-<div class="container">
-    <h1 class="course-title">Nội dung khóa học</h1>
-    <div class="module" id="module-1">
-        <div class="module-number">1</div>
-        <div class="module-content">
-            <div class="module-header">
-                <h2 class="module-title">(Module 1) Toán cơ bản và lập trình Python</h2>
-                <span class="module-toggle">&lt;</span>
-            </div>
-            <div class="module-body">
-                <div class="module-details">
-                    <div class="module-image-container">
-                        <img src="https://i.ibb.co/L95jYwW/Screenshot-2025-09-09-at-15-27-23.png" alt="Python concepts" class="module-image">
-                    </div>
-                    <div class="module-list-container">
-                        <ul class="module-list">
-                            <li style="counter-reset: item 0;">Lập trình python cơ bản</li>
-                            <li style="counter-reset: item 1;">Data Structure (list-loU, Top-K Searching)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="module" id="module-2">
-        <div class="module-number">2</div>
-        <div class="module-content">
-            <div class="module-header">
-                <h2 class="module-title">(Module 2) Lập trình nâng cao và ứng dụng trong AI</h2>
-                <span class="module-toggle">&lt;</span>
-            </div>
-            <div class="module-body">
-                </div>
-        </div>
-    </div>
-</div>
+</body>
+</html>
