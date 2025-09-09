@@ -8,11 +8,14 @@ permalink: /course/
 <style>
         .container {
             max-width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
         }
 
         .course-title {
             text-align: left;
             font-weight: 600;
+            margin-bottom: 20px
         }
 
         .course-title::after {
@@ -26,11 +29,9 @@ permalink: /course/
         .module {
             display: flex;
             align-items: flex-start;
-            margin-bottom: 25px;
+            margin-bottom: 5px;
             padding: 20px;
-            background-color: #fff;
             border: 1px solid #e0e0e0;
-            border-radius: 8px;
             transition: all 0.3s ease;
         }
 
@@ -63,6 +64,8 @@ permalink: /course/
             font-weight: 600;
             color: black;
             line-height: 1.4;
+            margin-top: 0px;
+            margin-bottom: 0px;
         }
 
         .module-toggle {
@@ -242,8 +245,8 @@ permalink: /course/
                     </div>
                     <div class="module-list-container">
                         <ul class="module-list">
-                            <li style="counter-reset: item 0;">Lập trình python cơ bản</li>
-                            <li style="counter-reset: item 1;">Data Structure (list-loU, Top-K Searching)</li>
+                            <li style="counter-reset: item 0;">aaa</li>
+                            <li style="counter-reset: item 1;">2222</li>
                         </ul>
                     </div>
                 </div>
