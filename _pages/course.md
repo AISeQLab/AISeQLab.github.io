@@ -222,6 +222,7 @@ permalink: /course/
 <ul style="margin-left: 0; padding-left: 0;">
   {% for course in site.data.courses %}
   <div class="container">
+    <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block;">
     <div>
       <h1 class="course-title">{{course.title}}</h1>
       <div style="margin-bottom: 20px;">
