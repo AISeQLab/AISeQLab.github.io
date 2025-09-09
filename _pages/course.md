@@ -244,7 +244,7 @@ permalink: /course/
             <div class="module-list-container">
               <ul class="module-list">
                 {% for title in module.moduledetail %}
-                  <li>{{title}}</li>
+                  <li style="list-style-type: none; counter-increment: none;">{{title}}</li>    
                 {% endfor %}
               </ul>
             </div>
