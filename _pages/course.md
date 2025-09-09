@@ -224,7 +224,7 @@ permalink: /course/
     <div>
       <h1 class="course-title">{{course.title}}</h1>
       {% if course.comment %}
-      <p>{{course.comment}}</p>
+      <p style="margin-bottom: 20px">{{course.comment}}</p>
       {% endif %}
       <div style="margin-bottom: 20px;">
         <a href="/register/" class="button-register">Đăng kí</a>
@@ -253,7 +253,8 @@ permalink: /course/
               <div class="module-list-container">
                 <ul class="module-list">
                   {% for title in module.moduledetail %}
-                    <li style="list-style-type: none; counter-increment: none;">{{ title | split: ':' | first }}</li> {% endfor %}
+                  <li style="list-style-type: none; counter-increment: none;"><strong>{{ title | split: ':' | first }}</strong>: {{ title | split: ':' | last }}</li>
+                  {% endfor %}    
                 </ul>
               </div>
             </div>
