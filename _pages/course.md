@@ -242,8 +242,9 @@ permalink: /course/
             </div>
             <div class="module-list-container">
               <ul class="module-list">
-                <li style="counter-reset: item 0;">Lập trình python cơ bản</li>
-                <li style="counter-reset: item 1;">Data Structure (list-loU, Top-K Searching)</li>
+                {% for title in module.moduledetail %}
+                  <li>{{title}}</li>
+                {% endfor %}
               </ul>
             </div>
           </div>

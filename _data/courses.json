@@ -6,7 +6,11 @@
       "module": [
         {
           "title": "Module 1: A",
-          "content": "1111"
+          "moduledetail": [
+            "Data Science with R",
+            "Machine Learning with Python",
+            "Deep Learning Fundamentals"
+          ]
         },
         {
           "title": "Module 1: B",
