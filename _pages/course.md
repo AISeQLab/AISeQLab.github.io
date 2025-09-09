@@ -230,11 +230,12 @@ permalink: /course/
   {% for course in site.data.courses %}
   <div class="container" id = "#course{{ forloop.index }}">
     <div>
-      <h2 class="course-title" style="display: inline-block; margin-right: 10px;">[{{forloop.index}}] {{course.title}}</h2>
-      <a href="/register/" style="display: inline-block;">[ Đăng kí ]</a>
+      <h2 class="course-title">[{{forloop.index}}] {{course.title}}</h2>
       {% if course.comment %}
       <p style="margin-bottom: 20px">{{course.comment}}</p>
-      {% endif %}
+      <div style="margin-bottom: 20px; width: 100%;">
+        <a href="/register/" class="button-register" style="display: block; text-align: center; width: 100%;">Đăng kí</a>
+      </div>
     </div>
     {% for section in course.detail.section %}
     <h3 class="course-title">{{section.title}}</h3>
@@ -255,17 +256,17 @@ permalink: /course/
           </div>
           <div class="module-body">
             <div class="module-details">
-              <div class="module-image-container">
-                {% if module.image %}
-                <img src="{{ module.image }}" alt="Python concepts" class="module-image">
-                {% endif %}    
-              </div>
               <div class="module-list-container">
                 <ul class="module-list">
                   {% for title in module.moduledetail %}
                   <p><strong>{{ title | split: ':' | first }}</strong>: {{ title | split: ':' | last }}</p>
                   {% endfor %}    
                 </ul>
+              </div>
+              <div class="module-image-container">
+                {% if module.image %}
+                <img src="{{ module.image }}" alt="Python concepts" class="module-image">
+                {% endif %}    
               </div>
             </div>
           </div>    
