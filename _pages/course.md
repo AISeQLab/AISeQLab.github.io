@@ -223,7 +223,9 @@ permalink: /course/
     <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block;">
     <div>
       <h1 class="course-title">{{course.title}}</h1>
+      {% if course.comment %}
       <p>{{course.comment}}</p>
+      {% endif %}
       <div style="margin-bottom: 20px;">
         <a href="/register/" class="button-register">Đăng kí</a>
       </div>
@@ -231,7 +233,7 @@ permalink: /course/
     {% for section in course.detail.section %}
     <h3 class="course-title">{{section.title}}</h3>
     {% if section.comment %}
-    <p>{{section.comment}}</p>
+    <p style="margin-bottom: 20px">{{section.comment}}</p>
     {% endif %}
     <div>
       {% for module in section.module %}
@@ -244,13 +246,14 @@ permalink: /course/
           <div class="module-body">
             <div class="module-details">
               <div class="module-image-container">
+                {% if module.image %}
                 <img src="{{ module.image }}" alt="Python concepts" class="module-image">
+                {% endif %}    
               </div>
               <div class="module-list-container">
                 <ul class="module-list">
                   {% for title in module.moduledetail %}
-                    <li style="list-style-type: none; counter-increment: none;">{{ title | split: ':' | first | prepend: '**' | append: '**' }}{{ title | split: ':' | last }}</li>   
-                  {% endfor %}
+                    <li style="list-style-type: none; counter-increment: none;">{{ title | split: ':' | first }}</li> {% endfor %}
                 </ul>
               </div>
             </div>

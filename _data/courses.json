@@ -174,7 +174,7 @@
               "image": "../images/python_course.jpg"
             },
             {
-              "title": "Buổi 15&16: Báo cáo & Demo Final Project",
+              "title": "Buổi 15 & 16: Báo cáo & Demo Final Project",
               "moduledetail": [
                 "Nội dung: Sinh viên thuyết trình, demo project (FIR / AES / Matmul).",
                 "Demo: FPGA chạy 1 trong 3 ứng dụng, benchmark trực tiếp.",
