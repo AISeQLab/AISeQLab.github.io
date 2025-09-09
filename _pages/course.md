@@ -215,6 +215,9 @@ permalink: /course/
             <button class="button-register" onclick="document.getElementById('#course{{ forloop.index }}').scrollIntoView({ behavior: 'smooth' })">
             Bắt đầu
           </button>
+          <button class="button-register" href="/register">
+            Đăng ký
+          </button>
             <div>
                 <span class="course-price">{{ course.price }}</span>
                 <span class="course-duration">{{ course.duration }}</span>
@@ -234,9 +237,6 @@ permalink: /course/
       {% if course.comment %}
       <p style="margin-bottom: 20px">{{course.comment}}</p>
       {% endif %}
-      <div style="margin-bottom: 20px;">
-        <a href="/register/" class="button-register">Đăng kí</a>
-      </div>
     </div>
     {% for section in course.detail.section %}
     <h3 class="course-title">{{section.title}}</h3>
