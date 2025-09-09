@@ -238,7 +238,7 @@ permalink: /course/
         <div class="module-body">
           <div class="module-details">
             <div class="module-image-container">
-              <img src="https://i.ibb.co/L95jYwW/Screenshot-2025-09-09-at-15-27-23.png" alt="Python concepts" class="module-image">
+              <img src="{{ module.image }}" alt="Python concepts" class="module-image">
             </div>
             <div class="module-list-container">
               <ul class="module-list">

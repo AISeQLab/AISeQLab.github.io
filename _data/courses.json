@@ -10,42 +10,44 @@
             "Data Science with R",
             "Machine Learning with Python",
             "Deep Learning Fundamentals"
-          ]
+          ],
+          "image": "images/slider/banner1.png"
         },
         {
-          "title": "Module 1: B",
-          "content": "2222"
+          "title": "Module 1: A",
+          "moduledetail": [
+            "Data Science with R",
+            "Machine Learning with Python",
+            "Deep Learning Fundamentals"
+          ],
+          "image": "images/python_course.jpg"
         }
       ]
     }
   },
   {
-    "title": "Web Development with JavaScript",
-    "image": "images/javascript_course.jpg",
+    "title": "Introduction to Python",
+    "image": "images/python_course.jpg",
     "detail": {
-      "sub_titles": [
-        "Introduction to JavaScript",
-        "DOM Manipulation",
-        "Events and Event Listeners",
-        "ES6 Features",
-        "Asynchronous JavaScript",
-        "APIs and Fetch",
-        "Building a Small Project"
-      ]
-    }
-  },
-  {
-    "title": "Data Science with R",
-    "image": "images/r_course.jpg",
-    "detail": {
-      "sub_titles": [
-        "Introduction to R",
-        "Data Manipulation with dplyr",
-        "Data Visualization with ggplot2",
-        "Statistical Analysis",
-        "Regression Models",
-        "Machine Learning Basics",
-        "Final Project"
+      "module": [
+        {
+          "title": "Module 1: A",
+          "moduledetail": [
+            "Data Science with R",
+            "Machine Learning with Python",
+            "Deep Learning Fundamentals"
+          ],
+          "image": "images/python_course.jpg"
+        },
+        {
+          "title": "Module 1: A",
+          "moduledetail": [
+            "Data Science with R",
+            "Machine Learning with Python",
+            "Deep Learning Fundamentals"
+          ],
+          "image": "images/python_course.jpg"
+        }
       ]
     }
   }
