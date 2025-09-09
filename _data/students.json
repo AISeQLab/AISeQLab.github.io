@@ -1,12 +1,14 @@
 [   
     {
        "name": "John Doe",
-       "role": "Undergraduate, SE-UIT-VNUHCM",
-       "field": "Machine Learning"
+       "aff": "Undergraduate, SE-UIT-VNUHCM",
+       "project": "Machine Learning",
+       "grad": "2025"
    },
     {
        "name": "John Doe",
-       "role": "Undergraduate, SE-UIT-VNUHCM",
-       "field": "Machine Learning"
+       "aff": "Undergraduate, SE-UIT-VNUHCM",
+       "project": "Machine Learning",
+       "grad": "2025"
    }
 ]
