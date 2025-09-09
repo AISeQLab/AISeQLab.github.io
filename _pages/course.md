@@ -236,6 +236,16 @@ permalink: /course/
                 <span class="module-toggle">+</span>
             </div>
             <div class="module-body">
+                <div class="module-details">
+                    <div class="module-image-container">
+                        <img src="https://i.ibb.co/L95jYwW/Screenshot-2025-09-09-at-15-27-23.png" alt="Python concepts" class="module-image">
+                    </div>
+                    <div class="module-list-container">
+                        <ul class="module-list">
+                            <li style="counter-reset: item 0;">Lập trình python cơ bản</li>
+                            <li style="counter-reset: item 1;">Data Structure (list-loU, Top-K Searching)</li>
+                        </ul>
+                    </div>
                 </div>
         </div>
     </div>
