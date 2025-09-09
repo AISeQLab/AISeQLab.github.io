@@ -60,12 +60,11 @@ permalink: /course/
         }
 
         .module-title {
-            font-size: 1.2em;
-            font-weight: 600;
             color: black;
             line-height: 1.4;
             margin-top: 0px;
             margin-bottom: 0px;
+            margin-right: 20px;
             padding: 0px
         }
 
@@ -196,7 +195,7 @@ permalink: /course/
     });
 </script>
 # Khoá học [{{ site.data.courses | size }}]
-<!-- <ul style="margin-left: 0; padding-left: 0;">
+<ul style="margin-left: 0; padding-left: 0;">
     {% for course in site.data.courses %}
     <div class="course-card">
         <div class="course-description">
@@ -207,7 +206,7 @@ permalink: /course/
             </div>
         </div>
         <div class="course-footer">
-            <a href="{{ course.link }}" class="course-btn">Start</a>
+            <a href="#course{{ forloop.index }}" class="course-btn">Start</a>
             <div>
                 <span class="course-price">{{ course.price }}</span>
                 <span class="course-duration">{{ course.duration }}</span>
@@ -215,17 +214,17 @@ permalink: /course/
         </div>
     </div>
     {% endfor %}
-</ul> -->
+</ul>
 
 <ul style="margin-left: 0; padding-left: 0;">
   {% for course in site.data.courses %}
-  <div class="container">
-    <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block;">
+  <div class="container" id = "#course{{ forloop.index }}">
     <div>
       <h1 class="course-title">{{course.title}}</h1>
       {% if course.comment %}
       <p style="margin-bottom: 20px">{{course.comment}}</p>
       {% endif %}
+      <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block;">
       <div style="margin-bottom: 20px;">
         <a href="/register/" class="button-register">Đăng kí</a>
       </div>
