@@ -294,7 +294,7 @@
           ]
         },
         {
-          "title": "Phần E - Cải tiến Accelerator (Quantization & Pruning)",
+          "title": "Phần E: Cải tiến Accelerator (Quantization & Pruning)",
           "module": [
             {
               "title": "Buổi 8: Quantization với TFLite",

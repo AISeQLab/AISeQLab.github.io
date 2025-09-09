@@ -232,7 +232,7 @@ permalink: /course/
         <div class="course-description">
             <div class="course-icon"></div>
             <div class="course-text">
-                <h3>{{ course.title }} [{{ course.duration }}]</h3>
+                <h3>[{{forloop.index}}] {{ course.title }} [{{ course.duration }}]</h3>
             </div>
         </div>
         {% if course.image != "none" %}
@@ -257,7 +257,7 @@ permalink: /course/
   {% for course in site.data.courses %}
   <div class="container" id = "#course{{ forloop.index }}">
     <div>
-      <h2 class="course-title">[{{forloop.index}}] {{course.title}}</h2>
+      <h2 class="course-title">{{course.title}}</h2>
       {% if course.comment %}
       <p style="margin-bottom: 20px">{{course.comment}}</p>
       {% endif %}
