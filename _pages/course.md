@@ -30,7 +30,7 @@ permalink: /course/
             display: flex;
             align-items: flex-start;
             margin-bottom: 5px;
-            padding: 20px;
+            padding: 10px;
             border: 1px solid #e0e0e0;
             transition: all 0.3s ease;
         }
@@ -250,9 +250,7 @@ permalink: /course/
     </div>
     {% endfor %}
 </ul>
-<hr/>
-
-
+<hr style="margin: 10px"/>
 <ul style="margin-left: 0; padding-left: 0;">
   {% for course in site.data.courses %}
   <div class="container" id = "#course{{ forloop.index }}">
@@ -300,7 +298,7 @@ permalink: /course/
       {% endfor %}
     </div>
     {% endfor %}
-    <hr/>
+    <hr style="margin: 10px"/>
   </div>
   {% endfor %}
 </ul>
