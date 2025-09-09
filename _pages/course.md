@@ -154,7 +154,10 @@ permalink: /course/
               color: #000;
               position: relative;
               cursor: pointer;
-              padding: 10px 20px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              padding-right: 20px;
+              padding-left: 0px;
             }
 
 
@@ -173,7 +176,7 @@ permalink: /course/
 
             /* animate underline on hover */
             .button-register:hover::after {
-              width: 80%; /* underline length when hovered */
+              width: 100%; /* underline length when hovered */
             }
 
             /* optional: change text color on hover */
@@ -230,19 +233,19 @@ permalink: /course/
             <div class="course-icon"></div>
             <div class="course-text">
                 <h3>{{ course.title }}</h3>
+                <p>{{ course.duration }}</p>
             </div>
         </div>
         <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block; margin-bottom: 20px">
         <div class="course-footer">
             <div>
                 <span class="course-price">{{ course.comment }}</span>
-                <span class="course-duration">{{ course.duration }}</span>
             </div>
             <button class="button-register" onclick="document.getElementById('#course{{ forloop.index }}').scrollIntoView({ behavior: 'smooth' })">
-            Chi tiết
+            <strong>Chi tiết</strong>
           </button>
           <a class="button-register" href="/register">
-            Đăng ký
+            <strong>Đăng ký</strong>
           </a>
         </div>
     </div>
