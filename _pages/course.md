@@ -66,6 +66,7 @@ permalink: /course/
             line-height: 1.4;
             margin-top: 0px;
             margin-bottom: 0px;
+            padding: 0px
         }
 
         .module-toggle {
@@ -196,7 +197,7 @@ permalink: /course/
         }
     });
 </script>
-# Courses [{{ site.data.courses | size }}]
+# Khoá học [{{ site.data.courses | size }}]
 <!-- <ul style="margin-left: 0; padding-left: 0;">
     {% for course in site.data.courses %}
     <div class="course-card">
@@ -219,52 +220,57 @@ permalink: /course/
 </ul> -->
 
 <ul style="margin-left: 0; padding-left: 0;">
-   <div class="container">
-      <div style="display: flex; justify-content: space-between; align-items: center;">
-        <h1 class="course-title">Khoá học Thiết kế vi mạch căn bản</h1>
+  {% for course in site.data.courses %}
+  <div class="container">
+    <div>
+      <h1 class="course-title">{{course.title}}</h1>
+      <div style="margin-bottom: 20px;">
         <a href="/register/" class="button-register">Đăng kí</a>
-      </div>    
-      <div class="module" id="module-1">
-         <div class="module-content">
-            <div class="module-header">
-               <h2 class="module-title">1. Thiết kế cơ bản</h2>
-               <span class="module-toggle">+</span>    
-            </div>
-            <div class="module-body">
-               <div class="module-details">
-                  <div class="module-image-container">
-                     <img src="https://i.ibb.co/L95jYwW/Screenshot-2025-09-09-at-15-27-23.png" alt="Python concepts" class="module-image">
-                  </div>
-                  <div class="module-list-container">
-                     <ul class="module-list">
-                        <li style="counter-reset: item 0;">Lập trình python cơ bản</li>
-                        <li style="counter-reset: item 1;">Data Structure (list-loU, Top-K Searching)</li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
       </div>
-      <div class="module" id="module-2">
-         <div class="module-content">
-            <div class="module-header">
-               <h2 class="module-title">2. Quartus</h2>
-               <span class="module-toggle">+</span>
+    </div>
+    <div class="module" id="module-1">
+      <div class="module-content">
+        <div class="module-header">
+          <h2 class="module-title">1. Thiết kế cơ bản</h2>
+          <span class="module-toggle">+</span>
+        </div>
+        <div class="module-body">
+          <div class="module-details">
+            <div class="module-image-container">
+              <img src="https://i.ibb.co/L95jYwW/Screenshot-2025-09-09-at-15-27-23.png" alt="Python concepts" class="module-image">
             </div>
-            <div class="module-body">
-               <div class="module-details">
-                  <div class="module-image-container">
-                     <img src="https://i.ibb.co/L95jYwW/Screenshot-2025-09-09-at-15-27-23.png" alt="Python concepts" class="module-image">
-                  </div>
-                  <div class="module-list-container">
-                     <ul class="module-list">
-                        <li style="counter-reset: item 0;">aaa</li>
-                        <li style="counter-reset: item 1;">2222</li>
-                     </ul>
-                  </div>
-               </div>
+            <div class="module-list-container">
+              <ul class="module-list">
+                <li style="counter-reset: item 0;">Lập trình python cơ bản</li>
+                <li style="counter-reset: item 1;">Data Structure (list-loU, Top-K Searching)</li>
+              </ul>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-   </div>
+    </div>
+    <div class="module" id="module-2">
+      <div class="module-content">
+        <div class="module-header">
+          <h2 class="module-title">2. Quartus</h2>
+          <span class="module-toggle">+</span>
+        </div>
+        <div class="module-body">
+          <div class="module-details">
+            <div class="module-image-container">
+              <img src="https://i.ibb.co/L95jYwW/Screenshot-2025-09-09-at-15-27-23.png" alt="Python concepts" class="module-image">
+            </div>
+            <div class="module-list-container">
+              <ul class="module-list">
+                <li style="counter-reset: item 0;">aaa</li>
+                <li style="counter-reset: item 1;">2222</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr/>
+  </div>
+  {% endfor %}
 </ul>

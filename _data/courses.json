@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Introduction to Python",
+    "image": "images/python_course.jpg",
+    "detail": {
+      "sub_titles": [
+        "Getting Started with Python",
+        "Variables and Data Types",
+        "Control Structures",
+        "Functions and Modules",
+        "File Handling",
+        "Error Handling",
+        "Object-Oriented Programming"
+      ]
+    }
+  },
+  {
+    "title": "Web Development with JavaScript",
+    "image": "images/javascript_course.jpg",
+    "detail": {
+      "sub_titles": [
+        "Introduction to JavaScript",
+        "DOM Manipulation",
+        "Events and Event Listeners",
+        "ES6 Features",
+        "Asynchronous JavaScript",
+        "APIs and Fetch",
+        "Building a Small Project"
+      ]
+    }
+  },
+  {
+    "title": "Data Science with R",
+    "image": "images/r_course.jpg",
+    "detail": {
+      "sub_titles": [
+        "Introduction to R",
+        "Data Manipulation with dplyr",
+        "Data Visualization with ggplot2",
+        "Statistical Analysis",
+        "Regression Models",
+        "Machine Learning Basics",
+        "Final Project"
+      ]
+    }
+  }
+]
