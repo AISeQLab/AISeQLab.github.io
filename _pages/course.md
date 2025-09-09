@@ -232,8 +232,7 @@ permalink: /course/
         <div class="course-description">
             <div class="course-icon"></div>
             <div class="course-text">
-                <h3>{{ course.title }}</h3>
-                <p>{{ course.duration }}</p>
+                <h3>{{ course.title }} [{{ course.duration }}]</h3>
             </div>
         </div>
         <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block; margin-bottom: 20px">
