@@ -256,17 +256,17 @@ permalink: /course/
           </div>
           <div class="module-body">
             <div class="module-details">
+              <div class="module-image-container">
+                {% if module.image %}
+                <img src="{{ module.image }}" alt="Python concepts" class="module-image">
+                {% endif %}    
+              </div>
               <div class="module-list-container">
                 <ul class="module-list">
                   {% for title in module.moduledetail %}
                   <p><strong>{{ title | split: ':' | first }}</strong>: {{ title | split: ':' | last }}</p>
                   {% endfor %}    
                 </ul>
-              </div>
-              <div class="module-image-container">
-                {% if module.image %}
-                <img src="{{ module.image }}" alt="Python concepts" class="module-image">
-                {% endif %}    
               </div>
             </div>
           </div>    
