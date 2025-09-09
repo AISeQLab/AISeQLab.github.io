@@ -38,7 +38,7 @@ permalink: /team/
                     <p class="card-text" style="margin-bottom: 5px">
                         {{ member.degree }}
                         {% if member.field %}
-                            [{{ member.field }}]
+                            in [{{ member.field }}]
                         {% endif %}
                     </p>
                 {% endif %}
@@ -74,31 +74,32 @@ permalink: /team/
 
         <div class="col-md-10">
             <div class="card-body">
-                <h4 class="card-title">
+                <h4 class="card-title" style = "margin-top: 0px">
                     <a href="{{ member.url }}">{{ member.title }}</a>
                 </h4>
                 {% if member.role %}
-                    <p class="card-text">
+                    <p class="card-text" style="margin-bottom: 5px">
                         {{ member.role }}
-                        {% if member.email %}
-                            [{{ member.email }}]
-                        {% endif %}
                     </p>
                 {% endif %}
 
                 {% if member.degree %}
-                    <p class="card-text">
+                    <p class="card-text" style="margin-bottom: 5px">
                         {{ member.degree }}
                         {% if member.field %}
-                            [{{ member.field }}]
+                            in [{{ member.field }}]
                         {% endif %}
                     </p>
+                {% endif %}
+                {% if member.email %}
+                <p class="card-text" style="margin-bottom: 5px">
+                    <strong>Email</strong>: {{ member.email }}
+                </p>
                 {% endif %}
             </div>
         </div>
     </div>
 </div>
-
 {% endfor %}
 
 
