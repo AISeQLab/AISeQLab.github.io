@@ -190,27 +190,217 @@
     }
   },
   {
-    "title": "Introduction to Python",
-    "image": "../images/slider/banner1.png",
+    "title": "Thiết kế SoC nâng cao trên FPGA cho AI",
+    "comment": "Tối ưu hóa IP tăng tốc Deep Learning với processor cứng SoC",
+    "image": "banner_khoa3.png",
+    "duration": "6 phần - 16 buổi",
     "detail": {
-      "module": [
+      "section": [
         {
-          "title": "Module 1: A",
-          "moduledetail": [
-            "Data Science with R",
-            "Machine Learning with Python",
-            "Deep Learning Fundamentals"
-          ],
-          "image": "images/python_course.jpg"
+          "title": "Phần A: Phát triển DNN Model",
+          "module": [
+            {
+              "title": "Buổi 1: Giới thiệu về DNN & Training Model bằng TensorFlow",
+              "moduledetail": [
+                "Nội dung: Train LeNet-5 trên MNIST bằng TensorFlow, export weight FP32.",
+                "Demo: Training + test accuracy ~98% trên PC.",
+                "Source: Python/TensorFlow training script.",
+                "Document: Tutorial Training LeNet-5 with TensorFlow.",
+                "Bài tập: Train model và export weight/bias ra file .bin."
+              ],
+              "image": "session1.png"
+            },
+            {
+              "title": "Buổi 2: Baseline Inference (FP32 vs Fixed-point)",
+              "moduledetail": [
+                "Nội dung: So sánh inference FP32 (baseline) vs Fixed-point (Q-format/INT8).",
+                "Demo: Run inference LeNet-5 trên ARM CPU (FP32 vs INT8).",
+                "Source: Python FP32 inference, C fixed-point inference.",
+                "Document: Tutorial Floating vs Fixed-point Inference.",
+                "Bài tập: Báo cáo latency & accuracy FP32 vs INT8."
+              ],
+              "image": "session2.png"
+            }
+          ]
         },
         {
-          "title": "Module 1: A",
-          "moduledetail": [
-            "Data Science with R",
-            "Machine Learning with Python",
-            "Deep Learning Fundamentals"
-          ],
-          "image": "images/python_course.jpg"
+          "title": "Phần B: Xây dựng Accelerator Fixed-point",
+          "module": [
+            {
+              "title": "Buổi 3: Thiết kế IP Convolution + Memory subsystem",
+              "moduledetail": [
+                "Nội dung: Conv2D accelerator fixed-point (systolic array, sliding window) + BRAM buffer + DDR interface.",
+                "Demo: Conv IP 3×3 fixed-point với buffer BRAM, test ảnh MNIST.",
+                "Source: conv_ip.v, buffer Verilog, testbench conv.",
+                "Document: Tutorial Fixed-point Conv Accelerator with Memory Optimization.",
+                "Bài tập: Mở rộng kernel 5×5, so sánh latency."
+              ],
+              "image": "session3.png"
+            },
+            {
+              "title": "Buổi 4: Thiết kế IP Fully Connected + Memory subsystem",
+              "moduledetail": [
+                "Nội dung: Matrix-vector multiply accelerator (fixed-point) + DDR input/output + BRAM buffer.",
+                "Demo: FC IP 128×128, test dữ liệu từ LeNet-5.",
+                "Source: fc_ip.v, DDR/BRAM interface code.",
+                "Document: Tutorial Fixed-point FC Accelerator with Memory Optimization.",
+                "Bài tập: Benchmark latency cho 256×256."
+              ],
+              "image": "session4.png"
+            },
+            {
+              "title": "Buổi 5: Tích hợp Accelerator vào SoC & Debug bằng ILA",
+              "moduledetail": [
+                "Nội dung: Tích hợp Conv/FC IP vào SoC qua AXI; chèn ILA để debug transaction (AWVALID, WVALID, RVALID…).",
+                "Demo: Run inference test, capture waveform bằng Vivado ILA.",
+                "Source: Block design Vivado, ILA config, testbench.",
+                "Document: Tutorial Integrating Accelerator into SoC with ILA Debugging.",
+                "Bài tập: Gắn ILA cho Conv IP, phân tích tín hiệu AXI handshake."
+              ],
+              "image": "session5.png"
+            }
+          ]
+        },
+        {
+          "title": "Phần C: Setup Linux & Driver",
+          "module": [
+            {
+              "title": "Buổi 6: Build Linux & Custom Driver cho Accelerator",
+              "moduledetail": [
+                "Nội dung: Build PetaLinux, custom device tree, viết driver UIO/char cho Conv/FC IP.",
+                "Demo: Boot Linux, test /dev/conv_accel.",
+                "Source: conv_driver.c, system-user.dtsi.",
+                "Document: Tutorial Linux Driver for AI Accelerators.",
+                "Bài tập: Thêm node cho FC IP, xác minh bằng dmesg."
+              ],
+              "image": "session6.png"
+            }
+          ]
+        },
+        {
+          "title": "Phần D: Real-time inference & Đánh giá",
+          "module": [
+            {
+              "title": "Buổi 7: Chạy real-time inference & Benchmark",
+              "moduledetail": [
+                "Nội dung: SoC inference dữ liệu real-time (camera/sensor stream), benchmark latency & throughput.",
+                "Demo: Run LeNet-5 trên FPGA Accelerator, so sánh CPU vs FPGA.",
+                "Source: cnn_realtime.c, benchmark script.",
+                "Document: Tutorial Real-time Inference on FPGA SoC.",
+                "Bài tập: Báo cáo latency & throughput cho stream 30 fps."
+              ],
+              "image": "session7.png"
+            }
+          ]
+        },
+        {
+          "title": "Phần E – Cải tiến Accelerator (Quantization & Pruning)",
+          "module": [
+            {
+              "title": "Buổi 8: Quantization với TFLite",
+              "moduledetail": [
+                "Nội dung: FP32 → INT8 với TensorFlow Lite, phân tích trade-off accuracy.",
+                "Demo: Convert LeNet-5 sang INT8.",
+                "Source: TFLite quantization script.",
+                "Document: Tutorial Quantization for FPGA Deployment.",
+                "Bài tập: Báo cáo accuracy drop FP32 vs INT8."
+              ],
+              "image": "session8.png"
+            },
+            {
+              "title": "Buổi 9: Benchmark Accelerator với Quantized Model",
+              "moduledetail": [
+                "Nội dung: Run quantized LeNet-5 trên FPGA, so sánh latency vs accuracy baseline.",
+                "Demo: Inference INT8 trên FPGA Accelerator.",
+                "Source: cnn_quant.c, benchmark log.",
+                "Document: Tutorial Quantized CNN Accelerator.",
+                "Bài tập: Báo cáo accuracy vs latency."
+              ],
+              "image": "session9.png"
+            },
+            {
+              "title": "Buổi 10: Pruning Model bằng TensorFlow MOT",
+              "moduledetail": [
+                "Nội dung: Loại bỏ weights nhỏ, tạo sparse model.",
+                "Demo: Prune LeNet-5 (50% sparsity).",
+                "Source: TF pruning script.",
+                "Document: Tutorial Model Pruning for Efficient FPGA Deployment.",
+                "Bài tập: Báo cáo accuracy drop sau pruning."
+              ],
+              "image": "session10.png"
+            },
+            {
+              "title": "Buổi 11: Benchmark Accelerator với Pruned Model",
+              "moduledetail": [
+                "Nội dung: Run pruned LeNet-5 trên FPGA.",
+                "Demo: So sánh resource usage Dense vs Sparse.",
+                "Source: cnn_prune.c, benchmark log.",
+                "Document: Tutorial Pruned CNN Accelerator.",
+                "Bài tập: Báo cáo latency, throughput, accuracy."
+              ],
+              "image": "session11.png"
+            }
+          ]
+        },
+        {
+          "title": "Phần F – Ứng dụng mở rộng & Final Project",
+          "module": [
+            {
+              "title": "Buổi 12: Thiết kế & triển khai CNN cho CIFAR-10",
+              "moduledetail": [
+                "Nội dung: Mapping CNN nhỏ (3 conv + 2 FC) cho CIFAR-10 dataset.",
+                "Demo: FPGA inference CIFAR-10.",
+                "Source: cifar_cnn.v, dataset sample.",
+                "Document: Tutorial Deploying CIFAR-10 CNN on FPGA.",
+                "Bài tập: Benchmark latency batch 100 ảnh."
+              ],
+              "image": "session12.png"
+            },
+            {
+              "title": "Buổi 13: Benchmark CNN cho CIFAR-10",
+              "moduledetail": [
+                "Nội dung: Đánh giá latency, throughput, accuracy cho CIFAR-10 trên FPGA.",
+                "Demo: Benchmark SoC vs CPU.",
+                "Source: cifar_bench.c, benchmark script.",
+                "Document: Tutorial Benchmarking CIFAR-10 on FPGA.",
+                "Bài tập: Báo cáo CPU vs FPGA cho CIFAR-10."
+              ],
+              "image": "session13.png"
+            },
+            {
+              "title": "Buổi 14: Thiết kế & triển khai CNN cho Cat vs Dog dataset",
+              "moduledetail": [
+                "Nội dung: CNN nhỏ cho binary classification (Conv+FC).",
+                "Demo: FPGA inference Cat vs Dog.",
+                "Source: catdog_cnn.v, dataset sample.",
+                "Document: Tutorial Deploying Cat vs Dog CNN on FPGA.",
+                "Bài tập: Train Cat vs Dog CNN trên PC, export weights cho FPGA."
+              ],
+              "image": "session14.png"
+            },
+            {
+              "title": "Buổi 15: Benchmark CNN cho Cat vs Dog",
+              "moduledetail": [
+                "Nội dung: Đánh giá latency, throughput, accuracy cho Cat vs Dog trên FPGA.",
+                "Demo: Benchmark SoC vs CPU.",
+                "Source: catdog_bench.c, benchmark script.",
+                "Document: Tutorial Benchmarking Cat vs Dog CNN on FPGA.",
+                "Bài tập: Báo cáo CPU vs FPGA cho Cat vs Dog dataset."
+              ],
+              "image": "session15.png"
+            },
+            {
+              "title": "Buổi 16: Báo cáo & Demo Final Project",
+              "moduledetail": [
+                "Nội dung: Sinh viên thuyết trình & demo project nhóm (LeNet-5, CIFAR-10 hoặc Cat vs Dog).",
+                "Demo: FPGA chạy inference thực tế với model chọn.",
+                "Source: Slide/report template.",
+                "Document: Guideline Final Project Report & Demo.",
+                "Bài tập: Nộp báo cáo + demo kết quả + benchmark CPU vs FPGA."
+              ],
+              "image": "session16.png"
+            }
+          ]
         }
       ]
     }
