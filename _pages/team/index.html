@@ -15,7 +15,7 @@ permalink: /team/
 {% for member in members %}
 <div class="card team-member-card">
     <div class="row mt-3">
-        <div class="col-md-2">
+        <div class="col-md-2" style = "margin-bottom: 10px">
             <a href={{member.url}}>
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                     class="card-img img-responsive img-thumbnail"
@@ -36,9 +36,9 @@ permalink: /team/
 
                 {% if member.degree %}
                     <p class="card-text" style="margin-bottom: 5px">
-                        {{ member.degree }}
+                        <strong>Degree:</strong> {{ member.degree }}
                         {% if member.field %}
-                            in [{{ member.field }}]
+                            in {{ member.field }}
                         {% endif %}
                     </p>
                 {% endif %}
