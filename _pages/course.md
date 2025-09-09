@@ -240,8 +240,12 @@ permalink: /course/
       <div class="module" id="module-1">
         <div class="module-content">
           <div class="module-header">
-            <h2 class="module-title">{{module.title}}</h2>
-            <span class="module-toggle">+</span>
+            <div>
+              <p class="module-title">{{module.title}}</p>
+            </div>
+            <div>
+              <span class="module-toggle">+</span>
+            </div>
           </div>
           <div class="module-body">
             <div class="module-details">
@@ -258,7 +262,7 @@ permalink: /course/
                 </ul>
               </div>
             </div>
-          </div>
+          </div>    
         </div>
       </div>
       {% endfor %}
