@@ -228,10 +228,11 @@ permalink: /course/
         <a href="/register/" class="button-register">Đăng kí</a>
       </div>
     </div>
+    {% for module in course.detail.module %}
     <div class="module" id="module-1">
       <div class="module-content">
         <div class="module-header">
-          <h2 class="module-title">1. Thiết kế cơ bản</h2>
+          <h2 class="module-title">{{module.title}}</h2>
           <span class="module-toggle">+</span>
         </div>
         <div class="module-body">
@@ -249,27 +250,7 @@ permalink: /course/
         </div>
       </div>
     </div>
-    <div class="module" id="module-2">
-      <div class="module-content">
-        <div class="module-header">
-          <h2 class="module-title">2. Quartus</h2>
-          <span class="module-toggle">+</span>
-        </div>
-        <div class="module-body">
-          <div class="module-details">
-            <div class="module-image-container">
-              <img src="https://i.ibb.co/L95jYwW/Screenshot-2025-09-09-at-15-27-23.png" alt="Python concepts" class="module-image">
-            </div>
-            <div class="module-list-container">
-              <ul class="module-list">
-                <li style="counter-reset: item 0;">aaa</li>
-                <li style="counter-reset: item 1;">2222</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    {% endfor %}
     <hr/>
   </div>
   {% endfor %}

@@ -3,14 +3,15 @@
     "title": "Introduction to Python",
     "image": "images/python_course.jpg",
     "detail": {
-      "sub_titles": [
-        "Getting Started with Python",
-        "Variables and Data Types",
-        "Control Structures",
-        "Functions and Modules",
-        "File Handling",
-        "Error Handling",
-        "Object-Oriented Programming"
+      "module": [
+        {
+          "title": "Module 1: A",
+          "content": "1111"
+        },
+        {
+          "title": "Module 1: B",
+          "content": "2222"
+        }
       ]
     }
   },
