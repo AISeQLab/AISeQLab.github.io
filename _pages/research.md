@@ -26,9 +26,11 @@ There are projects for Gen 1, calling from Facebook group.
 ### Emulating the decision diagram
 **Project Type:** Big project  
 **Introduction:** Quantum simulation has been identified as a difficult computational problem with resources exponentially increasing based on the number of qubits. The basic representation of a quantum system is a state-vector, which for any $n$ qubits requires processing a $2^{n}$ complex array. A more efficient way to deal with this problem is to change the representation using a decision diagram. This approach saves on redundant computations by acting on a compact representation instead of the full-state vector.  
-**Inputs:** The initial state $|0\rangle^{\otimes n}$ and a list of quantum unitary operators $\{U_{j}\}$.  
+**Inputs:** The initial state $$|0\rangle^{\otimes n}$$ and a list of quantum unitary operators $$\{U_{j}\}$$.  
 **Output:** The final state $|\psi\rangle=U_{m}U_{m-1}...U_{0}|0\rangle^{\otimes n}$.  
 **Target:** To emulate the system described in reference [3] on an FPGA to make it faster than the original C++ version.  
+
+
 
 ---
 
