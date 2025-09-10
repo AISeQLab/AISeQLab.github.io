@@ -5,31 +5,36 @@ excerpt: "Publications."
 sitemap: false
 permalink: /publications/
 ---
-
+<h1>Grant [{{ site.data.grants | size }}]</h1>
+<ul class="list-unstyled">
+  {% for grant in site.data.grants %}
+  <li class="media">
+    <div class="media-body">
+      <h4 class="mt-0 mb-1">
+        <a href="{{ grant.link }}">{{ grant.title }}</a> [{{ grant.duration }}]
+      </h4>
+      <p>Amount: {{ grant.amount }}</p>
+      {{ grant.content }}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
 <h1>{{page.title}}</h1>
-
 <div class="panel-group" id="accordion">
-    <div>
-
+  <div>
     <h2>Selected publications [{{ site.data.selectedjournals | size }}]</h2>
     {% for publi in site.data.selectedjournals %}
-        <div>
-            <strong>[{{ forloop.index }}]</strong> {{publi.title}}
-        </div>
+    <div><strong>[{{ forloop.index }}]</strong> {{publi.title}}</div>
     {% endfor %}
 
     <h2>Journal and pre-print [{{ site.data.journals | size }}]</h2>
     {% for publi in site.data.journals %}
-        <div>
-            <strong>[{{ forloop.index }}]</strong> {{publi.title}}
-        </div>
-    
+    <div><strong>[{{ forloop.index }}]</strong> {{publi.title}}</div>
+
     {% endfor %}
     <h2>Conference [{{ site.data.conferences | size }}]</h2>
     {% for publi in site.data.conferences %}
-        <div>
-            <strong>[{{ forloop.index }}]</strong> {{publi.title}}
-        </div>
+    <div><strong>[{{ forloop.index }}]</strong> {{publi.title}}</div>
     {% endfor %}
-    </div>
+  </div>
 </div>
