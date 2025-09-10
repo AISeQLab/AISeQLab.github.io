@@ -226,6 +226,7 @@ permalink: /course/
     });
 </script>
 # Khoá học
+<img src="../images/Khoa_Hoc/Danh_sach_khoa_hoc.jpg" style="width: 100%; display: block; margin-bottom: 20px">
 <ul style="margin-left: 0; padding-left: 0;">
     {% for course in site.data.courses %}
     <div class="course-card">
