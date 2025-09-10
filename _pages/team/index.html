@@ -15,7 +15,7 @@ permalink: /team/
 {% for member in members %}
 <div class="card team-member-card">
     <div class="row mt-3">
-        <div class="col-md-2">
+        <div class="col-md-2" style = "margin-bottom: 10px">
             <a href={{member.url}}>
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                     class="card-img img-responsive img-thumbnail"
@@ -25,25 +25,27 @@ permalink: /team/
 
         <div class="col-md-10">
             <div class="card-body">
-                <h4 class="card-title">
+                <h4 class="card-title" style = "margin-top: 0px">
                     <a href="{{ member.url }}">{{ member.title }}</a>
                 </h4>
                 {% if member.role %}
-                    <p class="card-text">
+                    <p class="card-text" style="margin-bottom: 5px">
                         {{ member.role }}
-                        {% if member.email %}
-                            [{{ member.email }}]
-                        {% endif %}
                     </p>
                 {% endif %}
 
                 {% if member.degree %}
-                    <p class="card-text">
-                        {{ member.degree }}
+                    <p class="card-text" style="margin-bottom: 5px">
+                        <strong>Degree:</strong> {{ member.degree }}
                         {% if member.field %}
-                            [{{ member.field }}]
+                            in {{ member.field }}
                         {% endif %}
                     </p>
+                {% endif %}
+                {% if member.email %}
+                <p class="card-text" style="margin-bottom: 5px">
+                    <strong>Email</strong>: {{ member.email }}
+                </p>
                 {% endif %}
             </div>
         </div>
@@ -62,7 +64,7 @@ permalink: /team/
 {% for member in members %}
 <div class="card team-member-card">
     <div class="row mt-3">
-        <div class="col-md-2">
+        <div class="col-md-2" style = "margin-bottom: 10px">
             <a href={{member.url}}>
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                     class="card-img img-responsive img-thumbnail"
@@ -72,31 +74,32 @@ permalink: /team/
 
         <div class="col-md-10">
             <div class="card-body">
-                <h4 class="card-title">
+                <h4 class="card-title" style = "margin-top: 0px">
                     <a href="{{ member.url }}">{{ member.title }}</a>
                 </h4>
                 {% if member.role %}
-                    <p class="card-text">
+                    <p class="card-text" style="margin-bottom: 5px">
                         {{ member.role }}
-                        {% if member.email %}
-                            [{{ member.email }}]
-                        {% endif %}
                     </p>
                 {% endif %}
 
                 {% if member.degree %}
-                    <p class="card-text">
-                        {{ member.degree }}
+                    <p class="card-text" style="margin-bottom: 5px">
+                        <strong>Degree:</strong> {{ member.degree }}
                         {% if member.field %}
-                            [{{ member.field }}]
+                            in {{ member.field }}
                         {% endif %}
                     </p>
+                {% endif %}
+                {% if member.email %}
+                <p class="card-text" style="margin-bottom: 5px">
+                    <strong>Email</strong>: {{ member.email }}
+                </p>
                 {% endif %}
             </div>
         </div>
     </div>
 </div>
-
 {% endfor %}
 
 
@@ -129,8 +132,8 @@ permalink: /team/
         {% for student in students %}
         <tr>
             <td>{{ student.name }}</td>
-            <td>{{ student.affiliate }}</td>
-            <td>{{ student.grad_year }}</td>
+            <td>{{ student.aff }}</td>
+            <td>{{ student.grad }}</td>
             <td>{{ student.project }}</td>
         </tr>
         {% endfor %}

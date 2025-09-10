@@ -1,21 +1,27 @@
----
-title: "Course"
-layout: default
-excerpt: "Course"
-sitemap: false
-permalink: /course/
----
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nội dung khóa học</title>
 <style>
+body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f7f9fc;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
         .container {
-            max-width: 100%;
-            padding-left: 0px;
-            padding-right: 0px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
         }
 
         .course-title {
             text-align: left;
             font-weight: 600;
-            margin-bottom: 20px
         }
 
         .course-title::after {
@@ -29,21 +35,35 @@ permalink: /course/
         .module {
             display: flex;
             align-items: flex-start;
-            margin-bottom: 5px;
-            padding: 10px;
+            margin-bottom: 25px;
+            padding: 20px;
+            background-color: #fff;
             border: 1px solid #e0e0e0;
+            border-radius: 8px;
             transition: all 0.3s ease;
         }
 
         .module:hover {
-            box-shadow: 0 0px 10px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
             transform: translateY(-2px);
         }
 
         .module.expanded {
-            background-color: white;
+            background-color: #f0fff0;
         }
 
+        .module-number {
+            color: #fff;
+            background-color: black;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            margin-right: 20px;
+        }
 
         .module-content {
             flex-grow: 1;
@@ -60,12 +80,10 @@ permalink: /course/
         }
 
         .module-title {
+            font-size: 1.2em;
+            font-weight: 600;
             color: black;
             line-height: 1.4;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            margin-right: 20px;
-            padding: 0px
         }
 
         .module-toggle {
@@ -100,14 +118,18 @@ permalink: /course/
         
         .module-image-container {
             flex: 1 1 300px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
             overflow: hidden;
+            padding: 10px;
+            background-color: #f9f9f9;
         }
 
         .module-image {
             width: 100%;
             height: auto;
             display: block;
-            border-radius: 0px;
+            border-radius: 6px;
         }
 
         .module-list-container {
@@ -135,7 +157,10 @@ permalink: /course/
         }
 
         .module-list li::before {
+            content: counter(item, decimal-leading-zero) ". ";
+            counter-increment: item;
             font-weight: bold;
+            color: #9c9c9cff;
             margin-right: 8px;
             flex-shrink: 0;
         }
@@ -146,47 +171,6 @@ permalink: /course/
             color: #333;
             margin: 0 0 5px 0;
         }
-
-        .button-register {
-              font-size: 18px;
-              background: none;
-              border: none;
-              color: #000;
-              position: relative;
-              cursor: pointer;
-              padding-top: 10px;
-              padding-bottom: 10px;
-              padding-right: 20px;
-              padding-left: 0px;
-            }
-
-
-        .button-register::after {
-              content: "";
-              position: absolute;
-              left: 50%;
-              bottom: 0;
-              transform: translateX(-50%);
-              width: 0%;
-              height: 3px;
-              background: black; /* green */
-              transition: width 0.3s ease-in-out;
-              border-radius: 2px;
-            }
-
-            /* animate underline on hover */
-            .button-register:hover::after {
-              width: 100%; /* underline length when hovered */
-            }
-
-            /* optional: change text color on hover */
-            .button-register:hover {
-              color: green;
-            }
-
-        html {
-            scroll-behavior: smooth;
-      }
 </style>
 
 <script>
@@ -225,82 +209,63 @@ permalink: /course/
         }
     });
 </script>
-# Khoá học
-<ul style="margin-left: 0; padding-left: 0;">
+# Courses [{{ site.data.courses | size }}]
+<!-- <ul style="margin-left: 0; padding-left: 0;">
     {% for course in site.data.courses %}
     <div class="course-card">
         <div class="course-description">
             <div class="course-icon"></div>
             <div class="course-text">
-                <h3>[{{forloop.index}}] {{ course.title }} [{{ course.duration }}]</h3>
+                <h3>{{ course.title }}</h3>
+                <p>{{ course.content }}</p>
             </div>
         </div>
-        {% if course.image != "none" %}
-        <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block; margin-bottom: 20px">
-        {% endif %}    
         <div class="course-footer">
+            <a href="{{ course.link }}" class="course-btn">Start</a>
             <div>
-                <span class="course-price">{{ course.comment }}</span>
+                <span class="course-price">{{ course.price }}</span>
+                <span class="course-duration">{{ course.duration }}</span>
             </div>
-            <button class="button-register" onclick="document.getElementById('#course{{ forloop.index }}').scrollIntoView({ behavior: 'smooth' })">
-            <strong>Chi tiết</strong>
-          </button>
-          <a class="button-register" href="/register">
-            <strong>Đăng ký</strong>
-          </a>
         </div>
     </div>
     {% endfor %}
-</ul>
-<hr style="margin: 10px"/>
+</ul> -->
+
 <ul style="margin-left: 0; padding-left: 0;">
-  {% for course in site.data.courses %}
-  <div class="container" id = "#course{{ forloop.index }}">
-    <div>
-      <h2 class="course-title">{{course.title}}</h2>
-      {% if course.comment %}
-      <p style="margin-bottom: 20px">{{course.comment}}</p>
-      {% endif %}
-    </div>
-    {% for section in course.detail.section %}
-    <h3 class="course-title">{{section.title}}</h3>
-    {% if section.comment %}
-    <p style="margin-bottom: 20px">{{section.comment}}</p>
-    {% endif %}
-    <div>
-      {% for module in section.module %}
-      <div class="module" id="module-1">
+<div class="container">
+    <h1 class="course-title">Khoá học Thiết kế vi mạch căn bản</h1>
+    <div class="module" id="module-1">
         <div class="module-content">
-          <div class="module-header">
-            <div>
-              <p class="module-title">{{module.title}}</p>
+            <div class="module-header">
+                <h2 class="module-title">1. Thiết kế cơ bản</h2>
+                <span class="module-toggle">+</span>    </div>
+            <div class="module-body">
+                <div class="module-details">
+                    <div class="module-image-container">
+                        <img src="https://i.ibb.co/L95jYwW/Screenshot-2025-09-09-at-15-27-23.png" alt="Python concepts" class="module-image">
+                    </div>
+                    <div class="module-list-container">
+                        <ul class="module-list">
+                            <li style="counter-reset: item 0;">Lập trình python cơ bản</li>
+                            <li style="counter-reset: item 1;">Data Structure (list-loU, Top-K Searching)</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div>
-              <span class="module-toggle">+</span>
-            </div>
-          </div>
-          <div class="module-body">
-            <div class="module-details">
-              {% if module.image != "none" %}
-              <div class="module-image-container">
-                <img src="{{ module.image }}" alt="" class="module-image"> 
-              </div>
-              {% endif %}    
-              <div class="module-list-container">
-                <ul class="module-list">
-                  {% for title in module.moduledetail %}
-                  <p><strong>{{ title | split: ':' | first }}</strong>: {{ title | split: ':' | last }}</p>
-                  {% endfor %}    
-                </ul>
-              </div>
-            </div>
-          </div>    
         </div>
-      </div>
-      {% endfor %}
     </div>
-    {% endfor %}
-    <hr style="margin: 10px"/>
-  </div>
-  {% endfor %}
+    <div class="module" id="module-2">
+        <div class="module-content">
+            <div class="module-header">
+                <h2 class="module-title">2. Quartus</h2>
+                <span class="module-toggle">+</span>
+            </div>
+            <div class="module-body">
+                </div>
+        </div>
+    </div>
+</div>
 </ul>
+
+</body>
+</html>
