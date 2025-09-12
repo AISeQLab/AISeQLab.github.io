@@ -228,7 +228,7 @@
   {
     "title": "Thiết kế SoC trên FPGA căn bản",
     "comment": "Thiết kế SoC theo hướng dùng lại Processor cứng có sẵn trên FPGA",
-    "image": "../images/slider/banner1.png",
+    "image": "none",
     "duration": "3 phần, 16 buổi",
     "detail": {
       "section": [
