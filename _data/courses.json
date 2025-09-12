@@ -1,5 +1,231 @@
 [
   {
+    "title": "Thiết kế Vi mạch Số từ Cơ bản đến Ứng dụng",
+    "comment": "Nắm vững từ Logic đến Bộ xử lý",
+    "image": "banner_khoa1.png",
+    "duration": "8 phần, 16 buổi",
+    "detail": {
+      "section": [
+        {
+          "title": "Phần A: Biểu diễn số & Logic tổ hợp",
+          "module": [
+            {
+              "title": "Buổi 1: Biểu diễn số, Boolean, K-map & Quy trình thiết kế tổ hợp",
+              "moduledetail": [
+                "Nội dung: Chuyển đổi hệ số (2/8/16↔10, nhị phân phần thập phân, nhị phân↔hex), số có dấu bù-2 (phạm vi, cộng/trừ, phát hiện overflow), cổng logic & đại số Boolean (AND/OR/NOT, DeMorgan, NAND/NOR phổ dụng), dạng biểu diễn SoP/PoS (canonical vs standard), K-map 2-4 biến (nhóm, don't-care, hazard).",
+                "Demo: Thiết kế mạch majority(3) từ SoP → K-map → mạch chỉ NAND.",
+                "Source: Verilog code majority3.v, testbench tb_majority3.v.",
+                "Document: Tutorial Boolean simplification with K-map.",
+                "Bài tập: Chuyển đổi số hỗn hợp; cộng bù-2; rút gọn hàm 4 biến có don't-care; SoP/PoS & K-map cho hàm “ít nhất 2 đầu vào = 1”; overflow bù-2."
+              ],
+              "image": "none"
+            },
+            {
+              "title": "Buổi 2: Mạch tổ hợp chuẩn → Mạch tuần tự cơ bản → Ôn tập tích hợp",
+              "moduledetail": [
+                "Nội dung: Ghép mạch tổ hợp bằng block chuẩn (Half/Full Adder, MUX/Decoder/Encoder, BCD→7-segment), dùng D-FF để tạo thanh ghi/bộ đếm, tổng hợp FSM đơn giản theo quy trình 5 bước (Moore/Mealy, binary vs one-hot).",
+                "Demo: Thiết kế Mod-10 counter có enable & sync-reset; tối giản BCD→7-seg; sequence detector “101” (Moore).",
+                "Source: counter10.v, fsm_detector.v, testbenches.",
+                "Document: Tutorial Combinational & Sequential Circuits.",
+                "Bài tập: ALU 4-bit mini (AND/OR/XOR/ADD/SUB bù-2 + cờ Z/Cout); Mod-12 up/down counter; FSM Mealy ngắn (state-diagram + bảng chuyển)."
+              ],
+              "image": "none"
+            }
+          ]
+        },
+        {
+          "title": "Phần B: Sequential Logic & Datapath cơ bản",
+          "module": [
+            {
+              "title": "Buổi 3: Advanced Sequential Logic & Quy ước FSM/timing",
+              "moduledetail": [
+                "Nội dung: Clock period/frequency/width/duty-cycle; setup/hold; latch vs FF (SR/D/JK/T, MS vs edge-triggered); phân tích mạch tuần tự (phương trình kích thích, trạng thái kế, timing diagram); FSM tổng hợp, giản đồ chuyển trạng thái, quy ước vẽ; tối thiểu hóa trạng thái (partition, implication table), mã hóa (minimum-bit-change, prioritized adjacency, one-hot); ước lượng cost/delay và chọn FF.",
+                "Demo: Bài tập timing tính f & duty từ width/period; vẽ timing FSM nhỏ (Mealy/Moore).",
+                "Source: timing_exercise.v, fsm_timing.v.",
+                "Document: Tutorial Sequential Logic & FSM Optimization.",
+                "Bài tập: Thiết kế counter theo chu trình cho trước bằng D/JK/T và so sánh cost/delay; rà lỗi phổ biến khi vi phạm setup/hold; nộp state table + timing cho một mạch cho trước."
+              ],
+              "image": "none"
+            },
+            {
+              "title": "Buổi 4: Storage Components (Phần 1): Datapath cơ bản & One's-Counter",
+              "moduledetail": [
+                "Nội dung: Storage components (registers, counters, RF, queue/stack); datapath 1-ACC & RF 3-port; ALU/Shift ops; control word; ví dụ hệ thống One's-Counter (thuật toán, FSM/ASM, next-state/output, control tín hiệu, datapath & controller).",
+                "Demo: Viết control word & mô phỏng One's-Counter trên datapath RF-3port; check tín hiệu Done/Enable.",
+                "Source: ones_counter.v, rf3port.v, controller.v.",
+                "Document: Tutorial One's-Counter Datapath.",
+                "Bài tập: Thiết kế datapath tính tổng S=1+…+n; lên control word và ASM sơ bộ."
+              ],
+              "image": "none"
+            }
+          ]
+        },
+        {
+          "title": "Phần C: Datapath song song & FSMD",
+          "module": [
+            {
+              "title": "Buổi 5: Storage Components (Phần 2): Datapath song song & Control Unit",
+              "moduledetail": [
+                "Nội dung: Parallel datapath (đồng thời 2 thao tác/cycle, giới hạn đồng thời); custom datapath dùng latches biên để rút ngắn Tclk; các kiểu control-unit (hardwired, ROM, microprogrammed) với trade-offs chi phí/linh hoạt.",
+                "Demo: Chuyển thuật toán đơn giản sang datapath-song-song; xác định ràng buộc đồng thời.",
+                "Source: parallel_datapath.v, control_unit.v.",
+                "Document: Tutorial Parallel Datapath & Control Unit.",
+                "Bài tập: Bài tập RF/Stack/Queue/Datapath biến đổi bit theo đề."
+              ],
+              "image": "none"
+            },
+            {
+              "title": "Buổi 6: Register-Transfer Specification & Design (P1): FSMD, ASM, Ones-Counter RTL",
+              "moduledetail": [
+                "Nội dung: Mô hình FSMD (tách fC/fD, hC/hD); biến trạng thái datapath, input/output, STAT; đặc tả Ones-Counter ở mức FSMD (state-action/static-action table, ASM symbols & rules); phiên bản state-based và input-based; ánh xạ sang logic RTL cho controller/datapath.",
+                "Demo: Viết ASM cho bài S=1..n (BTVN buổi 4), tách control/datapath, xuất tín hiệu điều khiển.",
+                "Source: fsmd_ones_counter.v, asm_chart.pdf.",
+                "Document: Tutorial FSMD & ASM Chart Design.",
+                "Bài tập: Biến thể Ones-Counter (đếm bit 1 theo khối 4-bit), yêu cầu state-table & ASM 2 kiểu."
+              ],
+              "image": "none"
+            }
+          ]
+        },
+        {
+          "title": "Phần D: Tổng hợp ASM & Pipelining",
+          "module": [
+            {
+              "title": "Buổi 7: Register-Transfer (P2): Tổng hợp từ ASM & Chia sẻ tài nguyên",
+              "moduledetail": [
+                "Nội dung: Pipeline tổng hợp từ ASM; register sharing (non-overlapping lifetime, left-edge algorithm, compatibility graph); functional-unit sharing (operator merging); datapath connectivity & bus sharing; register merging.",
+                "Demo: Tạo variable usage table và chạy left-edge bằng tay; vẽ compatibility graph và đề xuất register/ALU/bus groups cho SRA.",
+                "Source: asm_to_rtl.v, sra_example.v.",
+                "Document: Tutorial ASM Synthesis & Resource Sharing.",
+                "Bài tập: Bài ∑a²ᵢ (i=1..100): viết giả mã → ASM → chia sẻ reg/op/bus; nộp datapath tối thiểu."
+              ],
+              "image": "none"
+            },
+            {
+              "title": "Buổi 8: Register-Transfer (P3): Chaining/Multicycling, Pipelining & Scheduling",
+              "moduledetail": [
+                "Nội dung: Chaining (nối 2+ thao tác trong cùng state), multicycling (1 thao tác >1 chu kỳ); pipelining (unit, control, datapath, FSMD pipeline, timing); scheduling (ASAP/ALAP, list scheduling, resource-constrained vs time-constrained).",
+                "Demo: Lập ASAP/ALAP + list scheduling cho SRA/One's-Counter mở rộng với ràng buộc 2 adders, 1 shifter; so RC vs TC schedule.",
+                "Source: scheduling_example.v, asap_alap.pdf.",
+                "Document: Tutorial Scheduling & Pipelining.",
+                "Bài tập: Đề xuất datapath pipelining 2-3 stage cho One's-Counter và ước lượng thông lượng/độ trễ."
+              ],
+              "image": "none"
+            }
+          ]
+        },
+        {
+          "title": "Phần E: Processor Design",
+          "module": [
+            {
+              "title": "Buổi 9: Processor Design: Từ ISA → CISC/RISC, Pipeline & Hazards",
+              "moduledetail": [
+                "Nội dung: Instruction Set (kiểu lệnh, số trường địa chỉ, addressing modes); instruction-execution cycle; processor design flow; CISC 16-bit (IS, flowchart, component allocation, ASM, schematic); RISC 32-bit (pipeline 4 stage, forwarding paths, stall/flush, branch prediction).",
+                "Demo: Viết assembly cho biểu thức C=(a+b)(a-b) với 1-addr/2-addr/3-addr & so sánh truy cập bộ nhớ; vẽ timing 4-stage cho 2-3 câu lệnh có phụ thuộc, thêm data-forwarding & branch prediction.",
+                "Source: mini_cisc.v, mini_risc.v, assembly_examples.s.",
+                "Document: Tutorial Processor ISA & Pipeline Design.",
+                "Bài tập: Đề cương mini-CPU (subset lệnh, datapath, control unit, pipeline/hazard policy)."
+              ],
+              "image": "none"
+            }
+          ]
+        },
+        {
+          "title": "Phần F: Behavioral Verilog & Testbench",
+          "module": [
+            {
+              "title": "Buổi 10: Behavioral Verilog nâng cao: continuous vs. procedural, sự kiện & quy tắc comb/seq đúng",
+              "moduledetail": [
+                "Nội dung: Continuous vs procedural assignment; cơ chế tiến thời gian (#, @, wait); quy tắc viết comb procedural (đủ sensitivity list, gán đủ nhánh); vai trò initial vs always.",
+                "Demo: Sửa always-comb thiếu sensitivity/gán thiếu nhánh để loại latch ẩn, thêm @(*).",
+                "Source: verilog_comb_seq.v, testbench_tb.v.",
+                "Document: Tutorial Behavioral Verilog Coding.",
+                "Bài tập: Viết FA 1-bit dùng blocking; viết DFF dùng non-blocking; giải thích lý do."
+              ],
+              "image": "none"
+            },
+            {
+              "title": "Buổi 11: Tasks & Functions (P1): bản chất, khác biệt, cú pháp & ví dụ",
+              "moduledetail": [
+                "Nội dung: Tasks vs Functions (thời gian mô phỏng, số giá trị trả về, timing control, synthesize); cú pháp khai báo/gọi; function (logic tổ hợp, trả về 1 giá trị).",
+                "Demo: Viết function [7:0] checksum8(data[63:0]); viết task drive_word phát stimulus.",
+                "Source: tasks_functions.v, tb_tasks.v.",
+                "Document: Tutorial Verilog Tasks & Functions.",
+                "Bài tập: Refactor đoạn mã lặp thành 1 task + 1 function; giải thích lý do chọn."
+              ],
+              "image": "none"
+            },
+            {
+              "title": "Buổi 12: Tasks & Functions (P2): tái sử dụng trong testbench, phát vector & tự-kiểm",
+              "moduledetail": [
+                "Nội dung: Ghép task/function vào testbench; phát xung/clock, tạo/chấm test-vector, log; timescale, clock gen, $monitor/$display/$finish.",
+                "Demo: Viết testbench tự-kiểm cho thanh ghi dịch + bộ đếm (emitBits, check).",
+                "Source: tb_register_counter.v.",
+                "Document: Tutorial Self-checking Testbench.",
+                "Bài tập: Thiết kế tập ca kiểm thử bao phủ typical & corner cases cho DUT."
+              ],
+              "image": "none"
+            }
+          ]
+        },
+        {
+          "title": "Phần G: Testbench & Verification",
+          "module": [
+            {
+              "title": "Buổi 13: Testbench & Verification (P1): kiến trúc TB, PASS/FAIL, test-vectors",
+              "moduledetail": [
+                "Nội dung: Vai trò testbench, đọc test-vectors, áp vào DUT, log sai khác; cấu trúc testbench mẫu (tham số, instantiation, always/initial, task/function); PASS/FAIL compare đồng bộ.",
+                "Demo: Xây TB cho DFF: clock gen, stimulus, comparator PASS/FAIL.",
+                "Source: tb_dff.v.",
+                "Document: Tutorial Testbench PASS/FAIL.",
+                "Bài tập: Tạo TB tự-kiểm cho adder4 (structural) quét toàn bộ 16×16 đầu vào."
+              ],
+              "image": "none"
+            },
+            {
+              "title": "Buổi 14: Testbench & Verification (P2): timescale, specify & timing checks",
+              "moduledetail": [
+                "Nội dung: Timescale trong TB/DUT; khối specify ($setup, $hold, $width); minh họa TB DFF có fork/join tạo lệch pha để thấy PASS/FAIL + vi phạm timing.",
+                "Demo: Thêm specify + $setup/$hold cho DFF; chạy ca vi phạm và ghi log.",
+                "Source: tb_dff_timing.v.",
+                "Document: Tutorial Timing Checks in Testbench.",
+                "Bài tập: Giải thích khác nhau khi đổi timescale (độ phân giải, độ chính xác) trong TB/DUT."
+              ],
+              "image": "none"
+            }
+          ]
+        },
+        {
+          "title": "Phần H: FSM coding & Mini-project",
+          "module": [
+            {
+              "title": "Buổi 15: FSM coding & verification nâng cao: ma trận chuyển trạng thái, TB cho FSM",
+              "moduledetail": [
+                "Nội dung: Chuẩn bị state transition matrix trước khi tạo testbench; FSM Moore/Mealy bằng always @(posedge clk); phát ca kiểm thử bao phủ chuyển trạng thái (điển hình + biên), PASS/FAIL.",
+                "Demo: Viết TB cho FSM 3-4 trạng thái (ví dụ detector dãy bit) theo ma trận chuyển trạng thái.",
+                "Source: fsm_coding.v, tb_fsm.v.",
+                "Document: Tutorial FSM Coding & Verification.",
+                "Bài tập: Thêm ca cho trạng thái không tới được và reset bất chợt; báo cáo hành vi."
+              ],
+              "image": "none"
+            },
+            {
+              "title": "Buổi 16: Tích hợp mini-project: từ đặc tả → RTL → TB tự-kiểm → timing checks",
+              "moduledetail": [
+                "Nội dung: Vị trí pre-synthesis verification trong CAD flow; tổ chức design-test-testbench; checklist mini-project (test-vectors, PASS/FAIL tự động, báo cáo, timing ca).",
+                "Demo: Mỗi nhóm demo TB tự-kiểm chạy trọn bộ ca, cung cấp log PASS/FAIL + minh chứng ca timing.",
+                "Source: mini_project.v, tb_project.v, report_template.docx.",
+                "Document: Guideline Final Project RTL & Testbench.",
+                "Bài tập: Đóng gói repo mini-project (README, sơ đồ khối, bảng ca kiểm thử & bao phủ ca)."
+              ],
+              "image": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "title": "Thiết kế SoC trên FPGA căn bản",
     "comment": "Thiết kế SoC theo hướng dùng lại Processor cứng có sẵn trên FPGA",
     "image": "../images/slider/banner1.png",
@@ -193,7 +419,7 @@
     "title": "Thiết kế SoC nâng cao trên FPGA cho AI",
     "comment": "Tối ưu hóa IP tăng tốc Deep Learning với processor cứng SoC",
     "image": "none",
-    "duration": "6 phần - 16 buổi",
+    "duration": "6 phần, 16 buổi",
     "detail": {
       "section": [
         {
