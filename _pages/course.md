@@ -233,12 +233,13 @@ permalink: /course/
         <div class="course-description">
             <div class="course-icon"></div>
             <div class="course-text">
-                <h3>[{{forloop.index}}] {{ course.title }} [{{ course.duration }}]</h3>
+                <h3>[{{forloop.index}}] {{ course.title }}</h3>
+                <p><strong>Thời lượng</strong>: {{ course.duration }}</ơ>
             </div>
         </div>
         {% if course.image != "none" %}
         <img src="{{ course.image }}" alt="{{ course.title }}" style="width: 100%; display: block; margin-bottom: 20px">
-        {% endif %}    
+        {% endif %}
         <div class="course-footer">
             <div>
                 <span class="course-price">{{ course.comment }}</span>
