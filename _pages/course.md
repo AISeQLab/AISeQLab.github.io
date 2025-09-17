@@ -248,7 +248,7 @@ permalink: /course/
             <strong>Chi tiết</strong>
           </button>
           <a class="button-register" href="https://zaloapp.com/qr/p/1hoddclgew2u1">
-            <strong>Đăng ký (liên hệ để để thêm vào nhóm Zalo)</strong>
+            <strong>Đăng ký (liên hệ & tham gia nhóm Zalo)</strong>
           </a>
         </div>
     </div>
