@@ -8,6 +8,15 @@ permalink: /demo/
 
 # Demo
 
+### [8] High-bandwidth memory
+
+We use high-bandwidth memory (3D-chip) for quantum simulation task 
+
+Check the [paper](https://arxiv.org/pdf/2510.07110) for more information.
+
+<p align="left">
+    <img src="../images/paper/hdm.png" alt="FQsun Demo" style="max-width:80%; width:80%;">
+</p>
 
 ### [7] Median filter accelerator
 
