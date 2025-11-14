@@ -4,7 +4,7 @@ category: collaborator
 title: Huynh Ho Thi Mong Trinh
 image: trinhhhtm.png
 role: Lecturer at SE-UIT-VNUHCM
-degree: Ms, UIT-VNU
+degree: MS, UIT-VNU
 field: Software Engineering
 permalink: 'team/trinhhhtm'
 email: trinhhhtm [at] uit.edu.vn
