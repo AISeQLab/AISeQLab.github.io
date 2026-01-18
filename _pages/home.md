@@ -1,46 +1,15 @@
 ---
 title: "Home"
-layout: fantasy
+layout: homelay
 excerpt: "AISeQ lab at UIT, VNUHCM"
 sitemap: false
 permalink: /
 ---
 
-<div class="hero-section">
-    <div class="hero-content floating">
-        <h1 class="hero-title">AISeQ Lab</h1>
-        <p class="hero-subtitle">Forging the future at the nexus of Artificial Intelligence, Semiconductors, and Quantum Technologies.</p>
-        <div style="margin-top: 30px;">
-             <a href="{{ site.url }}{{ site.baseurl }}/research" class="btn-fantasy">Explore Research</a>
-             <a href="{{ site.url }}{{ site.baseurl }}/team" class="btn-fantasy" style="border-color: var(--accent-ai); color: var(--accent-ai);">Meet the Team</a>
-        </div>
-    </div>
-</div>
+# About the Lab
 
-<div class="pillars-container">
-    <div class="pillar-card ai">
-        <div class="pillar-icon">🧠</div>
-        <h2 class="pillar-title">Artificial Intelligence</h2>
-        <p>Pioneering intelligent systems that learn, adapt, and evolve. From generative models to autonomous agents, we push the boundaries of what machines can achieve.</p>
-    </div>
-    
-    <div class="pillar-card semi">
-        <div class="pillar-icon">💾</div>
-        <h2 class="pillar-title">Semiconductors</h2>
-        <p>Designing the hardware substrates of the future. We innovate in chip architecture to power the next generation of computing needs.</p>
-    </div>
+Access our [Facebook page](https://www.facebook.com/aiseqlab) to get the news!
 
-    <div class="pillar-card quantum">
-        <div class="pillar-icon">⚛️</div>
-        <h2 class="pillar-title">Quantum Computing</h2>
-        <p>Unlocking the power of the quantum realm. We research quantum algorithms and simulations to solve the unsolvable.</p>
-    </div>
-</div>
+AISeQ Lab at University of Information Technology, Vietnam National University Ho Chi Minh City (UIT, VNUHCM) is a multidisciplinary research group dedicated to advancing the frontiers of Artificial Intelligence (AI), Semiconductors (Se), and Quantum Technologies (Q).
 
-<div class="cta-section">
-    <h2 style="color: #fff; margin-bottom: 30px;">Join the Convergance</h2>
-    <p style="max-width: 600px; margin: 0 auto 30px auto; color: #ccc;">
-        AISeQ Lab is a hub for visionaries. Whether you are a student, researcher, or industry partner, there is a place for you here.
-    </p>
-    <a href="{{ site.url }}{{ site.baseurl }}/openings" class="btn-fantasy" style="border-color: var(--accent-semi); color: var(--accent-semi);">Join Us</a>
-</div>
+By integrating AI for AI, AI for Semiconductors, and AI for Quantum, the AISeQ Lab fosters synergy between these transformative fields. Our mission is to bridge theoretical research with practical applications, enabling breakthroughs in computing power, intelligent systems, and advanced hardware architectures. With a collaborative environment and strong partnerships in academia and industry, AISeQ Lab aims to be a hub for engineers who are shaping the technologies of tomorrow.
