@@ -1,0 +1,155 @@
+/* Fantasy Theme Colors */
+:root {
+    --bg-color: #050510;
+    --text-color: #e0e0e0;
+    --accent-ai: #bc13fe;
+    --accent-quantum: #00f3ff;
+    --accent-semi: #ffd700;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+body.fantasy-theme {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding-top: 50px; /* Offset for fixed navbar */
+}
+
+/* Navbar override for fantasy theme */
+.fantasy-theme .navbar {
+    background: rgba(5, 5, 16, 0.9);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.fantasy-theme .navbar-brand, 
+.fantasy-theme .navbar-nav > li > a {
+    color: var(--text-color) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(circle at 50% 50%, #1a1a2e 0%, #050510 70%);
+    overflow: hidden;
+}
+
+.hero-content {
+    z-index: 2;
+    padding: 20px;
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 15px;
+    max-width: 800px;
+}
+
+.hero-title {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, var(--accent-ai), var(--accent-quantum), var(--accent-semi));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(188, 19, 254, 0.3);
+}
+
+.hero-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+/* Three Pillars */
+.pillars-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.pillar-card {
+    flex: 1;
+    min-width: 300px;
+    margin: 20px;
+    padding: 30px;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pillar-card:hover {
+    transform: translateY(-10px);
+}
+
+.pillar-card.ai:hover {
+    box-shadow: 0 0 20px var(--accent-ai);
+}
+.pillar-card.quantum:hover {
+    box-shadow: 0 0 20px var(--accent-quantum);
+}
+.pillar-card.semi:hover {
+    box-shadow: 0 0 20px var(--accent-semi);
+}
+
+.pillar-icon {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.ai .pillar-icon { color: var(--accent-ai); }
+.quantum .pillar-icon { color: var(--accent-quantum); }
+.semi .pillar-icon { color: var(--accent-semi); }
+
+.pillar-title {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(180deg, var(--bg-color) 0%, #101025 100%);
+}
+
+.btn-fantasy {
+    display: inline-block;
+    padding: 15px 40px;
+    background: transparent;
+    border: 2px solid var(--accent-quantum);
+    color: var(--accent-quantum);
+    font-size: 1.2em;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+.btn-fantasy:hover {
+    background: var(--accent-quantum);
+    color: #000;
+    box-shadow: 0 0 20px var(--accent-quantum);
+    text-decoration: none;
+}
+
+/* Animations */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+.floating {
+    animation: float 6s ease-in-out infinite;
+}
