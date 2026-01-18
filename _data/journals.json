@@ -1,242 +1,574 @@
 [
     {
-        "title": "ZeroSlide: Is Zero-Shot Classification Adequate for Lifelong Learning in Whole-Slide Image Analysis in the Era of Pathology Vision-Language Foundation Models?, arXiv preprint arXiv:2504.15627, 2025, Doanh C Bui and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Duy Tran and Yasuhiko Nakashima, 2025",
+        "title": "A Protocol-Aware P4 Pipeline for MQTT Security and Anomaly Mitigation in Edge IoT Systems. arXiv preprint arXiv:2601.07536. Bui Ngoc Thanh Binh and Pham Hoai Luan and Le Vu Trung Duong and Vu Tuan Hai and Yasuhiko Nakashima. 2026",
         "order": 1
     },
     {
-        "title": "A Fast Quantum Image Compression Algorithm based on Taylor Expansion, arXiv preprint arXiv:2502.10684, 2025, Vu Tuan Hai and Huynh Ho Thi Mong Trinh and Pham Hoai Luan, 2025",
+        "title": "PACOX: A FPGA-based Pauli Composer Accelerator for Pauli String Computation. arXiv preprint arXiv:2601.04827. Tran Xuan Hieu Le and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima. 2026",
         "order": 2
     },
     {
-        "title": "Benchmarking variants of the Adam optimizer for Quantum Machine Learning Applications, IEEE Open Journal of the Computer Society, 2025, Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025",
+        "title": "MINA: A Hardware-Efficient and Flexible Mini-InceptionNet Accelerator for ECG Classification in Wearable Devices. IEEE Transactions on Circuits and Systems I: Regular Papers. Hoai Luan Pham and Thi Diem Tran and Vu Trung Duong Le and Yasuhiko Nakashima. 2025",
         "order": 3
     },
     {
-        "title": "Qimax: Efficient quantum simulation via GPU-accelerated extended stabilizer formalism, arXiv preprint arXiv:2505.03307, 2025, Vu Tuan Hai and Bui Cao Doanh and Le Vu Trung Duong and Pham Hoai Luan and Yasuhiko Nakashima, 2025",
+        "title": "AES-RV: Hardware-Efficient RISC-V Accelerator with Low-Latency AES Instruction Extension for IoT Security. IEICE Electronics Express. Tinh Nguyen Van and Phuc Hung Pham and Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Thi Diem Tran. 2025",
         "order": 4
     },
     {
-        "title": "Lifelong Whole Slide Image Analysis: Online Vision-Language Adaptation and Past-to-Present Gradient Distillation, arXiv preprint arXiv:2505.01984, 2025, Doanh C Bui and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Duy Tran and Khang Nguyen and Yasuhiko Nakashima, 2025",
+        "title": "A Fast Quantum Image Compression Algorithm based on Taylor Expansion. arXiv preprint arXiv:2502.10684. Vu Tuan Hai and Huynh Ho Thi Mong Trinh and Pham Hoai Luan. 2025",
         "order": 5
     },
     {
-        "title": "MINA: A Hardware-Efficient and Flexible Mini-InceptionNet Accelerator for ECG Classification in Wearable Devices, IEEE Transactions on Circuits and Systems I: Regular Papers, 2025, Hoai Luan Pham and Thi Diem Tran and Vu Trung Duong Le and Yasuhiko Nakashima, 2025",
+        "title": "Benchmarking variants of the Adam optimizer for Quantum Machine Learning Applications. IEEE Open Journal of the Computer Society. Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima. 2025",
         "order": 6
     },
     {
-        "title": "QEA: An Accelerator for Quantum Circuit Simulation with Resources Efficiency and Flexibility, arXiv preprint arXiv:2503.14951, 2025, Van Duy Tran and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima, 2025",
+        "title": "QEA: An Accelerator for Quantum Circuit Simulation with Resources Efficiency and Flexibility. 2025 10th IEEE International Conference on Integrated Circuits, Design, and Verification (ICDV). Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima. 2025",
         "order": 7
     },
     {
-        "title": "Parallelizing the stabilizer formalism for quantum machine learning applications, arXiv preprint arXiv:2502.10685, 2025, Vu Tuan Hai and Le Vu Trung Duong and Pham Hoai Luan and Yasuhiko Nakashima, 2025",
+        "title": "A Fast and Memory-Efficient CNN Accelerator for ECG Classification in Remote Healthcare Systems. 2025 22nd International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology (ECTI-CON). Hoai Luan Pham and Thi Diem Tran and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima. 2025",
         "order": 8
     },
     {
-        "title": "AES-RV: Hardware-Efficient RISC-V Accelerator with Low-Latency AES Instruction Extension for IoT Security, IEICE Electronics Express, 22.20250329, 2025, Tinh Nguyen Van and Phuc Hung Pham and Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Thi Diem Tran, 2025",
+        "title": "Lifelong Whole Slide Image Analysis: Online Vision-Language Adaptation and Past-to-Present Gradient Distillation. arXiv preprint arXiv:2505.01984. Doanh C Bui and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Duy Tran and Khang Nguyen and Yasuhiko Nakashima. 2025",
         "order": 9
     },
     {
-        "title": "Medalyze: Lightweight Medical Report Summarization Application Using FLAN-T5-Large, arXiv preprint arXiv:2505.17059, 2025, Van-Tinh Nguyen and Hoang-Duong Pham and Thanh-Hai To and Cong-Tuan Hung Do and Thi-Thu-Trang Dong and Vu-Trung Duong Le and Van-Phuc Hoang, 2025",
+        "title": "ZeroSlide: Is Zero-Shot Classification Adequate for Lifelong Learning in Whole-Slide Image Analysis in the Era of Pathology Vision-Language Foundation Models?. arXiv preprint arXiv:2504.15627. Doanh C Bui and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Duy Tran and Yasuhiko Nakashima. 2025",
         "order": 10
     },
     {
-        "title": "Optimization on black-box function by parameter-shift rule, arXiv preprint arXiv:2503.13545, 2025, Vu Tuan Hai, 2025",
+        "title": "An innovative HLS framework for all network architectures: From Python to SoC. Integration. Thi Diem Tran and Minh Tan Ha and Xuan Thao Tran and Ngoc Quoc Tran and Vu Trung Duong Le and Hoai Luan Pham and Van Tinh Nguyen. 2025",
         "order": 11
     },
     {
-        "title": "CLEAR: Cross-Transformers With Pre-Trained Language Model for Person Attribute Recognition and Retrieval, Pattern Recognition 164, 111486, 2025, Doanh C Bui and Thinh V Le and Ba Hung Ngo and Tae Jong Choi, 2025",
+        "title": "MergeSlide: Continual Model Merging and Task-to-Class Prompt-Aligned Inference for Lifelong Learning on Whole Slide Images. arXiv preprint arXiv:2511.13099. Doanh C Bui and Ba Hung Ngo and Hoai Luan Pham and Khang Nguyen and Maï K Nguyen and Yasuhiko Nakashima. 2025",
         "order": 12
     },
     {
-        "title": "HiGDA: Hierarchical Graph of Nodes to Learn Local-to-Global Topology for Semi-Supervised Domain Adaptation, Proceedings of the AAAI Conference on Artificial Intelligence 39 (6), 6191-6199, 2025, Ba Hung Ngo and Doanh C Bui and Nhat-Tuong Do-Tran and Tae Jong Choi, 2025",
+        "title": "HPQEA: A Scalable and High-Performance Quantum Emulator with High-Bandwidth Memory for Diverse Algorithms Support. arXiv preprint arXiv:2510.07110. Tran Van Duy and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Yasuhiko Nakashima. 2025",
         "order": 13
     },
     {
-        "title": "Welcome New Doctor: Continual Learning with Expert Consultation and Autoregressive Inference for Whole Slide Image Analysis, arXiv preprint arXiv:2508.02220, 2025, Doanh Cao Bui and Jin Tae Kwak, 2025",
+        "title": "Transfer-Based Strategies for Multi-Target Quantum Optimization. arXiv preprint arXiv:2508.11914. Vu Tuan Hai and Bui Cao Doanh and Le Vu Trung Duong and Pham Hoai Luan and Yasuhiko Nakashima. 2025",
         "order": 14
     },
     {
-        "title": "How to enrich cross-domain representations? Data augmentation, cycle-pseudo labeling, and category-aware graph learning, Expert Systems with Applications 271, 126597, 2025, Ba Hung Ngo and Doanh C Bui and Tae Jong Choi, 2025",
+        "title": "Correlation Power Analysis of Pipelined and Multi-Threaded Coarse-Grained Reconfigurable Cryptographic Accelerator. 2025 10th IEEE International Conference on Integrated Circuits, Design, and Verification (ICDV). Van-Tuan Luu and Hoai Luan Pham and Van-Tinh Nguyen and Van-Phuc Hoang and Van-Trung Nguyen and Vu Trung Duong Le and Yasuhiko Nakashima. 2025",
         "order": 15
     },
     {
-        "title": "Exploring the Limitations of Kolmogorov-Arnold Networks in Classification: Insights to Software Training and Hardware Implementation, arXiv preprint arXiv:2407.17790, 2024, Tran Xuan Hieu Le and Thi Diem Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Tinh Nguyen and Yasuhiko Nakashima, 2024",
+        "title": "Qimax: Efficient quantum simulation via GPU-accelerated extended stabilizer formalism. arXiv preprint arXiv:2505.03307. Vu Tuan Hai and Bui Cao Doanh and Le Vu Trung Duong and Pham Hoai Luan and Yasuhiko Nakashima. 2025",
         "order": 16
     },
     {
-        "title": "LiCryptor: High-Speed and Compact Multi-Grained Reconfigurable Accelerator for Lightweight Cryptography, IEEE Transactions on Circuits and Systems I: Regular Papers, 2024, Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "title": "UniCrypt: Universal Crypto Engine with Optimized Resource Sharing for Security Applications. 2025 IEEE Symposium on Low-Power and High-Speed Chips and Systems (COOL CHIPS). Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Van Duy Tran and Yasuhiko Nakashima. 2025",
         "order": 17
     },
     {
-        "title": "Flexible and energy-efficient crypto-processor for arbitrary input length processing in blockchain-based iot applications, IEICE Transactions on Fundamentals of Electronics, Communications and …, 2024, Trung-Duong Vu and Hoai-Luan Pham and Thi-Hong Tran and Yasuhiko Nakashima, 2024",
+        "title": "Parallelizing the stabilizer formalism for quantum machine learning applications. arXiv preprint arXiv:2502.10685. Vu Tuan Hai and Le Vu Trung Duong and Pham Hoai Luan and Yasuhiko Nakashima. 2025",
         "order": 18
     },
     {
-        "title": "ECG Captioning with Prior-Knowledge Transformer and Diffusion Probabilistic Model, Journal of Healthcare Informatics Research, 1-26, 2024, Thi Diem Tran and Ngoc Quoc Tran and Thi Thu Khiet Dang and Hoai Luan Pham and Yasuhiko Nakashima, 2024",
+        "title": "OSA: FPGA-Based Octa-Core SPHINCS+ Accelerator for IoT Security Applications. International Symposium on Information and Communication Technology. Vu Trung Duong Le and Anh Kiet Pham and Hoai Luan Pham and Tuan Hai Vu and Yasuhiko Nakashima. 2025",
         "order": 19
     },
     {
-        "title": "FQsun: A Configurable Wave Function-Based Quantum Emulator for Power-Efficient Quantum Simulations, arXiv preprint arXiv:2411.04471, 2024, Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Quoc Chuong Nguyen and Yasuhiko Nakashima, 2024",
+        "title": "Energy-Efficient SpMM Kernels for GATs and GCNs on a CGLA. ICMLAS 2025. Koki Asahina and Dohyun Kim and Tomoya Akabe and Vu Trung Duong Le and Yasuhiko Nakashima. 2025",
         "order": 20
     },
     {
-        "title": "CTFE: A High-Efficient Heterogeneous Cryptographic CGRA for Diverse Security Applications, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2024, Vu Trung Duong Le and Hoai Luan Pham and Thi Hong Tran and Tuan Hai Vu and Yasuhiko Nakashima, 2024",
+        "title": "Medalyze: Lightweight Medical Report Summarization Application Using FLAN-T5-Large. arXiv preprint arXiv:2505.17059. Van-Tinh Nguyen and Hoang-Duong Pham and Thanh-Hai To and Cong-Tuan Hung Do and Thi-Thu-Trang Dong and Vu-Trung Duong Le and Van-Phuc Hoang. 2025",
         "order": 21
     },
     {
-        "title": "MRCA 2.0: Area-Optimized Multi-grained Reconfigurable Cryptographic Accelerator for Securing Blockchain-based IoT Systems, IEEE Micro, 1-11, 2024, Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Thi Diem Tran and Yasuhiko Nakashima, 2024",
+        "title": "Flexible Genetic Algorithm for Quantum Support Vector Machines. arXiv preprint arXiv:2511.19160. Nguyen Minh Duc and Vu Tuan Hai and Le Bin Ho and Tran Nguyen Lan. 2025",
         "order": 22
     },
     {
-        "title": "Exploring the limitations of kolmogorov-arnold networks in classification: Insights to software training and hardware implementation, arXiv preprint arXiv:2407.17790, 2024, Van Duy Tran and Tran Xuan Hieu Le and Thi Diem Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Tinh Nguyen and Yasuhiko Nakashima, 2024",
+        "title": "Efficient Accelerators for Emulating Quantum Systems. N/A. Vu Tuan Hai. 2025",
         "order": 23
     },
     {
-        "title": "Flexible and Energy-Efficient Crypto-Processor for Arbitrary Input Length Processing in Blockchain-Based IoT Applications, IEICE Transactions on Fundamentals of Electronics, Communications and …, 2024, Vu Trung Duong Le and Hoai Luan Pham and Thi Hong Tran and Yasuhiko Nakashima, 2024",
+        "title": "Entangled State Preparation via Cluster States on Quantum Computers with  Software. 2025 IEEE International Conference on Quantum Software (QSW). Vu Tuan Hai and Jesus Urbaneja and Le Bin Ho. 2025",
         "order": 24
     },
     {
-        "title": "IMAX: A Power-efficient Multilevel Pipelined CGLA and Applications, IEEE Access, 2024, Tomoya Akabe and Vu Trung Duong Le and Yasuhiko Nakashima, 2024",
+        "title": "Advancing quantum process tomography through universal compilation. N/A. Huynh Le Dan Linh and Vu Tuan Hai and Le Bin Ho. 2025",
         "order": 25
     },
     {
-        "title": "<qo|op>: A quantum object optimizer, SoftwareX 26, 101726, 2024, Vu Tuan Hai and Nguyen Tan Viet and Le Bin Ho, 2024",
+        "title": "Optimization on black-box function by parameter-shift rule. arXiv preprint arXiv:2503.13545. Vu Tuan Hai. 2025",
         "order": 26
     },
     {
-        "title": "Exploring the features of quanvolutional neural networks for improved image classification, Quantum Machine Intelligence 6, 29, 2024, Tuan Hai Vu and Lawrence H. Le and The Bao Pham, 2024",
+        "title": "HiGDA: Hierarchical Graph of Nodes to Learn Local-to-Global Topology for Semi-Supervised Domain Adaptation. Proceedings of the AAAI Conference on Artificial Intelligence. Ba Hung Ngo and Doanh C Bui and Nhat-Tuong Do-Tran and Tae Jong Choi. 2025",
         "order": 27
     },
     {
-        "title": "Electric Vehicle Charging Stations Placement Optimization in Vietnam Using Mixed-Integer Nonlinear Programming Model, arXiv preprint arXiv:2412.16025, 2024, Quynh Vu Truc and Minh Ha Hien and Hai Vu Tuan, 2024",
+        "title": "CLEAR: Cross-Transformers With Pre-Trained Language Model for Person Attribute Recognition and Retrieval. Pattern Recognition. Doanh C Bui and Thinh V Le and Ba Hung Ngo and Tae Jong Choi. 2025",
         "order": 28
     },
     {
-        "title": "Multi-target quantum compilation algorithm, Machine Learning: Science and Technology 5 (4), 045057, 2024, Vu Tuan Hai and Nguyen Tan Viet and Jesus Urbaneja and Nguyen Vu Linh and Lan Nguyen Tran and Le Bin Ho, 2024",
+        "title": "How to enrich cross-domain representations? Data augmentation, cycle-pseudo labeling, and category-aware graph learning. Expert Systems with Applications. Ba Hung Ngo and Doanh C Bui and Tae Jong Choi. 2025",
         "order": 29
     },
     {
-        "title": "Transformer-based spatio-temporal unsupervised traffic anomaly detection in aerial videos, IEEE Transactions on Circuits and Systems for Video Technology 34 (9), 8292-8309, 2024, Tung Minh Tran and Doanh C Bui and Tam V Nguyen and Khang Nguyen, 2024",
+        "title": "UIT-OpenViIC: An open-domain benchmark for evaluating image captioning in Vietnamese. Signal Processing: Image Communication. Doanh C Bui and Nghia Hieu Nguyen and Khang Nguyen. 2025",
         "order": 30
     },
     {
-        "title": "DAX-Net: a dual-branch dual-task adaptive cross-weight feature fusion network for robust multi-class cancer classification in pathology images, Computer Methods and Programs in Biomedicine 248, 108112, 2024, Doanh C Bui and Boram Song and Kyungeun Kim and Jin Tae Kwak, 2024",
+        "title": "Welcome New Doctor: Continual Learning with Expert Consultation and Autoregressive Inference for Whole Slide Image Analysis. arXiv preprint arXiv:2508.02220. Doanh Cao Bui and Jin Tae Kwak. 2025",
         "order": 31
     },
     {
-        "title": "Spatially-constrained and-unconstrained bi-graph interaction network for multi-organ pathology image classification, IEEE Transactions on Medical Imaging, 2024, Doanh C Bui and Boram Song and Kyungeun Kim and Jin Tae Kwak, 2024",
+        "title": "A Mixture-of-Experts Decision Support System for Digital Pathology. 58th Hawaii International Conference on System Sciences, HICSS 2025. Doanh C Bui and Jin Tae Kwak. 2025",
         "order": 32
     },
     {
-        "title": "Transformer with multi-level grid features and depth pooling for image captioning, Machine Vision and Applications 35 (5), 118, 2024, Doanh C Bui and Tam V Nguyen and Khang Nguyen, 2024",
+        "title": "Exploring the Limitations of Kolmogorov-Arnold Networks in Classification: Insights to Software Training and Hardware Implementation. arXiv preprint arXiv:2407.17790. Tran Xuan Hieu Le and Thi Diem Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Van Tinh Nguyen and Yasuhiko Nakashima. 2024",
         "order": 33
     },
     {
-        "title": "QuIIL at T3 Challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View, AI for Brain Lesion Detection and Trauma Video Action Recognition: First …, 2024, Trinh TL Vuong and Doanh C Bui and Jin Tae Kwak, 2024",
+        "title": "ECG Captioning with Prior-Knowledge Transformer and Diffusion Probabilistic Model. Journal of Healthcare Informatics Research. Thi Diem Tran and Ngoc Quoc Tran and Thi Thu Khiet Dang and Hoai Luan Pham and Yasuhiko Nakashima. 2024",
         "order": 34
     },
     {
-        "title": "Hator: A High-Efficiency CGRA-Based 32/64-Bit Hashing Accelerator with Real-Time Performance Analysis, 2024 IEEE 17th International Symposium on Embedded Multicore/Many-core …, 2024, Hai Hau Nguyen and Pham Hoai Luan and Tuan Hai Vu and Van Duy Tran and Vu Trung Duong Le and Duc Khai Lam and Thi Diem Tran and Yasuhiko Nakashima, 2024",
+        "title": "LiCryptor: High-Speed and Compact Multi-Grained Reconfigurable Accelerator for Lightweight Cryptography. IEEE Transactions on Circuits and Systems I: Regular Papers. Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima. 2024",
         "order": 35
     },
     {
-        "title": "Theoretical Analysis of the Efficient-Memory Matrix Storage Method for Quantum Emulation Accelerators with Gate Fusion on FPGAs, arXiv preprint arXiv:2410.11146, 2024, Tran Xuan Hieu Le and Hoai Luan Pham and Tuan Hai Vu and Vu Trung Duong Le and Nakashima Yasuhiko, 2024",
+        "title": "Flexible and energy-efficient crypto-processor for arbitrary input length processing in blockchain-based iot applications. IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences. Trung-Duong Vu and Hoai-Luan Pham and Thi-Hong Tran and Yasuhiko Nakashima. 2024",
         "order": 36
     },
     {
-        "title": "Flexible and Scalable BLAKE/BLAKE2 Coprocessor for Blockchain-Based IoT Applications., IEEE Des. Test 40 (5), 15-25, 2023, Hoai Luan Pham and Thi Hong Tran and Vu Trung Duong Le and Yasuhiko Nakashima, 2023",
+        "title": "HyperNTT: A Fast and Accurate NTT/INTT Accelerator with Multi-Level Pipelining and an Improved K2-RED Module. The 39th International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC 2024). Dinh Nhat Nguyen and Van Duy Tran and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Duc Khai Lam and Thi Hong Tran and Nakashima Yasuhiko. 2024",
         "order": 37
     },
     {
-        "title": "QuantLaneNet: A 640-FPS and 34-GOPS/W FPGA-based CNN accelerator for lane detection, Sensors 23 (15), 6661, 2023, Duc Khai Lam and Cam Vinh Du and Hoai Luan Pham, 2023",
+        "title": "Theoretical Analysis of the Memory-Efficient Matrix Storage Method for Quantum Emulation Accelerators with Gate Fusion on FPGAs. 2024 IEEE 17th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC). Pham Hoai Luan and Vu Tuan Hai and Yasuhiko Nakashima. 2024",
         "order": 38
     },
     {
-        "title": "Universal compilation for quantum state tomography, Scientific Reports 13 (1), 3750, 2023, Vu Tuan Hai and Le Bin Ho, 2023",
+        "title": "FQsun: A Configurable Wave Function-Based Quantum Emulator for Power-Efficient Quantum Simulations. arXiv preprint arXiv:2411.04471. Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Quoc Chuong Nguyen and Yasuhiko Nakashima. 2024",
         "order": 39
     },
     {
-        "title": "Variational preparation of entangled states on quantum computers, arXiv preprint arXiv:2306.17422, 2023, Vu Tuan Hai and Nguyen Tan Viet and Le Bin Ho, 2023",
+        "title": "High-Efficiency RISC-V-Based Cryptographic Coprocessor for Security Applications. 2024 21st International SoC Design Conference (ISOCC). Duc Hong An Le and Vu Trung Duong Le and Viet Anh Ho and Hoai Luan Pham and Tuan Hai Vu and Yasuhiko Nakashima. 2024",
         "order": 40
     },
     {
-        "title": "Improving human–object interaction with auxiliary semantic information and enhanced instance representation, Pattern Recognition Letters 175, 38-43, 2023, Khang Nguyen and Thinh V Le and Huyen Ngoc N Van and Doanh C Bui, 2023",
+        "title": "A High-Performance FPGA Based on Convolutional Neural Network for QRS Complex Detection. THE 15th INTERNATIONAL IEEE CONFERENCE ON COMPUTING, COMMUNICATION AND NETWORKING TECHNOLOGIES (ICCCNT). Binh Tan Ngo and Nghi Hoang Huu Thai and Hoai Luan Pham and Thi Diem Tran. 2024",
         "order": 41
     },
     {
-        "title": "Uit-openviic: A novel benchmark for evaluating image captioning in vietnamese, arXiv preprint arXiv:2305.04166, 2023, Doanh C Bui and Nghia Hieu Nguyen and Khang Nguyen, 2023",
+        "title": "RVCP: High-Efficiency RISC-V Co-Processor for Security Applications in IoT and Server Systems. 2024 International Conference on Advanced Technologies for Communications (ATC). Le Vu Trung Duong and Tran Thi Hong Yen and Le Duc Hong An and Vu Tuan Hai and Pham Hoai Luan. 2024",
         "order": 42
     },
     {
-        "title": "The Object detection by the combination of generic roi extractor and dynamic R-CNN with side-aware boundary localization in aerial images, CTU Journal of Innovation and Sustainable Development 15 (1), 49-57, 2023, Nguyen Bao Tran and Tan Tai Pham and Cao Doanh Bui and Nguyen D Vo and Khang Nguyen, 2023",
+        "title": "LI-RV: A Fast and Efficient RISC-V based Coprocessor for Lightweight Cryptography. 2024 21st International SoC Design Conference (ISOCC). Ngoc Hung Nguyen and Duc Hong An Le and Vu Trung Duong Le and Tuan Hai Vu and Hoai Luan Pham and Yasuhiko Nakashima. 2024",
         "order": 43
     },
     {
-        "title": "Hardware-Based Architecture for DNN Wireless Communication Models, Sensors 23 (3), 1302, 2023, Van Duy Tran and Duc Khai Lam and Thi Hong Tran, 2023",
+        "title": "Efficient Random Quantum Circuit Generator: A Benchmarking Approach for Quantum Simulators. 2024 RIVF International Conference on Computing and Communication Technologies (RIVF). Vu Tuan Hai and Pham Hoai Luan and Yasuhiko Nakashima. 2024",
         "order": 44
     },
     {
-        "title": "A high-efficiency FPGA-based multimode SHA-2 accelerator, IEEE Access 10, 11830-11845, 2022, Hoai Luan Pham and Thi Hong Tran and Vu Trung Duong Le and Yasuhiko Nakashima, 2022",
+        "title": "Benchmarking Classical and Quantum Optimizers for Quantum Simulator. 2024 Twelfth International Symposium on Computing and Networking (CANDAR). Vu Tuan Hai and Pham Hoai Luan and Yasuhiko Nakashima. 2024",
         "order": 45
     },
     {
-        "title": "Compact message permutation for a fully pipelined BLAKE-256/512 accelerator, IEEE Access 10, 68740-68754, 2022, Hoai Luan Pham and Thi Hong Tran and Vu Trung Duong Le and Yasuhiko Nakashima, 2022",
+        "title": "CTFE: A High-Efficient Heterogeneous Cryptographic CGRA for Diverse Security Applications. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems. Vu Trung Duong Le and Hoai Luan Pham and Thi Hong Tran and Tuan Hai Vu and Yasuhiko Nakashima. 2024",
         "order": 46
     },
     {
-        "title": "Efficient architectures for full hardware scrypt-based block hashing system, Electronics 11 (7), 1068, 2022, Duc Khai Lam and Vu Trung Duong Le and Thi Hong Tran, 2022",
+        "title": "Efficient Parameter-Shift Rule Implementation for Computing Gradient on Quantum Simulators. 2024 International Conference on Advanced Technologies for Communications (ATC). Vu Tuan Hai and Le Vu Trung Duong and Pham Hoai Luan and Nakashima Yasuhiko. 2024",
         "order": 47
     },
     {
-        "title": "New approach of KNN Algorithm in quantum computing based on new design of quantum circuits, Informatica 46 (5), 2022, Vu Tuan Hai and Phan Hoang Chuong and Pham The Bao, 2022",
+        "title": "Quantum Battery Optimization through Quantum Machine Learning Techniques. 2024 21st International SoC Design Conference (ISOCC). Vu Tuan Hai and Vo Minh Kiet and Pham Hoai Luan and Yasuhiko Nakashima. 2024",
         "order": 48
     },
     {
-        "title": "Universal compilation for quantum state preparation and tomography, arXiv preprint arXiv:2204.11635, 2022, Vu Tuan Hai and Le Bin Ho, 2022",
+        "title": "UCP: A Unified Cryptographic Processor for High Performance and Low Power Security Applications. 2024 21st International SoC Design Conference (ISOCC). Vu Trung Duong Le and Hoai Luan Pham and Tuan Hai Vu and Thi Diem Tran and Yasuhiko Nakashima. 2024",
         "order": 49
     },
     {
-        "title": "Analysis of the influence of de-hazing methods on vehicle detection in aerial images, International Journal of Advanced Computer Science and Applications 13 (6), 2022, Khang Nguyen and Phuc Nguyen and Doanh C Bui and Minh Tran and Nguyen D Vo, 2022",
+        "title": "MRCA: Multi-grained Reconfigurable Cryptographic Accelerator for Diverse Security Requirements. 2024 IEEE Symposium in Low-Power and High-Speed Chips (COOL CHIPS). Pham Hoai Luan and Hai Hau Nguyen and Vu Trung Duong Le and Thi Diem Tran and Tuan Hai Vu and Thi Hong Tran and Yasuhiko Nakashima. 2024",
         "order": 50
     },
     {
-        "title": "Eaes: Effective augmented embedding spaces for text-based image captioning, IEEE Access 10, 32443-32452, 2022, Khang Nguyen and Doanh C Bui and Truc Trinh and Nguyen D Vo, 2022",
+        "title": "Using hypergraph ansatz on the hybrid quantum-classical image compression scheme. 4th International Conference on Intelligent Systems & Networks. Tran Khanh Nguyen and Nguyen Trinh Dong and Vu Tuan Hai and Pham Hoai Luan. 2024",
         "order": 51
     },
     {
-        "title": "viecap4h challenge 2021: a transformer-based method for healthcare image captioning in vietnamese, VNU Journal of Science: Computer Science and Communication Engineering 38 (2), 2022, Bui Cao Doanh and Trinh Thi Thanh Truc and Nguyen Trong Thuan and Nguyen Duc Vu and Nguyen Duy Vo, 2022",
+        "title": "Hator: A High-Efficiency CGRA-Based 32/64-Bit Hashing Accelerator with Real-Time Performance Analysis. The 17th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC-2024). Hai Hau Nguyen and Hoai Luan Pham and Vu Trung Duong Le and Van Duy Tran and Tuan Hai Vu and Duc Khai Lam and Thi Diem Tran and Nakashima Yasuhiko. 2024",
         "order": 52
     },
     {
-        "title": "DLAFS Cascade R-CNN: An object detector based on dynamic label assignment, Journal of Computer Science and Cybernetics 38 (2), 131-145, 2022, Doanh Bui Cao and Nguyen Vo Duy and Khang Nguyen, 2022",
+        "title": "A real-time JPEG image compression hardware design architecture. 2024 18th International Conference on Advanced Computing and Analytics (ACOMPA). Lam Duc Khai and Tran Van Quang and Pham Hoai Luan. 2024",
         "order": 53
     },
     {
-        "title": "Thực nghiệm đánh giá Double-Head cho bài toán phát hiện phương tiện giao thông từ không ảnh, Tạp chí Khoa học Đại học Cần Thơ 58 (4), 17-25, 2022, Nguyễn Thanh Thanh Trúc and Trần Thị Mỹ Quyên and Bùi Cao Doanh and Võ Duy Nguyên and Nguyen Tan Tran Minh Khang, 2022",
+        "title": "PESA: Power-Efficient SPHINCS+ Accelerator for Multi-Domain Security Applications on FPGA SoC. 2024 Twelfth International Symposium on Computing and Networking (CANDAR). Vu Trung Duong Le and Anh Kiet Pham and Hoai Luan Pham and Tuan Hai Vu and Yasuhiko Nakashima. 2024",
         "order": 54
     },
     {
-        "title": "A high-performance multimem SHA-256 accelerator for society 5.0, IEEE Access 9, 39182-39192, 2021, Thi Hong Tran and Hoai Luan Pham and Yasuhiko Nakashima, 2021",
+        "title": "MRCA 2.0: Area-Optimized Multi-grained Reconfigurable Cryptographic Accelerator for Securing Blockchain-based IoT Systems. IEEE Micro. Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Thi Diem Tran and Yasuhiko Nakashima. 2024",
         "order": 55
     },
     {
-        "title": "BCA: A 530-mW multicore blockchain accelerator for power-constrained devices in securing decentralized networks, IEEE Transactions on Circuits and Systems I: Regular Papers 68 (10), 4245-4258, 2021, Thi Hong Tran and Hoai Luan Pham and Tri Dung Phan and Yasuhiko Nakashima, 2021",
+        "title": "Hardware/Software Co-Design of a Multi-Mode CRYSTALS-Kyber Accelerator for Quantum-Secure Internet-Of-Things Systems. 2024 International Conference on Advanced Technologies for Communications (ATC). Nguyen Dinh Nhat and Nguyen Tan Toan and Vu Tuan Hai and Pham Hoai Luan and Le Vu Trung Duong. 2024",
         "order": 56
     },
     {
-        "title": "Mrsa: A high-efficiency multi romix scrypt accelerator for cryptocurrency mining and data security, IEEE Access 9, 168383-168396, 2021, Vu Trung Duong Le and Thi Hong Tran and Hoai Luan Pham and Duc Khai Lam and Yasuhiko Nakashima, 2021",
+        "title": "CGLA: Coarse-Grained Linear Array for Multi-Hash Acceleration in Blockchain Mining. 2024 21st International SoC Design Conference (ISOCC). Pham Hoai Luan and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima. 2024",
         "order": 57
     },
     {
-        "title": "RECONSTRUCTED TEETH IMAGE FROM BRACES WITH GAN, Biomedical Engineering: Applications, Basis and Communications 33 (06), 2150043, 2021, Vu Tuan Hai and Dang Thanh Vu and Huynh Ho Thi Mong Trinh and Pham The Bao, 2021",
+        "title": "Kyberator: A High-Efficiency FPGA-Based Multi-Mode CRYSTALS-Kyber Accelerator for Quantum-Resistant Security Applications. 2024 21st International SoC Design Conference (ISOCC). Nhat Nguyen Dinh and Hoai Luan Pham and Vu Trung Duong Le and Tuan Hai Vu and Yasuhiko Nakashima. 2024",
         "order": 58
     },
     {
-        "title": "Double SHA-256 hardware architecture with compact message expander for bitcoin mining, IEEE Access 8, 139634-139646, 2020, Hoai Luan Pham and Thi Hong Tran and Tri Dung Phan and Vu Trung Duong Le and Duc Khai Lam and Yasuhiko Nakashima, 2020",
+        "title": "A Quantum Circuit Design for Quantum Portfolio Optimization Problem. The 39th International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC 2024). Truc Quynh Vu and Tuan Hai Vu and Vu Trung Duong Le and Hoai Luan Pham and Nakashima Yasuhiko. 2024",
         "order": 59
     },
     {
-        "title": "A fast approach for bitcoin blockchain cryptocurrency mining system, Integration 74, 107-114, 2020, Le Vu Trung Duong and Nguyen Thi Thanh Thuy and Lam Duc Khai, 2020",
+        "title": "IMAX: A Power-efficient Multilevel Pipelined CGLA and Applications. IEEE Access. Tomoya Akabe and Vu Trung Duong Le and Yasuhiko Nakashima. 2024",
         "order": 60
+    },
+    {
+        "title": "Ultra-Efficient Universal Cryptographic Accelerators for Blockchain-based IoT Systems. N/A. Vu Trung Duong Le. 2024",
+        "order": 61
+    },
+    {
+        "title": "Multi-target quantum compilation algorithm. Machine Learning: Science and Technology. Vu Tuan Hai and Nguyen Tan Viet and Jesus Urbaneja and Nguyen Vu Linh and Lan Nguyen Tran and Le Bin Ho. 2024",
+        "order": 62
+    },
+    {
+        "title": "<qo|op>: A quantum object optimizer. SoftwareX. Vu Tuan Hai and Nguyen Tan Viet and Le Bin Ho. 2024",
+        "order": 63
+    },
+    {
+        "title": "Exploring the features of quanvolutional neural networks for improved image classification. Quantum Machine Intelligence. Tuan Hai Vu and Lawrence H. Le and The Bao Pham. 2024",
+        "order": 64
+    },
+    {
+        "title": "Electric Vehicle Charging Stations Placement Optimization in Vietnam Using Mixed-Integer Nonlinear Programming Model. arXiv preprint arXiv:2412.16025. Quynh Vu Truc and Minh Ha Hien and Hai Vu Tuan. 2024",
+        "order": 65
+    },
+    {
+        "title": "Transformer-based spatio-temporal unsupervised traffic anomaly detection in aerial videos. IEEE Transactions on Circuits and Systems for Video Technology. Tung Minh Tran and Doanh C Bui and Tam V Nguyen and Khang Nguyen. 2024",
+        "order": 66
+    },
+    {
+        "title": "C2t-net: Channel-aware cross-fused transformer-style networks for pedestrian attribute recognition. Proceedings of the IEEE/CVF winter conference on applications of computer vision. Doanh C Bui and Thinh V Le and Ba Hung Ngo. 2024",
+        "order": 67
+    },
+    {
+        "title": "DAX-Net: a dual-branch dual-task adaptive cross-weight feature fusion network for robust multi-class cancer classification in pathology images. Computer Methods and Programs in Biomedicine. Doanh C Bui and Boram Song and Kyungeun Kim and Jin Tae Kwak. 2024",
+        "order": 68
+    },
+    {
+        "title": "Spatially-constrained and-unconstrained bi-graph interaction network for multi-organ pathology image classification. IEEE Transactions on Medical Imaging. Doanh C Bui and Boram Song and Kyungeun Kim and Jin Tae Kwak. 2024",
+        "order": 69
+    },
+    {
+        "title": "FALFormer: Feature-Aware Landmarks Self-attention for Whole-Slide Image Classification. N/A. Doanh C Bui and Trinh Thi Le Vuong and Jin Tae Kwak. 2024",
+        "order": 70
+    },
+    {
+        "title": "Transformer with multi-level grid features and depth pooling for image captioning. Machine Vision and Applications. Doanh C Bui and Tam V Nguyen and Khang Nguyen. 2024",
+        "order": 71
+    },
+    {
+        "title": "Efficient semantic segmentation for computational pathology. Medical Imaging 2024: Digital and Computational Pathology. Doanh C Bui and Changsu Kim and Jin Tae Kwak. 2024",
+        "order": 72
+    },
+    {
+        "title": "MECFormer: Multi-task Whole Slide Image Classification with Expert Consultation Network. Proceedings of the Asian Conference on Computer Vision. Doanh C Bui and Jin Tae Kwak. 2024",
+        "order": 73
+    },
+    {
+        "title": "QuIIL at T3 Challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View. AI for Brain Lesion Detection and Trauma Video Action Recognition: First BONBID-HIE Lesion Segmentation Challenge and First Trauma Thompson Challenge, Held in Conjunction with MICCAI 2023, Vancouver, BC, Canada, October 16 and 12, 2023, Proceedings. Trinh TL Vuong and Doanh C Bui and Jin Tae Kwak. 2024",
+        "order": 74
+    },
+    {
+        "title": "Improving Human-Object Interaction Detection via Streamlining Matching Procedure and Enhancing Interaction Query. 2024 Tenth International Conference on Communications and Electronics (ICCE). Tai T Pham and Vu L Bui and Thinh V Le and Doanh C Bui and Khang Nguyen. 2024",
+        "order": 75
+    },
+    {
+        "title": "Theoretical Analysis of the Efficient-Memory Matrix Storage Method for Quantum Emulation Accelerators with Gate Fusion on FPGAs. arXiv preprint arXiv:2410.11146. Tran Xuan Hieu Le and Hoai Luan Pham and Tuan Hai Vu and Vu Trung Duong Le and Nakashima Yasuhiko. 2024",
+        "order": 76
+    },
+    {
+        "title": "Blockchain-powered education: A sustainable approach for secured and connected university systems. Sustainability. Van Duy Tran and Shingo Ata and Thi Hong Tran and Duc Khai Lam and Hoai Luan Pham. 2023",
+        "order": 77
+    },
+    {
+        "title": "Flexible and Scalable BLAKE/BLAKE2 Coprocessor for Blockchain-Based IoT Applications.. IEEE Des. Test. Hoai Luan Pham and Thi Hong Tran and Vu Trung Duong Le and Yasuhiko Nakashima. 2023",
+        "order": 78
+    },
+    {
+        "title": "Efficient and High-Speed CGRA Accelerator for Cryptographic Applications. IEEE Eleventh International Symposium on Computing and Networking (CANDAR23). Vu Trung Duong Le and Hoai Luan Pham and Thi Hong Tran and Thi Sang Duong and Yasuhiko Nakashima. 2023",
+        "order": 79
+    },
+    {
+        "title": "QuantLaneNet: A 640-FPS and 34-GOPS/W FPGA-based CNN accelerator for lane detection. Sensors. Duc Khai Lam and Cam Vinh Du and Hoai Luan Pham. 2023",
+        "order": 80
+    },
+    {
+        "title": "Efficient ECG Classification with Light Weight Shuffle GhostNet Architecture. 2023 International Conference on Advanced Technologies for Communications (ATC). Thi Diem Tran and Ngoc Quoc Tran and Vu Trung Duong Le and Hoai Luan Pham. 2023",
+        "order": 81
+    },
+    {
+        "title": "RHCP: A Reconfigurable High-efficient Cryptographic Processor for Decentralized IoT Platforms. The 15th IEEE International Conference on KNOWLEDGE AND SYSTEMS ENGINEERING (KSE 2023). Vu Trung Duong Le and Hoai Luan Pham and Thi Sang Duong and Thi Hong Tran and Quoc Duy Nam Nguyen and Yasuhiko Nakashima. 2023",
+        "order": 82
+    },
+    {
+        "title": "Power-Efficient and Programmable Hashing Accelerator for Massive Message Processing. 36th IEEE International System-on-Chip Conference. Thi Sang Duong and Hoai Luan Pham and Vu Trung Duong Le and Thi Hong Tran and Yasuhiko Nakashima. 2023",
+        "order": 83
+    },
+    {
+        "title": "Universal 32/64-bit CGRA for Lightweight Cryptography in Securing IoT Data Transmission. The 16th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC-2023. Sang Duong Thi and Hoai Luan Pham and Vu Trung Duong Le and Thi Diem Tran and Ren Imamura and Quoc Duy Nam Nguyen and Thi Hong Tran and Yasuhiko Nakashima. 2023",
+        "order": 84
+    },
+    {
+        "title": "Energy-Efficient 3D Convolution Using Interposed Memory Accelerator eXtension 2 for Medical Image Processing. N/A. Ren Imamura and Zhu Guangxian and Sang Duong Thi and Hoai Luan Pham and Renyuan Zhang and Yasuhiko Nakashima. 2023",
+        "order": 85
+    },
+    {
+        "title": "Small-footprint Reconfigurable Heterogeneous Cryptographic Accelerator for Fog Computing. 2023 RIVF International Conference on Computing and Communication Technologies. Sang Duong Thi and Hoai Luan Pham and Vu Trung Duong Le and Ren Imamura and Thi Hong Tran and Yasuhiko Nakashima. 2023",
+        "order": 86
+    },
+    {
+        "title": "High-efficiency Reconfigurable Crypto Accelerator Utilizing Innovative Resource Sharing and Parallel Processing. The 16th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC-2023). Vu Trung Duong Le and Hoai Luan Pham and Thi Hong Tran and Thi Sang Duong and Yasuhiko Nakashima. 2023",
+        "order": 87
+    },
+    {
+        "title": "Versatile Resource-shared Cryptographic Accelerator for Multi-Domain Applications. IEEE 20th International Conference on IC Design and Technology (ICICDT2023). Vu Trung Duong Le and Hoai Luan Pham and Sang Duong Thi and Thi Hong Tran and Quoc Duy Nam Nguyen and Yasuhiko Nakashima. 2023",
+        "order": 88
+    },
+    {
+        "title": "Energy-efficient Unified Multi-hash Coprocessor for Securing IoT Systems Integrating Blockchain. 2023 IEEE 66th International Midwest Symposium on Circuits and Systems (MWSCAS). Pham Hoai Luan and Thi Sang Duong and Vu Trung Duong Le and Thi Hong Tran and Yasuhiko Nakashima. 2023",
+        "order": 89
+    },
+    {
+        "title": "A Novel Custom Deep Learning Network Combining 1D-Convolution and LSTM for Rapid Wine Quality Detection in Small and Average-Scale Applications. N/A. Quoc Duy Nam Nguyen and Hoang Viet Anh Le and Le Vu Trung Duong and Sang Duong Thi and Hoai Luan Pham and Thi Hong Tran and Tadashi Nakano. 2023",
+        "order": 90
+    },
+    {
+        "title": "CSS-EM: A Comprehensive, Secured and Sharable Education Management System for Schools. The 2nd International Conference on Intelligence of Things ( ICIT 2023 ). Van Duy Tran and Thi Hong Tran and Shingo Ata and Duc Khai Lam and Hoai Luan Pham. 2023",
+        "order": 91
+    },
+    {
+        "title": "U2CA: Ultra-efficient Universal Cryptographic Accelerator for Blockchain-based IoT Systems. N/A. Hoai Luan Pham. 2023",
+        "order": 92
+    },
+    {
+        "title": "製品の同一性を検証する検証方法、検証装置、検証プログラム. N/A. Thi Hong Tran and Hoai Luan Pham and Vu Trung Duong Le. 2023",
+        "order": 93
+    },
+    {
+        "title": "Universal compilation for quantum state tomography. Scientific Reports. Vu Tuan Hai and Le Bin Ho. 2023",
+        "order": 94
+    },
+    {
+        "title": "Variational preparation of entangled states on quantum computers. arXiv preprint arXiv:2306.17422. Vu Tuan Hai and Nguyen Tan Viet and Le Bin Ho. 2023",
+        "order": 95
+    },
+    {
+        "title": "Lagrange interpolation approach for general parameter-shift rule. N/A. Vu Tuan Hai and Le Bin Ho. 2023",
+        "order": 96
+    },
+    {
+        "title": "AKQ: A Hybrid Quantum-Classical Image Encryption System. 2023 RIVF International Conference on Computing and Communication Technologies (RIVF). Tran Khanh Nguyen and Nguyen Thi Thanh Truc and Huynh Ho Thi Mong Trinh and Vu Tuan Hai. 2023",
+        "order": 97
+    },
+    {
+        "title": "Entangled topologies for quanvolutional neural networks in quantum image processing. N/A. Vu Tuan Hai and Pham The Bao. 2023",
+        "order": 98
+    },
+    {
+        "title": "Tài liệu hướng dẫn lập trình JAVA. N/A. Lê Thanh Trọng and Mai Trọng Khang and Vũ Tuấn Hải. 2023",
+        "order": 99
+    },
+    {
+        "title": "Improving human–object interaction with auxiliary semantic information and enhanced instance representation. Pattern Recognition Letters. Khang Nguyen and Thinh V Le and Huyen Ngoc N Van and Doanh C Bui. 2023",
+        "order": 100
+    },
+    {
+        "title": "Performance Analysis and Comparison of Knowledge Distillation Among Diverse Teacher and Student Models. 2023 IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia). Jaeung Lee and Trinh Thi Le Vuong and Jiamu Wang and Jiang Kan and Keunho Byeon and Ju Cheon Lee and Sumin Jung and Doanh Cao Bui and Anh Tien Nguyen and Hyun Yang and Jin Tae Kwak. 2023",
+        "order": 101
+    },
+    {
+        "title": "The Object detection by the combination of generic roi extractor and dynamic R-CNN with side-aware boundary localization in aerial images. CTU Journal of Innovation and Sustainable Development. Tran Nguyen Bao and Pham Tan Tai and Bui Cao Doanh and Vo Nguyen and Nguyen Khang. 2023",
+        "order": 102
+    },
+    {
+        "title": "Hardware-Based Architecture for DNN Wireless Communication Models. Sensors. Van Duy Tran and Duc Khai Lam and Thi Hong Tran. 2023",
+        "order": 103
+    },
+    {
+        "title": "Robust Deep Learning Approaches for Wireless Communication Systems. N/A. Duy Van Tran and Khai Duc Lam and Hong Thi Tran. 2023",
+        "order": 104
+    },
+    {
+        "title": "A high-efficiency FPGA-based multimode SHA-2 accelerator. IEEE Access. Hoai Luan Pham and Thi Hong Tran and Vu Trung Duong Le and Yasuhiko Nakashima. 2022",
+        "order": 105
+    },
+    {
+        "title": "A coarse grained reconfigurable architecture for sha-2 acceleration. 2022 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW). Hoai Luan Pham and Thi Hong Tranl and Vu Trung Duong Le and Yasuhiko Nakashima. 2022",
+        "order": 106
+    },
+    {
+        "title": "Compact message permutation for a fully pipelined BLAKE-256/512 accelerator. IEEE Access. Hoai Luan Pham and Thi Hong Tran and Vu Trung Duong Le and Yasuhiko Nakashima. 2022",
+        "order": 107
+    },
+    {
+        "title": "A flexible and energy-efficient blake-256/2s co-processor for blockchain-based iot applications. 2022 35th SBC/SBMicro/IEEE/ACM Symposium on Integrated Circuits and Systems Design (SBCCI). Pham Hoai Luan and Thi Hong Tran and Vu Trung Duong Le and Yasuhiko Nakashima. 2022",
+        "order": 108
+    },
+    {
+        "title": "CSIP: A Compact Scrypt IP design with single PBKDF2 core for Blockchain mining. 2022 35th SBC/SBMicro/IEEE/ACM Symposium on Integrated Circuits and Systems Design (SBCCI). Vu Trung Duong Le and Pham Hoai Luan and Thi Hong Tran and Yasuhiko Nakashima. 2022",
+        "order": 109
+    },
+    {
+        "title": "A High-Efficiency FPGA-based BLAKE-256 Accelerator for Securing Blockchain Networks. 2022 IEEE 65th International Midwest Symposium on Circuits and Systems (MWSCAS). Pham Hoai Luana and Thi Hong Trana and Vu Trung Duong Lea and Yasuhiko Nakashimaa. 2022",
+        "order": 110
+    },
+    {
+        "title": "Ultra-efficient Universal SHA-2 and BLAKE Accelerators for Decentralized Networks. N/A. Hoai_Luan Pham. 2022",
+        "order": 111
+    },
+    {
+        "title": "Efficient architectures for full hardware scrypt-based block hashing system. Electronics. Duc Khai Lam and Vu Trung Duong Le and Thi Hong Tran. 2022",
+        "order": 112
+    },
+    {
+        "title": "MRSA: A High-Efficiency Multi ROMix Scrypt Accelerator for Cryptocurrency Mining and Data Security (Thesis Official Version). N/A. Vu Trung Duong Le. 2022",
+        "order": 113
+    },
+    {
+        "title": "New approach of KNN Algorithm in quantum computing based on new design of quantum circuits. Informatica. Vu Tuan Hai and Phan Hoang Chuong and Pham The Bao. 2022",
+        "order": 114
+    },
+    {
+        "title": "Universal compilation for quantum state preparation and tomography. arXiv preprint arXiv:2204.11635. Vu Tuan Hai and Le Bin Ho. 2022",
+        "order": 115
+    },
+    {
+        "title": "Analysis of the influence of de-hazing methods on vehicle detection in aerial images. International Journal of Advanced Computer Science and Applications. Khang Nguyen and Phuc Nguyen and Doanh C Bui and Minh Tran and Nguyen D Vo. 2022",
+        "order": 116
+    },
+    {
+        "title": "Eaes: Effective augmented embedding spaces for text-based image captioning. IEEE Access. Khang Nguyen and Doanh C Bui and Truc Trinh and Nguyen D Vo. 2022",
+        "order": 117
+    },
+    {
+        "title": "Empirical Study of RepPoints Representation for Object Detection in Aerial Images. 2022 IEEE Ninth International Conference on Communications and Electronics (ICCE). V. Thinh Le and N. Ngoc Huyen Van and C. Doanh Bui and Phuong Vo and D. Nguyen Vo and Khang Nguyen. 2022",
+        "order": 118
+    },
+    {
+        "title": "Performance evaluation of optimizers for deformable-DETR in natural disaster damage assessment. 2022 International Conference on Multimedia Analysis and Pattern Recognition (MAPR). Minh Dinh and Vu L Bui and Doanh C Bui and Duong Phi Long and Nguyen D Vo and Khang Nguyen. 2022",
+        "order": 119
+    },
+    {
+        "title": "viecap4h challenge 2021: a transformer-based method for healthcare image captioning in vietnamese. VNU Journal of Science: Computer Science and Communication Engineering. Bui Cao Doanh and Trinh Thi Thanh Truc and Nguyen Trong Thuan and Nguyen Duc Vu and Nguyen Duy Vo. 2022",
+        "order": 120
+    },
+    {
+        "title": "A multi-scale approach for vietnamese image captioning in healthcare domain. 2022 9th NAFOSTED Conference on Information and Computer Science (NICS). Bao G Do and Doanh C Bui and Nguyen D Vo and Khang Nguyen. 2022",
+        "order": 121
+    },
+    {
+        "title": "Vi-drsnet: A novel hybrid model for vietnamese image captioning in healthcare domain. 2022 International Conference on Multimedia Analysis and Pattern Recognition (MAPR). Doanh C Bui and Nghia Hieu Nguyen and Nguyen D Vo and Uyen Han Thuy Thai and Khang Nguyen. 2022",
+        "order": 122
+    },
+    {
+        "title": "DLAFS Cascade R-CNN: An object detector based on dynamic label assignment. Journal of Computer Science and Cybernetics. Doanh Bui Cao and Nguyen Vo Duy and Khang Nguyen. 2022",
+        "order": 123
+    },
+    {
+        "title": "Thực nghiệm đánh giá Double-Head cho bài toán phát hiện phương tiện giao thông từ không ảnh. Tạp chí Khoa học Đại học Cần Thơ. Nguyễn Thanh Thanh Trúc and Trần Thị Mỹ Quyên and Bùi Cao Doanh and Võ Duy Nguyên and Nguyen Tan Tran Minh Khang. 2022",
+        "order": 124
+    },
+    {
+        "title": "A high-performance multimem SHA-256 accelerator for society 5.0. IEEE Access. Thi Hong Tran and Hoai Luan Pham and Yasuhiko Nakashima. 2021",
+        "order": 125
+    },
+    {
+        "title": "BCA: A 530-mW multicore blockchain accelerator for power-constrained devices in securing decentralized networks. IEEE Transactions on Circuits and Systems I: Regular Papers. Thi Hong Tran and Hoai Luan Pham and Tri Dung Phan and Yasuhiko Nakashima. 2021",
+        "order": 126
+    },
+    {
+        "title": "Mrsa: A high-efficiency multi romix scrypt accelerator for cryptocurrency mining and data security. IEEE Access. Vu Trung Duong Le and Thi Hong Tran and Hoai Luan Pham and Duc Khai Lam and Yasuhiko Nakashima. 2021",
+        "order": 127
+    },
+    {
+        "title": "High performance multicore SHA-256 accelerator using fully parallel computation and local memory. 2021 IEEE symposium in low-power and high-speed chips (COOL CHIPS). Hoai Luan Pham and Thi Hong Tran and Yasuhiko Nakashima. 2021",
+        "order": 128
+    },
+    {
+        "title": "Hardware implementation for fast block generator of Litecoin blockchain system. 2021 International Symposium on Electrical and Electronics Engineering (ISEE). Doan Van Hieu and Pham Hoai Luan and Tran Thi Hong and Lam Duc Khai. 2021",
+        "order": 129
+    },
+    {
+        "title": "Applications of life-cycle assessment method for evaluating environmental impacts of subtractive and additive manufacturing processes. N/A. VT Le. 2021",
+        "order": 130
+    },
+    {
+        "title": "RECONSTRUCTED TEETH IMAGE FROM BRACES WITH GAN. Biomedical Engineering: Applications, Basis and Communications. Vu Tuan Hai and Dang Thanh Vu and Huynh Ho Thi Mong Trinh and Pham The Bao. 2021",
+        "order": 131
+    },
+    {
+        "title": "Nhập môn máy tính lượng tử. N/A. Hoàng Chương Phan and Tuấn Hải Vũ and Trung Hiếu Đỗ and Xuân Huy Nguyễn. 2021",
+        "order": 132
+    },
+    {
+        "title": "Mc-ocr challenge 2021: Deep learning approach for vietnamese receipts ocr. 2021 RIVF International Conference on Computing and Communication Technologies (RIVF). Doanh C Bui and Dung Truong and Nguyen D Vo and Khang Nguyen. 2021",
+        "order": 133
+    },
+    {
+        "title": "An Augmented Embedding Spaces approach for Text-based Image Captioning. 2021 8th NAFOSTED Conference on Information and Computer Science (NICS). Doanh C Bui and Truc Trinh and Nguyen D Vo and Khang Nguyen. 2021",
+        "order": 134
+    },
+    {
+        "title": "Text-based Image Captioning using Deep Learning. N/A. Bui C. Doanh. 2021",
+        "order": 135
+    },
+    {
+        "title": "Double SHA-256 hardware architecture with compact message expander for bitcoin mining. IEEE Access. Hoai Luan Pham and Thi Hong Tran and Tri Dung Phan and Vu Trung Duong Le and Duc Khai Lam and Yasuhiko Nakashima. 2020",
+        "order": 136
+    },
+    {
+        "title": "A fast approach for bitcoin blockchain cryptocurrency mining system. Integration. Le Vu Trung Duong and Nguyen Thi Thanh Thuy and Lam Duc Khai. 2020",
+        "order": 137
+    },
+    {
+        "title": "KHÓA LUẬN TỐT NGHIỆP NGHIÊN CỨU VÀ PHÁT TRIỂN HỆ THỐNG ĐÀO BITCOIN TRÊN NỀN TẢNG FPGA RESEARCH AND DEVELOP MINING BITCOIN SYSTEM ON FPGA. N/A. Le Vu Trung Duong and Nguyen Thi Thanh Thuy. 2020",
+        "order": 138
+    },
+    {
+        "title": "Digitizing invoice and managing vat payment using blockchain smart contract. 2019 IEEE International Conference on Blockchain and Cryptocurrency (ICBC). Van-Cam Nguyen and PHAM Hoai-Luan and TRAN Thi-Hong and Huu-Thuan Huynh and Yasuhiko Nakashima. 2019",
+        "order": 139
+    },
+    {
+        "title": "Practical anti-counterfeit medicine management system based on blockchain technology. 2019 4TH technology innovation management and engineering science international conference (TIMES-ICON). Hoai Luan Pham and Thi Hong Tran and Yasuhiko Nakashima. 2019",
+        "order": 140
+    },
+    {
+        "title": "A secure remote healthcare system for hospital using blockchain smart contract. 2018 IEEE globecom workshops (GC Wkshps). Hoai Luan Pham and Thi Hong Tran and Yasuhiko Nakashima. 2018",
+        "order": 141
+    },
+    {
+        "title": "MAC SoC hardware implementation for fast industrial WLAN communication systems. 2018 2nd International Conference on Recent Advances in Signal Processing, Telecommunications & Computing (SigTelCom). Pham Hoai Luan and Bui Trung Thien and Lam Duc Khai. 2018",
+        "order": 142
+    },
+    {
+        "title": "Design and Hardware Implementation of Improved Precision Time Protocol for High Speed Automotive Wireless Transmission System. 2018 International Symposium on Intelligent Signal Processing and Communication Systems (ISPACS). Pham Hoai Luan and Nguyen Xuan Duc and Lam Duc Khai and Yuhei Nagao and Hiroshi Ochi. 2018",
+        "order": 143
     }
 ]
