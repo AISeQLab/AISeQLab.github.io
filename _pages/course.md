@@ -247,9 +247,9 @@ permalink: /course/
             <button class="button-register" onclick="document.getElementById('#course{{ forloop.index }}').scrollIntoView({ behavior: 'smooth' })">
             <strong>Chi tiết</strong>
           </button>
-          <a class="button-register" href="https://zaloapp.com/qr/p/1hoddclgew2u1">
+          <!-- <a class="button-register" href="https://zaloapp.com/qr/p/1hoddclgew2u1">
             <strong>Đăng ký (liên hệ & tham gia nhóm Zalo)</strong>
-          </a>
+          </a> -->
         </div>
     </div>
     {% endfor %}
