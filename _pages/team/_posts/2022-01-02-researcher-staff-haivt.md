@@ -18,21 +18,21 @@ He has published several works in IEEE and Springer Nature journals, as well as 
 
 Academic Background & Professional Experience:
 
-- Lecturer, SE-UIT-VNUHCM, Dec. 2021 – Mar. 2024  
-- PhD, NAIST, Apr. 2024 – Sep. 2025  
-- MS, Computer Science, CS-UIT-VNUHCM, Feb. 2022 – Aug. 2023  
-- BE, SE-UIT-VNUHCM, Sept. 2017 – Jun. 2021  
-
+- Lecturer, SE-UIT-VNUHCM, 2021 – 2024 and 2025 - now  
+- PhD, NAIST, 2024 – 2025  
+- MS, Computer Science, CS-UIT-VNUHCM, 2022 – 2023  
+- BE, SE-UIT-VNUHCM, 2017 – 2021  
+    
 ---
 
 Vũ Tuấn Hải (Co-Investigator) nghiên cứu về gia tốc các bộ mô phỏng hệ lượng tử và phát triển thuật toán lượng tử. Anh có một số công bố trên các tạp chí IEEE/Spring Nature và hội nghị IEEE.
 
 Quá trình học tập & công tác:
 
-- Giảng viên, SE-UIT-VNUHCM, 12/2021 – 03/2024
-- Tiến sĩ, NAIST, 04/2024 – 09/2025
-- Thạc sĩ, CS-UIT-VNUHCM, 2/2022 – 08/2023
-- Đại học, SE-UIT-VNUHCM, 09/2017 – 06/2021
+- Giảng viên, SE-UIT-VNUHCM, 2021 – 2024 và 2025 - nay
+- Tiến sĩ, NAIST, 2024 – 2025
+- Thạc sĩ, CS-UIT-VNUHCM, 2022 – 2023
+- Đại học, SE-UIT-VNUHCM, 2017 – 2021
 
 <img src="../../../images/intro_haivt.jpg" alt="Introduction" style="width:100%;" />
 
