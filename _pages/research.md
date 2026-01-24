@@ -50,6 +50,9 @@ permalink: /research/
 
 # Seminars
 
+[Mar - May 2026 at HCMUIT](...) [[Documents - Update later ...]](https://link.uit.edu.vn)
+
+[22-26 April 2026 at UPT](https://www.facebook.com/share/p/1Czb6QKhpW/) [[Documents - Update later ...]](https://link.uit.edu.vn)
 
 [19 Dec 2025 at HCMUIT](https://www.facebook.com/share/p/1F6torTARF/) [[Documents]](https://link.uit.edu.vn/seminar1912)
 
