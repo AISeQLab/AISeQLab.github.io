@@ -22,7 +22,7 @@ Academic Background & Professional Experience:
 - PhD, NAIST, 2024 – 2025  
 - MS, Computer Science, CS-UIT-VNUHCM, 2022 – 2023  
 - BE, SE-UIT-VNUHCM, 2017 – 2021  
-    
+
 ---
 
 Vũ Tuấn Hải (Co-Investigator) nghiên cứu về gia tốc các bộ mô phỏng hệ lượng tử và phát triển thuật toán lượng tử. Anh có một số công bố trên các tạp chí IEEE/Spring Nature và hội nghị IEEE.
@@ -35,5 +35,5 @@ Quá trình học tập & công tác:
 - Đại học, SE-UIT-VNUHCM, 2017 – 2021
 
 <img src="../../../images/intro_haivt.jpg" alt="Introduction" style="width:100%;" />
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRCY40QacEl_EEo5pu1QOxqX0aUjukh0ws56o3El0mAQ72AMBoG3EKyQ4mGNeZFfA/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRCY40QacEl_EEo5pu1QOxqX0aUjukh0ws56o3El0mAQ72AMBoG3EKyQ4mGNeZFfA/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
