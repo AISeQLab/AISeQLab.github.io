@@ -72,6 +72,10 @@ Saturday 14:00 every week at E7.3, UIT.
 
 [Introduce to quantum research trends](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/intro_qml.pdf)
 
+# Learning hub
+
+[SE Course Materials at UIT](https://github.com/vutuanhai237/CourseMaterialsUIT/)
+
 
 
 # AI Projects
@@ -80,11 +84,9 @@ Currently blank.
 
 # Se Projects
 
-There are projects for Gen 1, calling from Facebook group.
+[Gen 1 projects](https://docs.google.com/spreadsheets/d/1gswsvpBxHxGYJV5gXpZ4qD-7IA735JHvY7n1P2ABLPI/edit?usp=sharing)
 
-[List of existing projects](https://docs.google.com/spreadsheets/d/1gswsvpBxHxGYJV5gXpZ4qD-7IA735JHvY7n1P2ABLPI/edit?usp=sharing)
-
-[List of members](https://docs.google.com/spreadsheets/d/1vrbcvRWvCJI2dvyBgF6bYcGPCktQ7GpC1CKx0sXq1OQ/edit?usp=sharing)
+[Gen 1 memberships](https://docs.google.com/spreadsheets/d/1vrbcvRWvCJI2dvyBgF6bYcGPCktQ7GpC1CKx0sXq1OQ/edit?usp=sharing)
 
 # Q Projects
 ### Emulating the decision diagram
