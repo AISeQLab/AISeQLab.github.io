@@ -50,7 +50,9 @@ permalink: /research/
 
 # Seminars
 
-[Mar - May 2026 at HCMUIT](...) [[Documents - Update later ...]](https://link.uit.edu.vn)
+[28 May 2026 online](https://www.facebook.com/share/p/1EEarMvgp8/) [[Document]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/QPT28052026.pdf)
+
+[Mar - May 2026 at HCMUIT](https://www.facebook.com/share/p/18G2srQJcF/) [[Documents - Update later ...]](https://link.uit.edu.vn)
 
 [14 May 2026 at UIT](https://www.facebook.com/photo/?fbid=1400623725443698&set=a.460922829413797) [[Document]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/seminar14052026.pdf)
 
