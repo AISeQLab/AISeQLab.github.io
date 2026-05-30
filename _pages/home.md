@@ -16,6 +16,8 @@ By integrating AI for AI, AI for Semiconductors, and AI for Quantum, the AISeQ L
 
 # On SNS
 
+[Chúc mừng sinh viên ngành Kỹ thuật Phần mềm Huỳnh Lê Đan Linh có bài báo khoa học được chấp nhận đăng trên tạp chí Advanced Quantum Technologies (Q1)](https://www.facebook.com/share/p/1EJQZzWbtn/)
+
 [UIT - Nơi nuôi dưỡng và tiếp nối hành trình phát triển học thuật của chàng tiến sĩ trẻ khoa Kỹ thuật Máy tính](https://www.uit.edu.vn/uit-noi-nuoi-duong-va-tiep-noi-hanh-trinh-phat-trien-hoc-thuat-cua-chang-tien-si-tre-khoa-ky-thuat-may-tinh)
 
 [Đi để trở về - Hành trình trưởng thành và niềm đam mê với UIT của chàng tiến sĩ trẻ](https://www.uit.edu.vn/di-de-tro-ve-hanh-trinh-truong-thanh-va-niem-dam-me-voi-uit-cua-chang-tien-si-tre/)

@@ -50,40 +50,41 @@ permalink: /research/
 
 # Seminars
 
-[28 May 2026 online](https://www.facebook.com/share/p/1EEarMvgp8/) [[Document]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/QPT28052026.pdf)
+[9] [28 May 2026 online, Quantum process tomography](https://www.facebook.com/share/p/1EEarMvgp8/) [[Document]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/QPT28052026.pdf)
 
-[Mar - May 2026 at HCMUIT](https://www.facebook.com/share/p/18G2srQJcF/) [[Documents - Update later ...]](https://link.uit.edu.vn)
+[8] [Mar - May 2026 at HCMUIT, Quantum computing's foundation](https://www.facebook.com/share/p/18G2srQJcF/) [[Documents - Private]](https://link.uit.edu.vn)
 
-[14 May 2026 at UIT](https://www.facebook.com/photo/?fbid=1400623725443698&set=a.460922829413797) [[Document]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/seminar14052026.pdf)
+[7] [14 May 2026 at UIT, Introducing to scientific research](https://www.facebook.com/photo/?fbid=1400623725443698&set=a.460922829413797) [[Document]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/seminar14052026.pdf)
 
-[22-26 April 2026 at UPT](https://www.facebook.com/share/p/1Czb6QKhpW/) [[Documents - Update later ...]](https://link.uit.edu.vn)
+[6] [22-26 April 2026 at UPT, Quantum computing's foundation](https://www.facebook.com/share/p/1Czb6QKhpW/) [[Documents]](https://sqoa2026.quantumlab.vn/lectures)
 
-[23 Mar 2026 at HCMUS](https://www.facebook.com/share/p/1KNQ1a1Tof/) [[Documents]](https://link.uit.edu.vn/seminar2303)
+[5] [23 Mar 2026 at HCMUS, AI for quantum & Quantum for AI & Quantum AI](https://www.facebook.com/share/p/1KNQ1a1Tof/) [[Documents]](https://link.uit.edu.vn/seminar2303)
 
-[19 Dec 2025 at HCMUIT](https://www.facebook.com/share/p/1F6torTARF/) [[Documents]](https://link.uit.edu.vn/seminar1912)
+[4] [19 Dec 2025 at HCMUIT, Semiconductor & Quantum computing](https://www.facebook.com/share/p/1F6torTARF/) [[Documents]](https://link.uit.edu.vn/seminar1912)
 
-[17 Dec 2025 at HCMUTE](https://www.facebook.com/share/p/1M8f3Zdtp3/)
+[3] [17 Dec 2025 at HCMUTE, Private training](https://www.facebook.com/share/p/1M8f3Zdtp3/)
 
-[15 Dec 2025 at HCMUS](https://www.facebook.com/share/p/1AstA9w3We/)
+[2] [15 Dec 2025 at HCMUS, Hardware AI accelerator for AI, Cryptography and Quantum computing](https://www.facebook.com/share/p/1AstA9w3We/)
+
+[1] [21-23 Nov 2025 at HCMUT, Introduce to quantum computing research trends](https://viasm.edu.vn/hdkh/Truong-dong-tinh-toan-luong-tu-HCM2025)[[Documents]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/intro_qml.pdf)
+
+
 
 # Weekly meeting
 
-Saturday 14:00 every week at E7.3, UIT. 
+Saturday 14:00 every week at E7.3, UIT-VNUHCM. 
 
-[Book a meeting](https://www.facebook.com/pham.luan.921)
+[Book a meeting at NAIST, Japan](https://www.facebook.com/pham.luan.921)
+[Book a meeting at UIT-VNUHCM, Vietnam](https://www.facebook.com/vutuanhai237)
+
 
 # Tutorials
 
 [High-bandwidth memory usage [private]](https://github.com/AISeQLab/HBM_Tutorial/blob/main/HBM_Tutorial_Markdown/HIGH%20BANDWIDTH%20MEMORY%20(HBM)%202548ba96de7f8077bdb9ccb8f0f1ab4f.md)
+[SE Course materials at UIT](https://github.com/vutuanhai237/CourseMaterialsUIT/)
+[Se Course materials](https://github.com/AISeQLab/)
 
-[Introduce to quantum research trends](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/intro_qml.pdf)
-
-# Learning hub
-
-[SE Course Materials at UIT](https://github.com/vutuanhai237/CourseMaterialsUIT/)
-
-
-
+<!-- 
 # AI Projects
 
 Currently blank.
@@ -96,4 +97,4 @@ Currently blank.
 
 # Q Projects
 
-[Going ...]
+[Going ...] -->

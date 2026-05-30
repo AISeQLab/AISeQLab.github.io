@@ -64,5 +64,11 @@
          "aff": "Undergraduate, UIT-VNUHCM",
          "project": "Quantum algorithm (collab w Quantar lab)",
          "image": "linhhld.jpg"
+    },
+    {
+         "name": "Lai Duc Hung",
+         "aff": "PhD student, UIT-VNUHCM",
+         "project": "Quantum algorithm ",
+         "image": "researcher.png"
     }
 ]

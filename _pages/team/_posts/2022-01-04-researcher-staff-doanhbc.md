@@ -4,9 +4,9 @@ category: staff
 title: Bui Cao Doanh
 image: doanhbc.png
 role: Co-Investigator, Lecturer at SE-UIT-VNUHCM
-degree: PhD (expected in 2026), NAIST
+degree: PhD, NAIST in AI
 field: AI
-email: bui.cao_doanh.bd2 [at] naist.ac.jp
+email: doanhbc@uit.edu.vn
 permalink: 'team/doanhbc'
 social:
     google-scholar: https://scholar.google.com/citations?user=WHviN4AAAAAJ&hl=en
