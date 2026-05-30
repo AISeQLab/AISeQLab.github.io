@@ -66,7 +66,7 @@ permalink: /research/
 
 [2] [15 Dec 2025 at HCMUS, Hardware AI accelerator for AI, Cryptography and Quantum computing](https://www.facebook.com/share/p/1AstA9w3We/)
 
-[1] [21-23 Nov 2025 at HCMUT, Introduce to quantum computing research trends](https://viasm.edu.vn/hdkh/Truong-dong-tinh-toan-luong-tu-HCM2025)[[Documents]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/intro_qml.pdf)
+[1] [21-23 Nov 2025 at HCMUT, Introduce to quantum computing research trends](https://viasm.edu.vn/hdkh/Truong-dong-tinh-toan-luong-tu-HCM2025) [[Documents]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/intro_qml.pdf)
 
 
 
@@ -75,13 +75,16 @@ permalink: /research/
 Saturday 14:00 every week at E7.3, UIT-VNUHCM. 
 
 [Book a meeting at NAIST, Japan](https://www.facebook.com/pham.luan.921)
+
 [Book a meeting at UIT-VNUHCM, Vietnam](https://www.facebook.com/vutuanhai237)
 
 
 # Tutorials
 
 [High-bandwidth memory usage [private]](https://github.com/AISeQLab/HBM_Tutorial/blob/main/HBM_Tutorial_Markdown/HIGH%20BANDWIDTH%20MEMORY%20(HBM)%202548ba96de7f8077bdb9ccb8f0f1ab4f.md)
+
 [SE Course materials at UIT](https://github.com/vutuanhai237/CourseMaterialsUIT/)
+
 [Se Course materials](https://github.com/AISeQLab/)
 
 <!-- 
