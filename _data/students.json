@@ -1,14 +1,56 @@
 [   
     {
-       "name": "John Doe",
-       "aff": "Undergraduate, SE-UIT-VNUHCM",
-       "project": "Machine Learning",
-       "grad": "2025"
+       "name": "Vu Hoang Thien An",
+       "aff": "Undergraduate, UIT-VNUHCM",
+       "project": "AI for quantum computing",
+       "image": "./images/team/anvht.jpg"
    },
     {
-       "name": "John Doe",
-       "aff": "Undergraduate, SE-UIT-VNUHCM",
-       "project": "Machine Learning",
-       "grad": "2025"
-   }
+       "name": "Nguyen Tuong Vinh",
+       "aff": "Undergraduate, UIT-VNUHCM",
+       "project": "Quantum machine learning",
+       "image": "./images/team/vinhnv.jpg"
+   },
+    {
+       "name": "Nguyen Le Huy",
+       "aff": "Undergraduate, UT-VNUHCM",
+       "project": "AI accelerator",
+       "image": "./images/team/huynl.jpg"
+   },
+   {
+       "name": "Tran Minh Trung",
+       "aff": "Undergraduate, PTIT",
+       "project": "Software for quantum computing",
+       "image": "./images/team/trungtm.jpg"
+   },
+    {
+         "name": "Pham Tuan Khang",
+         "aff": "Undergraduate, UIT-VNUHCM",
+         "project": "AI embedded system",
+         "image": "./images/team/khangpt.jpg"
+    },
+    {
+         "name": "Nguyen Phuc Thinh",
+         "aff": "Undergraduate, UIT-VNUHCM",
+         "project": "Quantum algorithm",
+         "image": "./images/team/thinhnp.jpg"
+    },
+    {
+         "name": "Vo Trong Kien",
+         "aff": "Undergraduate, UIT-VNUHCM",
+         "project": "AI accelerator",
+         "image": "./images/team/kienvt.jpg"
+    },
+    {
+         "name": "Vo Minh Kiet",
+         "aff": "Undergraduate, UIT-VNUHCM",
+         "project": "Quantum application",
+         "image": "./images/team/kietvm.jpg"
+    },
+    {
+         "name": "Huynh Le Dan Linh",
+         "aff": "Undergraduate, UIT-VNUHCM",
+         "project": "Quantum algorithm (collab w Quantar lab)",
+         "image": "./images/team/linhhld.jpg"
+    }
 ]

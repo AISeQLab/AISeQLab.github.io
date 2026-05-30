@@ -109,23 +109,16 @@ permalink: /team/
 
 <!-- Students -->
 
-<!-- <h2><a id="student"></a>Students</h2>
+<h2><a id="student"></a>Students</h2>
 {% assign students = site.data.students %}
-{% for student in students %}
-    <div>
-        [{{ forloop.index }}] <strong>{{ student.name }}</strong>
-        {{ student.role }}, {{ student.field }}
-    </div>
-{% endfor %} -->
-<!-- {% assign students = site.data.students %}
 <h2><a id="alumni"></a>Students [{{ students | size }}]</h2>
 <table class="table table-striped">
     <thead>
         <tr>
             <th>Name</th>
             <th>Affiliate</th>
-            <th>Grad year</th>
             <th>Project</th>
+            <th>---</th>
         </tr>
     </thead>
     <tbody>
@@ -133,9 +126,9 @@ permalink: /team/
         <tr>
             <td>{{ student.name }}</td>
             <td>{{ student.aff }}</td>
-            <td>{{ student.grad }}</td>
             <td>{{ student.project }}</td>
+            <td><img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ student.image }}" class="img-responsive img-thumbnail" style="max-width: 100px;"/></td>
         </tr>
         {% endfor %}
     </tbody>
-</table> -->
+</table>
