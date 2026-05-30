@@ -1,56 +1,68 @@
-[   
+[
+    {
+       "name": "Nguyen Duong Hoang Duy",
+       "aff": "MS, UIT-VNUHCM",
+       "project": "Quantum key distribution",
+       "image": "duyndh.jpg"
+   },   
+    {
+       "name": "Dinh Pham Thien Long",
+       "aff": "MS, UIT-VNUHCM",
+       "project": "Post-quantum cryptography accelerator",
+       "image": "longdpt.jpg"
+   },
     {
        "name": "Vu Hoang Thien An",
        "aff": "Undergraduate, UIT-VNUHCM",
        "project": "AI for quantum computing",
-       "image": "./images/team/anvht.jpg"
+       "image": "anvht.jpg"
    },
     {
        "name": "Nguyen Tuong Vinh",
        "aff": "Undergraduate, UIT-VNUHCM",
        "project": "Quantum machine learning",
-       "image": "./images/team/vinhnv.jpg"
+       "image": "vinhnv.jpg"
    },
     {
        "name": "Nguyen Le Huy",
        "aff": "Undergraduate, UT-VNUHCM",
        "project": "AI accelerator",
-       "image": "./images/team/huynl.jpg"
+       "image": "huynl.jpg"
    },
    {
        "name": "Tran Minh Trung",
        "aff": "Undergraduate, PTIT",
        "project": "Software for quantum computing",
-       "image": "./images/team/trungtm.jpg"
+       "image": "trungtm.jpg"
    },
     {
          "name": "Pham Tuan Khang",
          "aff": "Undergraduate, UIT-VNUHCM",
          "project": "AI embedded system",
-         "image": "./images/team/khangpt.jpg"
+         "image": "khangpt.jpg"
     },
     {
          "name": "Nguyen Phuc Thinh",
          "aff": "Undergraduate, UIT-VNUHCM",
          "project": "Quantum algorithm",
-         "image": "./images/team/thinhnp.jpg"
+         "image": "thinhnp.jpg"
     },
     {
          "name": "Vo Trong Kien",
          "aff": "Undergraduate, UIT-VNUHCM",
          "project": "AI accelerator",
-         "image": "./images/team/kienvt.jpg"
+         "image": "kienvt.jpg"
     },
     {
          "name": "Vo Minh Kiet",
          "aff": "Undergraduate, UIT-VNUHCM",
          "project": "Quantum application",
-         "image": "./images/team/kietvm.jpg"
+         "image": "kietvm.jpg"
     },
     {
          "name": "Huynh Le Dan Linh",
          "aff": "Undergraduate, UIT-VNUHCM",
          "project": "Quantum algorithm (collab w Quantar lab)",
-         "image": "./images/team/linhhld.jpg"
+         "image": "linhhld.jpg"
     }
 ]
