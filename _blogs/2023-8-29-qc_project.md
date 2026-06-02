@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hướng dẫn QML #1: Bắt đầu"
+title: "Project: Nhập môn Quantum machine learning"
 categories: quantum
 ---
 
