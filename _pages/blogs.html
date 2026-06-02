@@ -28,17 +28,17 @@ permalink: /blogs/
           {% endif %}
         </div>
         
-        <div class="blog-post-excerpt" style="color: #555; line-height: 1.6;">
+        <!-- <div class="blog-post-excerpt" style="color: #555; line-height: 1.6;">
           {% if post.excerpt %}
             {{ post.excerpt | strip_html | truncatewords: 60 }}
           {% else %}
             {{ post.content | strip_html | truncatewords: 60 }}
           {% endif %}
         </div>
-        
-        <div style="margin-top: 10px;">
+         -->
+        <!-- <div style="margin-top: 10px;">
           <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-default btn-xs" style="border-radius: 4px;">Read More <i class="fas fa-chevron-right" aria-hidden="true" style="font-size: 0.8em;"></i></a>
-        </div>
+        </div> -->
       </div>
     {% endfor %}
   {% else %}
