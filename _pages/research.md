@@ -87,6 +87,11 @@ Saturday 14:00 every week at E7.3, UIT-VNUHCM.
 
 [Se Course materials](https://github.com/AISeQLab/)
 
+
+# Journal, Conference and pre-print (+200 items)
+
+See Google scholar's member for detail
+
 <!-- 
 # AI Projects
 
