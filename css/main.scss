@@ -51,6 +51,10 @@ figcaption {
   margin-top: 20px;
 }
 
+.carousel-inner {
+  overflow: hidden
+}
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   width: 100% !important;
