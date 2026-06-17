@@ -107,7 +107,7 @@ permalink: /team/
 
 {% assign labs = site.data.labs %}
 {% if labs.size > 0 %}
-<h2><a id="labs"></a>Collaborating Laboratories [{{ labs | size }}]</h2>
+<h2><a id="labs"></a>Alliances [{{ labs | size }}]</h2>
 <div class="row" style="margin-top: 20px; margin-bottom: 30px;">
     {% for lab in labs %}
     <div class="col-md-3 col-sm-4 col-xs-6 text-center" style="margin-bottom: 20px;">
@@ -116,7 +116,6 @@ permalink: /team/
                  alt="{{ lab.name }}"
                  class="img-responsive img-thumbnail"
                  style="max-height: 100px; margin: 0 auto; display: block;" />
-            <p style="margin-top: 8px; font-weight: bold; color: #333;">{{ lab.name }}</p>
         </a>
     </div>
     {% endfor %}
