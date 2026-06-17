@@ -44,11 +44,10 @@ margin: 0;
 
 <div class="tools-grid">
 <a href="{{ site.url }}{{ site.baseurl }}/tools/qr/" class="tool-card">
-<span class="tool-icon" style="display:block">📱</span>
 <span class="tool-title" style="display:block">Link to QR Code</span>
 </a>
+
 <a href="{{ site.url }}{{ site.baseurl }}/tools/ris2bib/" class="tool-card">
-<span class="tool-icon" style="display:block">🔄</span>
 <span class="tool-title" style="display:block">RIS to BibTeX</span>
 </a>
 </div>
