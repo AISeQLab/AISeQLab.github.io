@@ -48,9 +48,17 @@ permalink: /research/
       }
 </style>
 
+# Webminars
+
+[2] [28 May 2026 online, Quantum process tomography](https://www.facebook.com/share/p/1EEarMvgp8/) [[Document]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/QPT28052026.pdf)
+
+[1] [Quantum talk (monthly)](https://forms.gle/wCWDvw4FPHzds1kx8)
+
 # Seminars
 
-[9] [28 May 2026 online, Quantum process tomography](https://www.facebook.com/share/p/1EEarMvgp8/) [[Document]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/QPT28052026.pdf)
+[10] [29 July 2026 at HCMUTE, On problems quantum computers can solve efficiently](.) [Documents pending](.)
+
+[9] [27 July 2026 at Gia Lai, Quantum computing's foundation](.) [Documents pending](.)
 
 [8] [Mar - May 2026 at HCMUIT, Quantum computing's foundation](https://www.facebook.com/share/p/18G2srQJcF/) [[Documents - Private]](https://link.uit.edu.vn)
 
