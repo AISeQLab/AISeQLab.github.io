@@ -63,6 +63,8 @@ figcaption {
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
     height: 200px !important;
+    object-fit: cover !important;
+    object-position: top !important;
   }
 }
 
