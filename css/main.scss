@@ -52,7 +52,10 @@ figcaption {
 }
 
 .carousel-inner {
-  overflow: hidden
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-inner > .item > img,
