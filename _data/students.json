@@ -1,167 +1,152 @@
 [
-    {
-       "name": "Nguyen Duong Hoang Duy",
-       "aff": "MS, UIT-VNUHCM",
-       "project": "Quantum key distribution",
-       "image": "duyndh.jpg"
-   },   
-    {
-       "name": "Dinh Pham Thien Long",
-       "aff": "MS, UIT-VNUHCM",
-       "project": "Post-quantum cryptography accelerator",
-       "image": "longdpt.jpg"
-   },
-    {
-       "name": "Vu Hoang Thien An",
-       "aff": "Undergraduate, UIT-VNUHCM",
-       "project": "AI for quantum computing",
-       "image": "anvht.jpg"
-   },
-    {
-       "name": "Nguyen Tuong Vinh",
-       "aff": "Undergraduate, UIT-VNUHCM",
-       "project": "Quantum machine learning",
-       "image": "researcher.png"
-   },
-    {
-       "name": "Nguyen Le Huy",
-       "aff": "Undergraduate, UT-VNUHCM",
-       "project": "AI accelerator",
-       "image": "huynl.jpg"
-   },
-   {
-       "name": "Tran Minh Trung",
-       "aff": "Undergraduate, PTIT",
-       "project": "Software for quantum computing",
-       "image": "researcher.png"
-   },
-    {
-         "name": "Pham Tuan Khang",
-         "aff": "Undergraduate, UIT-VNUHCM",
-         "project": "AI embedded system",
-         "image": "khangpt.jpg"
-    },
-    {
-         "name": "Nguyen Phuc Thinh",
-         "aff": "Undergraduate, UIT-VNUHCM",
-         "project": "Quantum algorithm",
-         "image": "thinhnp.jpg"
-    },
-    {
-         "name": "Vo Trong Kien",
-         "aff": "Undergraduate, UIT-VNUHCM",
-         "project": "AI accelerator",
-         "image": "kienvt.jpg"
-    },
-    {
-         "name": "Vo Minh Kiet",
-         "aff": "Undergraduate, UIT-VNUHCM",
-         "project": "Quantum application",
-         "image": "kietvm.jpg"
-    },
-    {
-         "name": "Huynh Le Dan Linh",
-         "aff": "Undergraduate, UIT-VNUHCM",
-         "project": "Quantum algorithm (collab w Quantar lab)",
-         "image": "linhhld.jpg"
-    },
-    {
-         "name": "Lai Duc Hung",
-         "aff": "PhD student, UIT-VNUHCM",
-         "project": "Quantum algorithm ",
-         "image": "researcher.png"
-    },
      {
-         "name": "Nguyen Xuan Hoang",
-         "aff": "Undergraduate, HCMUS-VNUHCM",
-         "project": "QKD",
-         "image": "researcher.png"
-    },
-         {
-         "name": "Duong Ho Nam",
-         "aff": "Undergraduate, HCMUT-VNUHCM",
-         "project": "QAI",
-         "image": "researcher.png"
-    },
-             {
-         "name": "Nguyen Nam Viet",
-         "aff": "Master student, UIT-VNUHCM",
-         "project": "Physical simulation",
-         "image": "researcher.png"
-    },
-                 {
-         "name": "Pham Dinh Anh Duy",
-         "aff": "Undergraduate, UIT-VNUHCM",
-         "project": "Software optimization",
-         "image": "researcher.png"
-    },
-    {
-         "name": "Dang Kien Tuong",
-         "aff": "BOSCH",
-         "project": "Quantum computing",
-         "image": "researcher.png"
-    },
-    {
-         "name": "Truong Tri Khai",
-         "aff": "Undergraduate, Univ. Transportation",
-         "project": "Optimization for evolution",
-         "image": "researcher.png"
-    },
-    {
-         "name": "Nguyen Quang Hung",
-         "aff": "Undergraduate, HCMUT-VNUHCM",
-         "project": "Software optimization",
-         "image": "researcher.png"
-    },
-    {
-         "name": "Tran Huu Dinh Nhan",
-         "aff": "Undergraduate, HCMUS-VNUHCM",
-         "project": "Parallel computing",
-         "image": "researcher.png"
-    },
-    {
-         "name": "Mac Nguyen Phuc",
-         "aff": "Undergraduate, UIT-VNUHCM",
-         "project": "Quantum computing",
-         "image": "researcher.png"
-    },
-    {
-         "name": "Nguyen Cong Dung",
-         "aff": "Undergraduate, HCMUS-VNUHCM",
-         "project": "Quantum algorithm",
-         "image": "researcher.png"
-    },
-    {
-         "name": "Pham Khoi Nguyen",
-         "aff": "Master student, University of Lille",
-         "project": "Quantum algorithm",
-         "image": "researcher.png"
-    },
-    {
-         "name": "Le Minh Tan",
-         "aff": "Undergraduate, UIT-VNUHCM",
-         "project": "???",
-         "image": "researcher.png"
-    },
-    {
-         "name": "Tran Duong Tuan",
-         "aff": "Undergraduate, UIT-VNUHCM",
-         "project": "Database optimization",
-         "image": "researcher.png"
-    },
+          "name": "Nguyen Duong Hoang Duy",
+          "aff": "MS, UIT-VNUHCM",
+          "project": "Quantum key distribution",
+          "image": "duyndh.jpg"
+     },
+     {
+          "name": "Dinh Pham Thien Long",
+          "aff": "MS, UIT-VNUHCM",
+          "project": "Post-quantum cryptography accelerator",
+          "image": "longdpt.jpg"
+     },
+     {
+          "name": "Vu Hoang Thien An",
+          "aff": "Undergraduate, UIT-VNUHCM",
+          "project": "AI for quantum computing",
+          "image": "anvht.jpg"
+     },
+     {
+          "name": "Nguyen Tuong Vinh",
+          "aff": "Undergraduate, UIT-VNUHCM",
+          "project": "Quantum machine learning",
+          "image": "researcher.png"
+     },
+     {
+          "name": "Nguyen Le Huy",
+          "aff": "Undergraduate, UT-VNUHCM",
+          "project": "AI accelerator",
+          "image": "huynl.jpg"
+     },
+     {
+          "name": "Tran Minh Trung",
+          "aff": "Undergraduate, PTIT",
+          "project": "Software for quantum computing",
+          "image": "researcher.png"
+     },
+     {
+          "name": "Pham Tuan Khang",
+          "aff": "Undergraduate, UIT-VNUHCM",
+          "project": "AI embedded system",
+          "image": "khangpt.jpg"
+     },
+     {
+          "name": "Nguyen Phuc Thinh",
+          "aff": "Undergraduate, UIT-VNUHCM",
+          "project": "Quantum algorithm",
+          "image": "thinhnp.jpg"
+     },
+     {
+          "name": "Vo Trong Kien",
+          "aff": "Undergraduate, UIT-VNUHCM",
+          "project": "AI accelerator",
+          "image": "kienvt.jpg"
+     },
+     {
+          "name": "Vo Minh Kiet",
+          "aff": "Undergraduate, UIT-VNUHCM",
+          "project": "Quantum application",
+          "image": "kietvm.jpg"
+     },
+     {
+          "name": "Huynh Le Dan Linh",
+          "aff": "Undergraduate, UIT-VNUHCM",
+          "project": "Quantum algorithm (collab w Quantar lab)",
+          "image": "linhhld.jpg"
+     },
+     {
+          "name": "Lai Duc Hung",
+          "aff": "PhD student, UIT-VNUHCM",
+          "project": "Quantum algorithm ",
+          "image": "researcher.png"
+     },
+     {
+          "name": "Nguyen Xuan Hoang",
+          "aff": "Undergraduate, HCMUS-VNUHCM",
+          "project": "QKD",
+          "image": "hoangnx.jpg"
+     },
+     {
+          "name": "Duong Ho Nam",
+          "aff": "Undergraduate, HCMUT-VNUHCM",
+          "project": "QAI",
+          "image": "namdh.jpg"
+     },
+     {
+          "name": "Nguyen Nam Viet",
+          "aff": "Master student, UIT-VNUHCM",
+          "project": "Physical simulation",
+          "image": "vietnn.jpg"
+     },
+     {
+          "name": "Pham Dinh Anh Duy",
+          "aff": "Undergraduate, UIT-VNUHCM",
+          "project": "Software optimization",
+          "image": "duypda.jpg"
+     },
+     {
+          "name": "Dang Kien Tuong",
+          "aff": "BOSCH",
+          "project": "Quantum computing",
+          "image": "tuongdk.jpg"
+     },
+     {
+          "name": "Truong Tri Khai",
+          "aff": "Undergraduate, Univ. Transportation",
+          "project": "Optimization for evolution",
+          "image": "researcher.png"
+     },
+     {
+          "name": "Nguyen Quang Hung",
+          "aff": "Undergraduate, HCMUT-VNUHCM",
+          "project": "Software optimization",
+          "image": "researcher.png"
+     },
+     {
+          "name": "Tran Huu Dinh Nhan",
+          "aff": "Undergraduate, HCMUS-VNUHCM",
+          "project": "Parallel computing",
+          "image": "nhantdh.jpg"
+     },
+     {
+          "name": "Mac Nguyen Phuc",
+          "aff": "Undergraduate, UIT-VNUHCM",
+          "project": "Quantum computing",
+          "image": "phucmn.jpg"
+     },
+     {
+          "name": "Nguyen Cong Dung",
+          "aff": "Undergraduate, HCMUS-VNUHCM",
+          "project": "Quantum algorithm",
+          "image": "researcher.png"
+     },
+     {
+          "name": "Pham Khoi Nguyen",
+          "aff": "Master student, University of Lille",
+          "project": "Quantum algorithm",
+          "image": "nguyenpk.jpg"
+     },
+     {
+          "name": "Le Minh Tan",
+          "aff": "Undergraduate, UIT-VNUHCM",
+          "project": "TBD",
+          "image": "researcher.png"
+     },
+     {
+          "name": "Tran Duong Tuan",
+          "aff": "Undergraduate, UIT-VNUHCM",
+          "project": "Database optimization",
+          "image": "tuantd.jpg"
+     }
 ]
-
-
-Nguyễn Xuân Hoàng
-Dương Hồ Nam
-Nguyễn Nam Việt 
-Phạm Đình Anh Duy
-Đặng Kiến Tường
-Trương Trí Khải
-Nguyễn Quang Hưng
-Trần Hữu Đình Nhân
-Mạc Nguyên Phúc
-Nguyễn Công Dũng
-Phạm Khôi Nguyên
-Lê Minh Tân
-Trần Dương Tuấn
