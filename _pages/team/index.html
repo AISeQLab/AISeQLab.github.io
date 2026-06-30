@@ -108,9 +108,9 @@ permalink: /team/
 {% assign labs = site.data.labs %}
 {% if labs.size > 0 %}
 <h2><a id="labs"></a>Alliances [{{ labs | size }}]</h2>
-<div class="row" style="margin-top: 20px; margin-bottom: 30px;">
+<div class="row" style="margin-top: 20px">
     {% for lab in labs %}
-    <div class="col-md-3 col-sm-4 col-xs-6 text-center" style="margin-bottom: 20px;">
+    <div class="col-md-3 col-sm-4 col-xs-6 text-center">
         <a href="{{ lab.website }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: inline-block;">
             <img src="{{ site.url }}{{ site.baseurl }}/images/{{ lab.image }}"
                  alt="{{ lab.name }}"

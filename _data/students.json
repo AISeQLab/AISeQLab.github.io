@@ -70,5 +70,98 @@
          "aff": "PhD student, UIT-VNUHCM",
          "project": "Quantum algorithm ",
          "image": "researcher.png"
-    }
+    },
+     {
+         "name": "Nguyen Xuan Hoang",
+         "aff": "Undergraduate, HCMUS-VNUHCM",
+         "project": "QKD",
+         "image": "researcher.png"
+    },
+         {
+         "name": "Duong Ho Nam",
+         "aff": "Undergraduate, HCMUT-VNUHCM",
+         "project": "QAI",
+         "image": "researcher.png"
+    },
+             {
+         "name": "Nguyen Nam Viet",
+         "aff": "Master student, UIT-VNUHCM",
+         "project": "Physical simulation",
+         "image": "researcher.png"
+    },
+                 {
+         "name": "Pham Dinh Anh Duy",
+         "aff": "Undergraduate, UIT-VNUHCM",
+         "project": "Software optimization",
+         "image": "researcher.png"
+    },
+    {
+         "name": "Dang Kien Tuong",
+         "aff": "BOSCH",
+         "project": "Quantum computing",
+         "image": "researcher.png"
+    },
+    {
+         "name": "Truong Tri Khai",
+         "aff": "Undergraduate, Univ. Transportation",
+         "project": "Optimization for evolution",
+         "image": "researcher.png"
+    },
+    {
+         "name": "Nguyen Quang Hung",
+         "aff": "Undergraduate, HCMUT-VNUHCM",
+         "project": "Software optimization",
+         "image": "researcher.png"
+    },
+    {
+         "name": "Tran Huu Dinh Nhan",
+         "aff": "Undergraduate, HCMUS-VNUHCM",
+         "project": "Parallel computing",
+         "image": "researcher.png"
+    },
+    {
+         "name": "Mac Nguyen Phuc",
+         "aff": "Undergraduate, UIT-VNUHCM",
+         "project": "Quantum computing",
+         "image": "researcher.png"
+    },
+    {
+         "name": "Nguyen Cong Dung",
+         "aff": "Undergraduate, HCMUS-VNUHCM",
+         "project": "Quantum algorithm",
+         "image": "researcher.png"
+    },
+    {
+         "name": "Pham Khoi Nguyen",
+         "aff": "Master student, University of Lille",
+         "project": "Quantum algorithm",
+         "image": "researcher.png"
+    },
+    {
+         "name": "Le Minh Tan",
+         "aff": "Undergraduate, UIT-VNUHCM",
+         "project": "???",
+         "image": "researcher.png"
+    },
+    {
+         "name": "Tran Duong Tuan",
+         "aff": "Undergraduate, UIT-VNUHCM",
+         "project": "Database optimization",
+         "image": "researcher.png"
+    },
 ]
+
+
+Nguyễn Xuân Hoàng
+Dương Hồ Nam
+Nguyễn Nam Việt 
+Phạm Đình Anh Duy
+Đặng Kiến Tường
+Trương Trí Khải
+Nguyễn Quang Hưng
+Trần Hữu Đình Nhân
+Mạc Nguyên Phúc
+Nguyễn Công Dũng
+Phạm Khôi Nguyên
+Lê Minh Tân
+Trần Dương Tuấn
