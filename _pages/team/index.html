@@ -110,7 +110,7 @@ permalink: /team/
 <h2><a id="labs"></a>Alliances [{{ labs | size }}]</h2>
 <div class="row" style="margin-top: 20px">
     {% for lab in labs %}
-    <div class="col-md-3 col-sm-4 col-xs-6 text-center">
+    <div class="row mt-3 text-center">
         <a href="{{ lab.website }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: inline-block;">
             <img src="{{ site.url }}{{ site.baseurl }}/images/{{ lab.image }}"
                  alt="{{ lab.name }}"
@@ -127,6 +127,9 @@ permalink: /team/
 
 {% assign students = site.data.students %}
 <h2><a id="alumni"></a>PhD, Master, Undergradute students [{{ students | size }}]</h2>
+<h3><a id="alumni"></a>Semiconductor students are private</h3>
+
+
 <table class="table table-striped">
     <thead>
         <tr>
