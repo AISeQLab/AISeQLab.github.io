@@ -1,13 +1,13 @@
 [
      {
-          "name": "Nguyen Duong Hoang Duy",
-          "aff": "MS, UIT-VNUHCM",
+          "name": "Nguyen Duong Hoang Duy [alumni]",
+          "aff": "Master student, UIT-VNUHCM",
           "project": "Quantum key distribution",
           "image": "duyndh.jpg"
      },
      {
-          "name": "Dinh Pham Thien Long",
-          "aff": "MS, UIT-VNUHCM",
+          "name": "Dinh Pham Thien Long [alumni]",
+          "aff": "Master student, UIT-VNUHCM",
           "project": "Post-quantum cryptography accelerator",
           "image": "longdpt.jpg"
      },
@@ -34,12 +34,6 @@
           "aff": "Undergraduate, PTIT",
           "project": "Software for quantum computing",
           "image": "researcher.png"
-     },
-     {
-          "name": "Pham Tuan Khang",
-          "aff": "Undergraduate, UIT-VNUHCM",
-          "project": "AI embedded system",
-          "image": "khangpt.jpg"
      },
      {
           "name": "Nguyen Phuc Thinh",
@@ -88,12 +82,6 @@
           "aff": "Master student, UIT-VNUHCM",
           "project": "Physical simulation",
           "image": "vietnn.png"
-     },
-     {
-          "name": "Pham Dinh Anh Duy",
-          "aff": "Undergraduate, UIT-VNUHCM",
-          "project": "Software optimization",
-          "image": "duypda.jpg"
      },
      {
           "name": "Dang Kien Tuong",
