@@ -127,8 +127,15 @@ permalink: /team/
 
 {% assign students = site.data.students %}
 <h2><a id="alumni"></a>PhD, Master, Undergradute students [{{ students | size }}]</h2>
-<h3><a id="alumni"></a>Semiconductor students are private</h3>
 
+
+
+
+
+
+{% assign pis = students | map: 'PI' | uniq %}
+{% for pi in pis %}
+<h3><a id="{{ pi | slugify }}"></a>{{ pi }}'s group</h3>
 
 <table class="table table-striped">
     <thead>
@@ -141,12 +148,15 @@ permalink: /team/
     </thead>
     <tbody>
         {% for student in students %}
+        {% if student.PI == pi %}
         <tr>
             <td>{{ student.name }}</td>
             <td>{{ student.aff }}</td>
             <td>{{ student.project }}</td>
             <td><img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ student.image }}" class="img-responsive img-thumbnail" style="max-width: 100px;"/></td>
         </tr>
+        {% endif %}
         {% endfor %}
     </tbody>
 </table>
+{% endfor %}
