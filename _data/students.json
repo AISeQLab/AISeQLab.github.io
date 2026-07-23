@@ -115,7 +115,7 @@
           "name": "Tran Huu Dinh Nhan",
           "aff": "Undergraduate, HCMUS-VNUHCM",
           "project": "Parallel computing",
-          "image": "researcher.jpg",
+          "image": "researcher.png",
           "PI": "Hai"
      },
      {
@@ -137,6 +137,6 @@
           "aff": "Undergraduate, UIT-VNUHCM",
           "project": "Database optimization",
           "image": "tuantd.jpg",
-          "PI": "An"
+          "PI": "Hai"
      }
 ]

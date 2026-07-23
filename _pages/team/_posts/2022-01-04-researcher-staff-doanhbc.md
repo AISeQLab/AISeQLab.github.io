@@ -37,4 +37,4 @@ Quá trình học tập & công tác:
 - Đại học, CS-UIT-VNUHCM,, 09/2019 – 06/2022
 
 
-<img src="../../../images/intro_doanhbc.jpg" alt="Introduction" style="width:100%;" />
+<img src="../../../images/team/intro_doanhbc.jpg" alt="Introduction" style="width:100%;" />

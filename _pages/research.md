@@ -74,7 +74,7 @@ permalink: /research/
 
 [2] [15 Dec 2025 at HCMUS, Hardware AI accelerator for AI, Cryptography and Quantum computing](https://www.facebook.com/share/p/1AstA9w3We/)
 
-[1] [21-23 Nov 2025 at HCMUT, Introduce to quantum computing research trends](https://viasm.edu.vn/hdkh/Truong-dong-tinh-toan-luong-tu-HCM2025) [[Documents]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/intro_qml.pdf)
+[1] [21-23 Nov 2025 at HCMUT, Introduce to quantum computing research trends](https://viasm.edu.vn/hdkh/Truong-dong-tinh-toan-luong-tu-HCM2025) [[Documents]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/intro_qml.pdf)
 
 
 

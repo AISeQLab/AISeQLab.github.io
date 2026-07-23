@@ -34,7 +34,7 @@ Quá trình học tập & công tác:
 - Thạc sĩ, CS-UIT-VNUHCM, 2022 – 2023
 - Đại học, SE-UIT-VNUHCM, 2017 – 2021
 
-<img src="../../../images/intro_haivt.jpg" alt="Introduction" style="width:50%;" />
+<img src="../../../images/team/intro_haivt.jpg" alt="Introduction" style="width:50%;" />
 
 
 <!-- 
