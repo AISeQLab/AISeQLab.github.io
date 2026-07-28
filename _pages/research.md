@@ -56,13 +56,13 @@ permalink: /research/
 
 # Seminars
 
-[10] [29 July 2026 at HCMUTE, On problems quantum computers can solve efficiently](.) [[Documents pending]](.)
+[10] [29 July 2026 at HCMUTE, On problems quantum computers can solve efficiently](.) [[Documents]](https://github.com/vutuanhai237/CourseMaterialsUIT/blob/main/SExxx-Quantum%20computng/Slide/x.%20On%20Problems%20Quantum%20Computers%20Can%20Solve%20Efficiently%20(template).pptx)
 
-[9] [27 July 2026 at Gia Lai, Classical, probability and quantum computing](.) [[Documents pending]](.)
+[9] [27 July 2026 at Gia Lai, Classical, probability and quantum computing](https://www.facebook.com/share/p/1E1cdUbx3F/) [[Documents]](https://github.com/vutuanhai237/CourseMaterialsUIT/tree/main/SExxx-Quantum%20computng/Slide/Gia%20Lai%2027%3A07%3A2026)
 
 [8] [Mar - May 2026 at HCMUIT, Quantum computing's foundation](https://www.facebook.com/share/p/18G2srQJcF/) [[Documents - Private]](https://link.uit.edu.vn)
 
-[7] [14 May 2026 at UIT, Introducing to scientific research](https://www.facebook.com/photo/?fbid=1400623725443698&set=a.460922829413797) [[Document]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/seminar14052026.pdf)
+[7] [14 May 2026 at HCMUIT, Introducing to scientific research](https://www.facebook.com/photo/?fbid=1400623725443698&set=a.460922829413797) [[Document]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/seminar14052026.pdf)
 
 [6] [22-26 April 2026 at UPT, Quantum computing's foundation](https://www.facebook.com/share/p/1Czb6QKhpW/) [[Documents]](https://sqoa2026.quantumlab.vn/lectures)
 
@@ -80,7 +80,7 @@ permalink: /research/
 
 # Weekly meeting
 
-Saturday 14:00 every week at E7.3, UIT-VNUHCM. 
+Saturday 13:00, every week at E7.3, UIT-VNUHCM. 
 
 [Book a meeting at NAIST, Japan](https://www.facebook.com/pham.luan.921)
 
