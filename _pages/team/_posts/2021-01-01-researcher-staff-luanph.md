@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Pham Hoai Luan
 image: luanph.jpg
-role: Principal Investigator, Assistant Professor at NAIST, Lecturer at CE-UIT-VNUHCM, SoC Engineer at LENZO
+role: Co-Investigator, Assistant Professor at NAIST, Lecturer at CE-UIT-VNUHCM, SoC Engineer at LENZO
 degree: PhD, NAIST
 field: Semiconductor
 email: luanph [at] uit.edu.vn

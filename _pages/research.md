@@ -56,7 +56,7 @@ permalink: /research/
 
 # Seminars
 
-[10] [29 July 2026 at HCMUTE, On problems quantum computers can solve efficiently](.) [[Documents]](https://github.com/vutuanhai237/CourseMaterialsUIT/blob/main/SExxx-Quantum%20computng/Slide/x.%20On%20Problems%20Quantum%20Computers%20Can%20Solve%20Efficiently%20(template).pptx)
+[10] [29 July 2026 at HCMUTE, On problems quantum computers can solve efficiently](https://www.facebook.com/share/p/18zEgNWKp7/) [[Documents]](https://github.com/vutuanhai237/CourseMaterialsUIT/blob/main/SExxx-Quantum%20computng/Slide/x.%20On%20Problems%20Quantum%20Computers%20Can%20Solve%20Efficiently%20(template).pptx)
 
 [9] [27 July 2026 at Gia Lai, Classical, probability and quantum computing](https://www.facebook.com/share/p/1E1cdUbx3F/) [[Documents]](https://github.com/vutuanhai237/CourseMaterialsUIT/tree/main/SExxx-Quantum%20computng/Slide/Gia%20Lai%2027%3A07%3A2026)
 
@@ -91,9 +91,9 @@ Saturday 13:00, every week at E7.3, UIT-VNUHCM.
 
 [High-bandwidth memory usage [private]](https://github.com/AISeQLab/HBM_Tutorial/blob/main/HBM_Tutorial_Markdown/HIGH%20BANDWIDTH%20MEMORY%20(HBM)%202548ba96de7f8077bdb9ccb8f0f1ab4f.md)
 
-[SE Course materials at UIT](https://github.com/vutuanhai237/CourseMaterialsUIT/)
+[Software Engineering Course materials at UIT](https://github.com/vutuanhai237/CourseMaterialsUIT/)
 
-[Se Course materials](https://github.com/AISeQLab/)
+[Semiconductor Course materials](https://github.com/AISeQLab/)
 
 
 # Journal, Conference and pre-print (+200 items)

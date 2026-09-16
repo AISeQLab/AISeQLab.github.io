@@ -1,19 +1,5 @@
 [
      {
-          "name": "Nguyen Duong Hoang Duy [alumni]",
-          "aff": "Master student, UIT-VNUHCM",
-          "project": "Quantum key distribution",
-          "image": "duyndh.jpg",
-          "PI": "Hai"
-     },
-     {
-          "name": "Dinh Pham Thien Long [alumni]",
-          "aff": "Master student, UIT-VNUHCM",
-          "project": "Post-quantum cryptography accelerator",
-          "image": "longdpt.jpg",
-          "PI": "Hai"
-     },
-     {
           "name": "Vu Hoang Thien An",
           "aff": "Undergraduate, UIT-VNUHCM",
           "project": "AI for quantum computing",
@@ -86,7 +72,7 @@
      {
           "name": "Duong Ho Nam",
           "aff": "Undergraduate, HCMUT-VNUHCM",
-          "project": "QAI",
+          "project": "Hamiltionian simulation (collab w Quantum lab)",
           "image": "namdh.jpg",
           "PI": "Hai"
      },
@@ -102,13 +88,6 @@
           "aff": "BOSCH",
           "project": "Quantum computing",
           "image": "tuongdk.jpg",
-          "PI": "Hai"
-     },
-     {
-          "name": "Truong Tri Khai",
-          "aff": "Undergraduate, Univ. Transportation",
-          "project": "Optimization for evolution",
-          "image": "researcher.png",
           "PI": "Hai"
      },
      {
@@ -137,6 +116,20 @@
           "aff": "Undergraduate, UIT-VNUHCM",
           "project": "Database optimization",
           "image": "tuantd.jpg",
+          "PI": "Hai"
+     },
+     {
+          "name": "Nguyen Duong Hoang Duy [alumni]",
+          "aff": "Master student, UIT-VNUHCM",
+          "project": "Quantum key distribution",
+          "image": "duyndh.jpg",
+          "PI": "Hai"
+     },
+     {
+          "name": "Dinh Pham Thien Long [alumni]",
+          "aff": "Master student, UIT-VNUHCM",
+          "project": "Post-quantum cryptography accelerator",
+          "image": "longdpt.jpg",
           "PI": "Hai"
      }
 ]
