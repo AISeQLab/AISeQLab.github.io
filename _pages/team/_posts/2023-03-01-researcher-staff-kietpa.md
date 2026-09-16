@@ -29,4 +29,4 @@ Quá trình học tập & công tác:
 - Thạc sĩ, NAIST, 10/2025 – nay
 - Đại học, CE-UIT-VNUHCM, 09/2021 – 09/2025
 
-<img src="../../../images/intro_kietpa.jpg" alt="Introduction" style="width:100%;" />
+<img src="../../../images/team/intro_kietpa.jpg" alt="Introduction" style="width:100%;" />

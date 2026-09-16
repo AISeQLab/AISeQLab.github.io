@@ -38,4 +38,4 @@ Quá trình học tập và công tác:
 - Nghiên cứu viên, ICTLab – FETEL-HCMUS-VNUHCM: 3/2023 – 4/2024
 - Cử nhân, FETEL-HCMUS-VNUHCM: 2019 – 2023
 
-<img src="../../../images/intro_binh.jpg" alt="Introduction" style="width:100%;" />
+<img src="../../../images/team/intro_binh.jpg" alt="Introduction" style="width:100%;" />

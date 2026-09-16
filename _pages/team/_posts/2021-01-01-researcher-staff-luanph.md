@@ -38,4 +38,4 @@ Quá trình học tập & công tác:
 - Thạc sĩ, NAIST, 2018 – 2020
 - Đại học: CE-UIT – ĐHQG TP.HCM, 2013 – 2018
 
-<img src="../../../images/intro_luanph.jpg" alt="Introduction" style="width:100%;" />
+<img src="../../../images/team/intro_luanph.jpg" alt="Introduction" style="width:100%;" />

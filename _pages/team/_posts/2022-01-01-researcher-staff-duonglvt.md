@@ -34,4 +34,4 @@ Quá trình học tập & công tác:
 - Thạc sĩ, NAIST, 10/2020 – 03/2022
 - Đại học, CE-UIT-VNUHCM,, 09/2015 – 06/2020
 
-<img src="../../../images/intro_duonglvt.jpg" alt="Introduction" style="width:100%;" />
+<img src="../../../images/team/intro_duonglvt.jpg" alt="Introduction" style="width:100%;" />
