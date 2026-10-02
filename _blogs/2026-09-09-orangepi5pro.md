@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cách setup cluster Orange Pi 5 Pro"
-categories: cryptography
+categories: hardware
 ---
 
 Dụng cụ chuẩn bị:
