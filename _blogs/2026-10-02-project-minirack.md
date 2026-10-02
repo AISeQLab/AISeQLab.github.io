@@ -4,6 +4,12 @@ title: "Project: mini-rack"
 categories: hardware
 ---
 
+<style>
+table { border-collapse: collapse; }
+th, td { border: 1px solid #999; padding: 4px 10px; }
+th { background: #f2f2f2; }
+</style>
+
 Từ lúc hết hè đến nay cũng rảnh rỗi, tôi ở nhà lướt video YTB thì thấy được video này.
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/y1GCIwLm3is?si=3t2HB9zN72ONhW-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
@@ -149,6 +155,7 @@ Dĩ nhiên có màn hình thì phải có thêm bàn phím, chuột, tôi tận 
 Một vài món mua lẻ tẻ khác ví dụ như ốc, dây cáp, băng keo, velcro, dây rút, ...
 
 ### 8. Tổng ngân sách
+
 
 | STT | Tên hàng                                        | Danh mục        | SL | Thành tiền (VNĐ) |
 |----:|-------------------------------------------------|-----------------|---:|-----------------:|
