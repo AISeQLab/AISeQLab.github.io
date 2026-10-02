@@ -54,7 +54,7 @@ Sau khi sử dụng 4 thanh V, 3 mâm và một số panel thành quả sẽ nh�
 
 Phần kế là nguồn, sau khi tìm hiểu một thời gian thì tôi chọn thanh PDU này, giá thành và công năng vừa phải, các bác lưu ý phần công suất và CB. 
 
-<img src="/images/blogs/Rack/PDU.jpg" alt="Introduction" style="width:100%;" />
+<img src="/images/blogs/Rack/pdu.jpg" alt="Introduction" style="width:100%;" />
 
 Tuy nhiên PDU này khá ít ổ cắm nên tôi độ thêm 3 cái ổ điện 6 lỗ DELI. Tổng dây out chỉ có 1, dĩ nhiên là các bác có thể mua PDU có số ổ cắm nhiều hơn, tuy nhiên P/P sẽ thấp hơn so với kiểu này.
 
@@ -206,8 +206,9 @@ Tada, và đây là thành quả cuối cùng, hoạt động ổn định trong
 - Cân nặng: ~40 kg
 - Thiết bị tính toán: 4 Mac Mini M1 8GB 512GB, 5 Orange PI 5 Pro 16GB 64GB, 2 Jetson TX2 và một số board mạch khác.
 - Tổng tiêu thụ điện: ~200 W
-- Network: 1Gbps
+- Network: 1Gbps, kết nối bất kỳ đâu thông qua tailscale.
 - Ngoại vi: màn hình FullHD 16 inch (có loa lỏ), bàn phím cơ 2 mode, chuột có dây.
+- Chức năng: như một PC bình thường, home server, host services.
 
 <img src="/images/blogs/Rack/1.jpg" alt="Introduction" style="width:100%;" />
 
