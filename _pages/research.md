@@ -50,11 +50,15 @@ permalink: /research/
 
 # Webminars
 
+[3] [9 Oct 2026 (FEE2026), On problems quantum computers can solve efficiently](https://fee2026.jmst.info/th%C3%B4ng-b%C3%A1o/ch%C6%B0%C6%A1ng-tr%C3%ACnh-h%E1%BB%99i-th%E1%BA%A3o-qu%E1%BB%91c-gia-%E1%BB%A9ng-d%E1%BB%A5ng-c%C3%B4ng-ngh%E1%BB%87-cao-v%C3%A0o-th%E1%BB%B1c-ti%E1%BB%85n-fee-2020) [[Documents]](https://github.com/vutuanhai237/CourseMaterialsUIT/blob/main/SExxx-Quantum%20computng/Slide/x.%20On%20Problems%20Quantum%20Computers%20Can%20Solve%20Efficiently%20(template).pptx)
+
 [2] [28 May 2026 online, Quantum process tomography](https://www.facebook.com/share/p/1EEarMvgp8/) [[Document]](https://github.com/AISeQLab/AISeQLab.github.io/blob/master/images/slides/QPT28052026.pdf)
 
 [1] [Quantum talk (monthly)](https://forms.gle/wCWDvw4FPHzds1kx8)
 
 # Seminars
+
+[11] [8 Oct 2026 at HCMUIT, On problems quantum computers can solve efficiently](https://se.uit.edu.vn/vi/tin-t%E1%BB%A9c/13-khoa-hoc-cong-nghe/2441-seminar-b%C3%A0n-v%E1%BB%81-b%C6%B0%E1%BB%9Bc-%C4%91i-ng%E1%BA%ABu-nhi%C3%AAn-l%C6%B0%E1%BB%A3ng-t%E1%BB%AD.html/) [[Documents]](https://github.com/vutuanhai237/CourseMaterialsUIT/blob/main/SExxx-Quantum%20computng/Slide/x.%20On%20Problems%20Quantum%20Computers%20Can%20Solve%20Efficiently%20(template).pptx)
 
 [10] [29 July 2026 at HCMUTE, On problems quantum computers can solve efficiently](https://www.facebook.com/share/p/18zEgNWKp7/) [[Documents]](https://github.com/vutuanhai237/CourseMaterialsUIT/blob/main/SExxx-Quantum%20computng/Slide/x.%20On%20Problems%20Quantum%20Computers%20Can%20Solve%20Efficiently%20(template).pptx)
 
