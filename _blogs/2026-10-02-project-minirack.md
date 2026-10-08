@@ -12,7 +12,7 @@ th { background: #f2f2f2; }
 
 Từ lúc hết hè đến nay cũng rảnh rỗi, tôi ở nhà lướt video YTB thì thấy được video này.
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/y1GCIwLm3is?si=3t2HB9zN72ONhW-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y1GCIwLm3is?si=3t2HB9zN72ONhW-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Thế là bị sa vào cơn nghiện chế tạo minirack, vừa hay trên khoa đang có một đống thiết bị để ngổn ngang, bắt tay vào làm thôi :v
 
