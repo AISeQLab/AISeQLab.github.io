@@ -7,7 +7,7 @@ role: Lecturer at SE-UIT-VNUHCM
 degree: MS, UIT-VNU
 field: Software Engineering
 permalink: 'team/trinhhhtm'
-email: trinhhhtm [at] uit.edu.vn
+email:
 social:
     google-scholar: https://scholar.google.com/
     github: https://github.com/

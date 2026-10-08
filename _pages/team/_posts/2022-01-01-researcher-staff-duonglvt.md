@@ -3,10 +3,10 @@ layout: member
 category: staff
 title: Le Vu Trung Duong
 image: duonglvt.jpg
-role: Co-Investigator, Assistant Professor at NAIST, Lecturer at CE-UIT-VNUHCM
+role: Co-Investigator, Assistant Professor at NAIST, Visiting lecturer at CE-UIT-VNUHCM
 degree: PhD, NAIST
 field: Semiconductor
-email: duonglvt [at] uit.edu.vn
+email: [private]
 permalink: 'team/duonglvt'
 social:
     google-scholar: https://scholar.google.com/citations?user=rH5LqWoAAAAJ&hl=en

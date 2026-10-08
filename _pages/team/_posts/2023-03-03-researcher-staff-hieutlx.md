@@ -7,7 +7,7 @@ role: Co-Investigator
 degree: MS (expected in 2027), NAIST
 field: Semiconductor
 permalink: 'team/hieutlx'
-email: tran.le_xuan_hieu.xxx [at] naist.ac.jp
+email: [private]
 social:
     google-scholar: https://scholar.google.com/citations?user=eIqc8csAAAAJ&hl=en&oi=sra
     github: https://github.com/

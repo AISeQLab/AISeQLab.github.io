@@ -6,7 +6,7 @@ image: doanhbc.png
 role: Co-Investigator, Lecturer at SE-UIT-VNUHCM
 degree: PhD, NAIST
 field: AI
-email: doanhbc@uit.edu.vn
+email: doanhbc [at] uit.edu.vn
 permalink: 'team/doanhbc'
 social:
     google-scholar: https://scholar.google.com/citations?user=WHviN4AAAAAJ&hl=en

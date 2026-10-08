@@ -7,7 +7,7 @@ role: Co-Investigator
 degree: MS (expected in 2027), NAIST
 field: Semiconductor
 permalink: 'team/binhbnt'
-email: bui.nguyen_thanh_binh.xxx [at] naist.ac.jp
+email: [private]
 social:
     google-scholar: https://scholar.google.com/citations?user=twX9kiYAAAAJ
     github: https://github.com/

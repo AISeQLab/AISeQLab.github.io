@@ -7,7 +7,7 @@ role: Co-Investigator
 degree: MS (expected in 2027), NAIST
 field: Semiconductor
 permalink: 'team/kietpa'
-email: pham.anh_kiet.xxx [at] naist.ac.jp
+email: [private]
 social:
     google-scholar: https://scholar.google.com
     github: https://github.com/
