@@ -58,6 +58,8 @@ permalink: /research/
 
 # Seminars
 
+[12] [13 Oct 2026 at HCMUIT, Quantum thinking?](https://www.facebook.com/share/p/1Eia6VebYj/) [[Documents]](https://github.com/vutuanhai237/CourseMaterialsUIT/blob/main/SExxx-Quantum%20computng/Slide/Seminar13102026.pptx)
+
 [11] [8 Oct 2026 at HCMUIT, On problems quantum computers can solve efficiently](https://se.uit.edu.vn/vi/tin-t%E1%BB%A9c/13-khoa-hoc-cong-nghe/2441-seminar-b%C3%A0n-v%E1%BB%81-b%C6%B0%E1%BB%9Bc-%C4%91i-ng%E1%BA%ABu-nhi%C3%AAn-l%C6%B0%E1%BB%A3ng-t%E1%BB%AD.html/) [[Documents]](https://github.com/vutuanhai237/CourseMaterialsUIT/blob/main/SExxx-Quantum%20computng/Slide/x.%20On%20Problems%20Quantum%20Computers%20Can%20Solve%20Efficiently%20(template).pptx)
 
 [10] [29 July 2026 at HCMUTE, On problems quantum computers can solve efficiently](https://www.facebook.com/share/p/18zEgNWKp7/) [[Documents]](https://github.com/vutuanhai237/CourseMaterialsUIT/blob/main/SExxx-Quantum%20computng/Slide/x.%20On%20Problems%20Quantum%20Computers%20Can%20Solve%20Efficiently%20(template).pptx)
